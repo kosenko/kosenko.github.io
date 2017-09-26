@@ -1,0 +1,6 @@
+<map id="boost::ui::textbox_base" name="boost::ui::textbox_base">
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1passwordbox.html" title="Password editor widget. " alt="" coords="5,155,163,181"/>
+<area shape="rect" id="node4" href="$classboost_1_1ui_1_1stringbox.html" title="Single&#45;line text editor widget. " alt="" coords="187,155,320,181"/>
+<area shape="rect" id="node5" href="$classboost_1_1ui_1_1textbox.html" title="Multi&#45;line text editor widget. " alt="" coords="344,155,467,181"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets. " alt="" coords="194,5,313,32"/>
+</map>

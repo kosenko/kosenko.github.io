@@ -1,0 +1,26 @@
+var searchData=
+[
+  ['magenta',['magenta',['../namespaceboost_1_1ui_1_1colors.html#a4ee9fc7e65e05f1b8f839fcfb5b0b753',1,'boost::ui::colors']]],
+  ['margin',['margin',['../classboost_1_1ui_1_1layout_1_1item.html#a2cd42fe90dbabb26bfebe181dca5fb2a',1,'boost::ui::layout::item::margin(int all)'],['../classboost_1_1ui_1_1layout_1_1item.html#aa1008cd79be59aef267b9245f0cf9845',1,'boost::ui::layout::item::margin(int vertical, int horizontal)'],['../classboost_1_1ui_1_1layout_1_1item.html#a5aaa260582aa6436bbfbf374e101d92f',1,'boost::ui::layout::item::margin(int top, int right, int bottom, int left)']]],
+  ['margin_5fpx',['margin_px',['../classboost_1_1ui_1_1layout_1_1item.html#a8448672c6b91d2d84fa1ee0602e8e25b',1,'boost::ui::layout::item::margin_px(int all)'],['../classboost_1_1ui_1_1layout_1_1item.html#a4fc2be79a9497658a88b43e7c4448e5f',1,'boost::ui::layout::item::margin_px(int vertical, int horizontal)'],['../classboost_1_1ui_1_1layout_1_1item.html#aba8ec141481358946476292dd4cf91b5',1,'boost::ui::layout::item::margin_px(int top, int right, int bottom, int left)']]],
+  ['maroon',['maroon',['../namespaceboost_1_1ui_1_1colors.html#af55ce9738cc32a3e235e4151425f8f6c',1,'boost::ui::colors']]],
+  ['max',['max',['../classboost_1_1ui_1_1slider.html#a1e382d2fbfd17c12e9108b7214252f4c',1,'boost::ui::slider::max()'],['../classboost_1_1ui_1_1progressbar.html#a56b8e2fd44b9ce8fd5392cba8d7ea6e1',1,'boost::ui::progressbar::max()']]],
+  ['mediumaquamarine',['mediumaquamarine',['../namespaceboost_1_1ui_1_1colors.html#aaacc0d5d1ca1bc2ad459ac7a9cd05868',1,'boost::ui::colors']]],
+  ['mediumblue',['mediumblue',['../namespaceboost_1_1ui_1_1colors.html#aa84248d64044d4c1938cb6a6e303764c',1,'boost::ui::colors']]],
+  ['mediumorchid',['mediumorchid',['../namespaceboost_1_1ui_1_1colors.html#a947da16331f8f1da284b966f5c7d997e',1,'boost::ui::colors']]],
+  ['mediumpurple',['mediumpurple',['../namespaceboost_1_1ui_1_1colors.html#a668764ee58ea9ca6b288e8a309ce1fba',1,'boost::ui::colors']]],
+  ['mediumseagreen',['mediumseagreen',['../namespaceboost_1_1ui_1_1colors.html#a9342c36c8d2c88140a95d242cf9b68c0',1,'boost::ui::colors']]],
+  ['mediumslateblue',['mediumslateblue',['../namespaceboost_1_1ui_1_1colors.html#aa845389254fc22c8450f514351d04414',1,'boost::ui::colors']]],
+  ['mediumspringgreen',['mediumspringgreen',['../namespaceboost_1_1ui_1_1colors.html#a49ab7f5f241b439a6052ebbc7d364c84',1,'boost::ui::colors']]],
+  ['mediumturquoise',['mediumturquoise',['../namespaceboost_1_1ui_1_1colors.html#a0f8021c4230e36721eb203a5cb969bd6',1,'boost::ui::colors']]],
+  ['mediumvioletred',['mediumvioletred',['../namespaceboost_1_1ui_1_1colors.html#a816d6ee2f79c6bca37183aa5e67d1e4f',1,'boost::ui::colors']]],
+  ['meta',['meta',['../classboost_1_1ui_1_1keyboard__state.html#a961f4d632a26c5be658bcd918a94964e',1,'boost::ui::keyboard_state']]],
+  ['middle',['middle',['../classboost_1_1ui_1_1mouse__event.html#ac32c24d424b04f0a63b7e727d09d261f',1,'boost::ui::mouse_event']]],
+  ['midnightblue',['midnightblue',['../namespaceboost_1_1ui_1_1colors.html#af275746c7ff9fcfc93b91bb9d6507f45',1,'boost::ui::colors']]],
+  ['min',['min',['../classboost_1_1ui_1_1slider.html#a1de74d6fe708d6ab40a1a6883722370f',1,'boost::ui::slider']]],
+  ['mintcream',['mintcream',['../namespaceboost_1_1ui_1_1colors.html#a8f0512ee64dec7299a764f0339a01f10',1,'boost::ui::colors']]],
+  ['mistyrose',['mistyrose',['../namespaceboost_1_1ui_1_1colors.html#a70c3baf2cffa5fb27144244f7431c510',1,'boost::ui::colors']]],
+  ['moccasin',['moccasin',['../namespaceboost_1_1ui_1_1colors.html#a2db31443ab633bdd2e011888a2fb327f',1,'boost::ui::colors']]],
+  ['move',['move',['../classboost_1_1ui_1_1widget.html#a411a675ea46f0b751866519b33f76a5b',1,'boost::ui::widget::move(coord_type x, coord_type y)'],['../classboost_1_1ui_1_1widget.html#a5d77cef965739e85f0490a1ea54dcdff',1,'boost::ui::widget::move(const point &amp;pos)']]],
+  ['move_5fto',['move_to',['../classboost_1_1ui_1_1painter.html#aa4b95fe7f1be061493e2c6968caba54d',1,'boost::ui::painter::move_to(gcoord_type x, gcoord_type y)'],['../classboost_1_1ui_1_1painter.html#a5462f6fc50c97d1a5ba9c1a93614e3c0',1,'boost::ui::painter::move_to(const basic_point&lt; T &gt; &amp;p)']]]
+];

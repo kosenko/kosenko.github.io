@@ -1,0 +1,6 @@
+<map id="Data input&#45;output widgets" name="Data input&#45;output widgets">
+<area shape="rect" id="node1" href="$group__widget.html" title="Widgets" alt="" coords="5,56,76,83"/>
+<area shape="rect" id="node2" href="$group__datetime.html" title="Date and time pickers" alt="" coords="352,5,503,32"/>
+<area shape="rect" id="node3" href="$group__text.html" title="Text widgets" alt="" coords="379,56,476,83"/>
+<area shape="rect" id="node5" href="$group__strings.html" title="Strings container widgets" alt="" coords="343,107,512,133"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="boost::ui::progressbar" name="boost::ui::progressbar">
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1hprogressbar.html" title="Horizontal progress bar widget. " alt="" coords="5,155,160,181"/>
+<area shape="rect" id="node4" href="$classboost_1_1ui_1_1vprogressbar.html" title="Vertical progress bar widget. " alt="" coords="184,155,339,181"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets. " alt="" coords="113,5,231,32"/>
+</map>

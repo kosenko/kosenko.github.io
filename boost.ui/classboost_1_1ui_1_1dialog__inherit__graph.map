@@ -1,0 +1,4 @@
+<map id="boost::ui::dialog" name="boost::ui::dialog">
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1window.html" title="Abstract top level widget that hosts other widgets. " alt="" coords="5,80,129,107"/>
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets. " alt="" coords="8,5,127,32"/>
+</map>

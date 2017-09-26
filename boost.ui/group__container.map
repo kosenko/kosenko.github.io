@@ -1,0 +1,6 @@
+<map id="Containers" name="Containers">
+<area shape="rect" id="node3" href="$group__alert.html" title="Alerts" alt="" coords="277,5,333,32"/>
+<area shape="rect" id="node4" href="$group__notify.html" title="Notifications" alt="" coords="257,56,352,83"/>
+<area shape="rect" id="node5" href="$group__prompt.html" title="Prompts" alt="" coords="269,107,340,133"/>
+<area shape="rect" id="node2" href="$group__widget.html" title="Widgets" alt="" coords="5,56,76,83"/>
+</map>

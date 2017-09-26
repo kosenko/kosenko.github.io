@@ -1,0 +1,24 @@
+<map id="boost/ui/font.hpp" name="boost/ui/font.hpp">
+<area shape="rect" id="node2" href="$widget_8hpp.html" title="Widget class. " alt="" coords="1387,80,1521,107"/>
+<area shape="rect" id="node8" href="$ui_8hpp.html" title="Master Boost.UI file. " alt="" coords="1777,229,1870,256"/>
+<area shape="rect" id="node23" href="$painter_8hpp.html" title="Painter class. " alt="" coords="2955,80,3091,107"/>
+<area shape="rect" id="node3" href="$webview_8hpp.html" title="WebView widget. " alt="" coords="5,155,153,181"/>
+<area shape="rect" id="node4" href="$textbox_8hpp.html" title="Text editor widgets. " alt="" coords="177,155,317,181"/>
+<area shape="rect" id="node5" href="$stringsbox_8hpp.html" title="Widget with array of strings. " alt="" coords="342,155,499,181"/>
+<area shape="rect" id="node9" href="$slider_8hpp.html" title="Slider widget. " alt="" coords="574,155,702,181"/>
+<area shape="rect" id="node10" href="$progressbar_8hpp.html" title="Progress bar widget. " alt="" coords="726,155,891,181"/>
+<area shape="rect" id="node11" href="$panel_8hpp.html" title="Panel widget. " alt="" coords="915,155,1043,181"/>
+<area shape="rect" id="node12" href="$notebook_8hpp.html" title="Notebook widget. " alt="" coords="1068,155,1219,181"/>
+<area shape="rect" id="node13" href="$menu_8hpp.html" title="Menu classes. " alt="" coords="1243,155,1372,181"/>
+<area shape="rect" id="node14" href="$line_8hpp.html" title="line widget " alt="" coords="1395,155,1513,181"/>
+<area shape="rect" id="node15" href="$label_8hpp.html" title="Label widget. " alt="" coords="1536,155,1660,181"/>
+<area shape="rect" id="node16" href="$image__widget_8hpp.html" title="Image widget. " alt="" coords="1684,155,1861,181"/>
+<area shape="rect" id="node17" href="$hyperlink_8hpp.html" title="Hyperlink widget. " alt="" coords="1886,155,2035,181"/>
+<area shape="rect" id="node18" href="$groupbox_8hpp.html" title="Group box widget. " alt="" coords="2060,155,2211,181"/>
+<area shape="rect" id="node19" href="$datetime_8hpp.html" title="Date and time pickers. " alt="" coords="2235,155,2382,181"/>
+<area shape="rect" id="node20" href="$checkbox_8hpp.html" title="Checkbox widget. " alt="" coords="2407,155,2560,181"/>
+<area shape="rect" id="node21" href="$canvas_8hpp.html" title="Canvas widget. " alt="" coords="2585,155,2723,181"/>
+<area shape="rect" id="node22" href="$button_8hpp.html" title="Button widget. " alt="" coords="2747,155,2881,181"/>
+<area shape="rect" id="node6" href="$combobox_8hpp.html" title="Combobox widget. " alt="" coords="257,229,414,256"/>
+<area shape="rect" id="node7" href="$choice_8hpp.html" title="Choice widget. " alt="" coords="439,229,573,256"/>
+</map>

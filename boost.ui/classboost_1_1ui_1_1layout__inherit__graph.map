@@ -1,0 +1,5 @@
+<map id="boost::ui::layout" name="boost::ui::layout">
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1box__layout.html" title="Abstract vertical or horizontal box layout. " alt="" coords="53,80,196,107"/>
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1hbox.html" title="Horizontal box layout. " alt="" coords="5,155,113,181"/>
+<area shape="rect" id="node4" href="$classboost_1_1ui_1_1vbox.html" title="Vertical box layout. " alt="" coords="137,155,245,181"/>
+</map>
