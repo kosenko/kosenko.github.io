@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['has_5fselection',['has_selection',['../classboost_1_1ui_1_1listbox.html#ac11dc2a2b102703cf5ee5a2f04e3d316',1,'boost::ui::listbox']]],
+  ['has_5fselection',['has_selection',['../classboost_1_1ui_1_1list__box.html#a883f75237312cd975ccd8c3dcb82f45f',1,'boost::ui::list_box']]],
   ['hash_3c_20boost_3a_3aui_3a_3auistring_20_3e',['hash&lt; boost::ui::uistring &gt;',['../structstd_1_1hash_3_01boost_1_1ui_1_1uistring_01_4.html',1,'std']]],
   ['hash_5fvalue',['hash_value',['../classboost_1_1ui_1_1uistring.html#aff769e61a6b6df625e95eaa3547206c2',1,'boost::ui::uistring::hash_value()'],['../namespaceboost_1_1ui.html#aff769e61a6b6df625e95eaa3547206c2',1,'boost::ui::hash_value()']]],
   ['hbox',['hbox',['../classboost_1_1ui_1_1hbox.html',1,'boost::ui']]],
@@ -14,11 +14,11 @@ var searchData=
   ['honeydew',['honeydew',['../namespaceboost_1_1ui_1_1colors.html#aac38e715ebe244de18970ca8b4b00a3a',1,'boost::ui::colors']]],
   ['horizontal',['horizontal',['../classboost_1_1ui_1_1wheel__event.html#a5662600adaf9f4a2d86b9fcd85fc4aa7',1,'boost::ui::wheel_event']]],
   ['hotpink',['hotpink',['../namespaceboost_1_1ui_1_1colors.html#a4c237228ddcbaa2d34d01dc9fa6850bc',1,'boost::ui::colors']]],
-  ['hprogressbar',['hprogressbar',['../classboost_1_1ui_1_1hprogressbar.html',1,'boost::ui']]],
-  ['hprogressbar',['hprogressbar',['../classboost_1_1ui_1_1hprogressbar.html#a6761b66534bb5785602f3cd0b07f00c9',1,'boost::ui::hprogressbar']]],
+  ['hprogress_5fbar',['hprogress_bar',['../classboost_1_1ui_1_1hprogress__bar.html',1,'boost::ui']]],
+  ['hprogress_5fbar',['hprogress_bar',['../classboost_1_1ui_1_1hprogress__bar.html#a4d11d0449450237c00abeef6dfd33925',1,'boost::ui::hprogress_bar']]],
   ['hslider',['hslider',['../classboost_1_1ui_1_1hslider.html',1,'boost::ui']]],
   ['hslider',['hslider',['../classboost_1_1ui_1_1hslider.html#aeec4dc47064c60893bf0473f74d7a516',1,'boost::ui::hslider::hslider(widget &amp;parent, value_type initial, value_type min, value_type max)'],['../classboost_1_1ui_1_1hslider.html#a718367d496f7ab99beaec18a1f09071b',1,'boost::ui::hslider::hslider(widget &amp;parent, value_type initial=0)']]],
-  ['html',['html',['../classboost_1_1ui_1_1webview.html#aeb40e3acbb733251be765c184bd4a243',1,'boost::ui::webview']]],
+  ['html',['html',['../classboost_1_1ui_1_1web__widget.html#aa7eda9d35aa50a3359016bd318eec959',1,'boost::ui::web_widget']]],
   ['hyperlink',['hyperlink',['../classboost_1_1ui_1_1hyperlink.html',1,'boost::ui']]],
   ['hyperlink',['hyperlink',['../classboost_1_1ui_1_1hyperlink.html#a7b248bb2ae4b45e168871ebd278a7a3a',1,'boost::ui::hyperlink']]],
   ['hyperlink_2ehpp',['hyperlink.hpp',['../hyperlink_8hpp.html',1,'']]]

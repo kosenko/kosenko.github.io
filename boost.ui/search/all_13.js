@@ -2,11 +2,11 @@ var searchData=
 [
   ['tan',['tan',['../namespaceboost_1_1ui_1_1colors.html#ac16afdea853452ded118008627a1ec02',1,'boost::ui::colors']]],
   ['teal',['teal',['../namespaceboost_1_1ui_1_1colors.html#aebfd689cebb5518e449bc255ff591e69',1,'boost::ui::colors']]],
-  ['text',['text',['../classboost_1_1ui_1_1textbox__base.html#a9dc006deea10db6a906271d6e88f10a1',1,'boost::ui::textbox_base::text(const uistring &amp;text)'],['../classboost_1_1ui_1_1textbox__base.html#ad372d176c9ea9f99967e34809be820a0',1,'boost::ui::textbox_base::text() const '],['../classboost_1_1ui_1_1label.html#a1ecddbea417fdb3fde49d5e8659eb09f',1,'boost::ui::label::text(const uistring &amp;txt)'],['../classboost_1_1ui_1_1label.html#a4a947a54dc4f19ba495fefa4fc5715a8',1,'boost::ui::label::text() const '],['../classboost_1_1ui_1_1combobox.html#a3b707d99fb9160929e1a136b8baabcd0',1,'boost::ui::combobox::text(const uistring &amp;txt)'],['../classboost_1_1ui_1_1combobox.html#a542264382b47540c7b17a9c097a6f4b9',1,'boost::ui::combobox::text() const '],['../classboost_1_1ui_1_1choice.html#a78668d45c77458c1a09c5f01e820e161',1,'boost::ui::choice::text()'],['../group__text.html',1,'(Global Namespace)']]],
-  ['textbox',['textbox',['../classboost_1_1ui_1_1textbox.html#ac10fcf37411a6af928e196799f88720c',1,'boost::ui::textbox']]],
-  ['textbox',['textbox',['../classboost_1_1ui_1_1textbox.html',1,'boost::ui']]],
-  ['textbox_2ehpp',['textbox.hpp',['../textbox_8hpp.html',1,'']]],
-  ['textbox_5fbase',['textbox_base',['../classboost_1_1ui_1_1textbox__base.html',1,'boost::ui']]],
+  ['text',['text',['../classboost_1_1ui_1_1text__box__base.html#a2f6041cd2386bd254641f31309c2f946',1,'boost::ui::text_box_base::text(const uistring &amp;text)'],['../classboost_1_1ui_1_1text__box__base.html#a0908c5ab81e98fd79c9986c8cb16c3cf',1,'boost::ui::text_box_base::text() const '],['../classboost_1_1ui_1_1label.html#a1ecddbea417fdb3fde49d5e8659eb09f',1,'boost::ui::label::text(const uistring &amp;txt)'],['../classboost_1_1ui_1_1label.html#a4a947a54dc4f19ba495fefa4fc5715a8',1,'boost::ui::label::text() const '],['../classboost_1_1ui_1_1combo__box.html#a70311de3ab944930e581a266bfb4bc74',1,'boost::ui::combo_box::text(const uistring &amp;txt)'],['../classboost_1_1ui_1_1combo__box.html#a4408152307abf57b39bab3d733645a26',1,'boost::ui::combo_box::text() const '],['../classboost_1_1ui_1_1choice.html#a78668d45c77458c1a09c5f01e820e161',1,'boost::ui::choice::text()'],['../group__text.html',1,'(Global Namespace)']]],
+  ['text_5fbox',['text_box',['../classboost_1_1ui_1_1text__box.html#aade27ad27c3a9b8c9a8f0bfb62722556',1,'boost::ui::text_box']]],
+  ['text_5fbox',['text_box',['../classboost_1_1ui_1_1text__box.html',1,'boost::ui']]],
+  ['text_5fbox_2ehpp',['text_box.hpp',['../text__box_8hpp.html',1,'']]],
+  ['text_5fbox_5fbase',['text_box_base',['../classboost_1_1ui_1_1text__box__base.html',1,'boost::ui']]],
   ['thistle',['thistle',['../namespaceboost_1_1ui_1_1colors.html#aa5d6978bb2411498d62f2e0ac7b75030',1,'boost::ui::colors']]],
   ['thread_20support',['Thread support',['../group__thread.html',1,'']]],
   ['thread_2ehpp',['thread.hpp',['../thread_8hpp.html',1,'']]],
@@ -18,8 +18,8 @@ var searchData=
   ['top',['top',['../classboost_1_1ui_1_1layout_1_1item.html#ad39bf5e53c1a12febd336493199ef535',1,'boost::ui::layout::item']]],
   ['trace',['trace',['../classboost_1_1ui_1_1log_1_1trace.html',1,'boost::ui::log']]],
   ['translate',['translate',['../classboost_1_1ui_1_1painter.html#a7bf3fc4b2a4b4b9a2212bf46087e72ae',1,'boost::ui::painter::translate(gcoord_type x, gcoord_type y)'],['../classboost_1_1ui_1_1painter.html#a059514b858cfb86e28c2d6eebbeeec50',1,'boost::ui::painter::translate(const basic_point&lt; T &gt; &amp;p)']]],
-  ['tribool',['tribool',['../classboost_1_1ui_1_1checkbox__base.html#ac0ccb8cb333a07c62d5d27ffe3b75de6',1,'boost::ui::checkbox_base::tribool(boost::tribool value)'],['../classboost_1_1ui_1_1checkbox__base.html#ac95b3a560e29f6e80d6ea18688996707',1,'boost::ui::checkbox_base::tribool() const ']]],
-  ['tristate_5fcheckbox',['tristate_checkbox',['../classboost_1_1ui_1_1tristate__checkbox.html#ad0a540022c9d6873a1fbeb56910eeabc',1,'boost::ui::tristate_checkbox']]],
-  ['tristate_5fcheckbox',['tristate_checkbox',['../classboost_1_1ui_1_1tristate__checkbox.html',1,'boost::ui']]],
+  ['tri_5fstate_5fcheck_5fbox',['tri_state_check_box',['../classboost_1_1ui_1_1tri__state__check__box.html#a935304035e86e89476bd7278301b1c58',1,'boost::ui::tri_state_check_box']]],
+  ['tri_5fstate_5fcheck_5fbox',['tri_state_check_box',['../classboost_1_1ui_1_1tri__state__check__box.html',1,'boost::ui']]],
+  ['tribool',['tribool',['../classboost_1_1ui_1_1check__box__base.html#a4ba7571168ba4cfed5ca93e790d8d835',1,'boost::ui::check_box_base::tribool(boost::tribool value)'],['../classboost_1_1ui_1_1check__box__base.html#ac0cc326f9ab36f6ec5d4b5c1d3afd389',1,'boost::ui::check_box_base::tribool() const ']]],
   ['turquoise',['turquoise',['../namespaceboost_1_1ui_1_1colors.html#a9aed4b0b375ae37b099030e337dc7bd8',1,'boost::ui::colors']]]
 ];

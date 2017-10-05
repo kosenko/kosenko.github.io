@@ -15,5 +15,5 @@ var searchData=
   ['notebook',['notebook',['../classboost_1_1ui_1_1notebook.html#afc52d486fb95f450d429f346de006c07',1,'boost::ui::notebook']]],
   ['notebook_2ehpp',['notebook.hpp',['../notebook_8hpp.html',1,'']]],
   ['notifications',['Notifications',['../group__notify.html',1,'']]],
-  ['npos',['npos',['../classboost_1_1ui_1_1stringsbox.html#affdeb417d7b3cd3ca0d2c9ad39ab6553',1,'boost::ui::stringsbox::npos()'],['../classboost_1_1ui_1_1notebook.html#a79753d6a22d417ce04270e85dca67ec6',1,'boost::ui::notebook::npos()']]]
+  ['npos',['npos',['../classboost_1_1ui_1_1strings__box.html#a4849107b75ff19d936f066337394becb',1,'boost::ui::strings_box::npos()'],['../classboost_1_1ui_1_1notebook.html#a79753d6a22d417ce04270e85dca67ec6',1,'boost::ui::notebook::npos()']]]
 ];

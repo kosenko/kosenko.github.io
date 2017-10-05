@@ -29,9 +29,9 @@
 </g>
 <!-- Node4 -->
 <g id="node4" class="node"><title>Node4</title>
-<g id="a_node4"><a xlink:href="stringsbox_8hpp.html" target="_top" xlink:title="Widget with array of strings. ">
-<polygon fill="white" stroke="black" points="410,-302.5 410,-321.5 528,-321.5 528,-302.5 410,-302.5"/>
-<text text-anchor="middle" x="469" y="-309.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/ui/stringsbox.hpp</text>
+<g id="a_node4"><a xlink:href="strings__box_8hpp.html" target="_top" xlink:title="Widget with array of strings. ">
+<polygon fill="white" stroke="black" points="407.5,-302.5 407.5,-321.5 530.5,-321.5 530.5,-302.5 407.5,-302.5"/>
+<text text-anchor="middle" x="469" y="-309.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/ui/strings_box.hpp</text>
 </a>
 </g>
 </g>
@@ -65,8 +65,8 @@
 </g>
 <!-- Node4&#45;&gt;Node5 -->
 <g id="edge5" class="edge"><title>Node4&#45;&gt;Node5</title>
-<path fill="none" stroke="midnightblue" d="M528.169,-303.032C603.646,-292.868 733.489,-275.383 809.567,-265.138"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="810.036,-268.607 819.48,-263.803 809.102,-261.669 810.036,-268.607"/>
+<path fill="none" stroke="midnightblue" d="M530.777,-302.681C606.42,-292.495 733.73,-275.351 809.011,-265.213"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="809.834,-268.634 819.277,-263.83 808.9,-261.696 809.834,-268.634"/>
 </g>
 <!-- Node22 -->
 <g id="node22" class="node"><title>Node22</title>
@@ -75,8 +75,8 @@
 </g>
 <!-- Node4&#45;&gt;Node22 -->
 <g id="edge30" class="edge"><title>Node4&#45;&gt;Node22</title>
-<path fill="none" stroke="midnightblue" d="M409.952,-307.87C330.846,-302.956 186.069,-291.444 54.1172,-265.904"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="54.7238,-262.456 44.2363,-263.96 53.3726,-269.325 54.7238,-262.456"/>
+<path fill="none" stroke="midnightblue" d="M407.169,-307.696C327.542,-302.691 184.835,-291.186 54.404,-265.96"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="54.7237,-262.456 44.2363,-263.96 53.3729,-269.324 54.7237,-262.456"/>
 </g>
 <!-- Node23 -->
 <g id="node23" class="node"><title>Node23</title>

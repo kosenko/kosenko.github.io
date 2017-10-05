@@ -1,4 +1,4 @@
 <map id="boost::ui::listbox" name="boost::ui::listbox">
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1stringsbox.html" title="Abstract widget that holds array of strings. " alt="" coords="5,80,145,107"/>
-<area shape="rect" id="node3" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets. " alt="" coords="16,5,135,32"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1strings__box.html" title="Abstract widget that holds array of strings. " alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets. " alt="" coords="19,5,138,32"/>
 </map>

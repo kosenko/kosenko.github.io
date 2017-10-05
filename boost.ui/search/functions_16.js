@@ -2,7 +2,7 @@ var searchData=
 [
   ['warning_5fdlg',['warning_dlg',['../group__alert.html#ga5aac1901d521712e02af7bf453969457',1,'boost::ui']]],
   ['warning_5fnotify',['warning_notify',['../group__notify.html#gaab669fecb44c5c0d39b4ab942421cf53',1,'boost::ui']]],
-  ['webview',['webview',['../classboost_1_1ui_1_1webview.html#ae26daba0e2ab8daa8ccf603bc4ed6a1a',1,'boost::ui::webview']]],
+  ['web_5fwidget',['web_widget',['../classboost_1_1ui_1_1web__widget.html#aa60c1f54f1ca217ff3b58a166ce931f9',1,'boost::ui::web_widget']]],
   ['wheat',['wheat',['../namespaceboost_1_1ui_1_1colors.html#a47d6101636a881162f0623210cc4f08e',1,'boost::ui::colors']]],
   ['white',['white',['../namespaceboost_1_1ui_1_1colors.html#ac8b73707986a3c34b18ce6e4e4803e9d',1,'boost::ui::colors']]],
   ['whitesmoke',['whitesmoke',['../namespaceboost_1_1ui_1_1colors.html#a46308f073a98a570bb1c63d1ccf63757',1,'boost::ui::colors']]],

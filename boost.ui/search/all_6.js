@@ -24,8 +24,8 @@ var searchData=
   ['greenyellow',['greenyellow',['../namespaceboost_1_1ui_1_1colors.html#a3604e21a4c47642306825e16652cb3ea',1,'boost::ui::colors']]],
   ['gregorian_5fdate',['gregorian_date',['../classboost_1_1ui_1_1date__picker.html#ab6f01dbf87da48a769b8c5dedc1058a8',1,'boost::ui::date_picker::gregorian_date() const '],['../classboost_1_1ui_1_1date__picker.html#af42156d6c169bda78f493d36addfcd6e',1,'boost::ui::date_picker::gregorian_date(const boost::gregorian::date &amp;d)']]],
   ['grey',['grey',['../namespaceboost_1_1ui_1_1colors.html#afd1619174dce777e3090af2ca85cd4fe',1,'boost::ui::colors']]],
-  ['groupbox',['groupbox',['../classboost_1_1ui_1_1groupbox.html#af6700e85da4d563d4d7a5fe7359e49b1',1,'boost::ui::groupbox']]],
-  ['groupbox',['groupbox',['../classboost_1_1ui_1_1groupbox.html',1,'boost::ui']]],
-  ['groupbox_2ehpp',['groupbox.hpp',['../groupbox_8hpp.html',1,'']]],
+  ['group_5fbox',['group_box',['../classboost_1_1ui_1_1group__box.html#a053d481046b554b44380e2bf6d329d4d',1,'boost::ui::group_box']]],
+  ['group_5fbox',['group_box',['../classboost_1_1ui_1_1group__box.html',1,'boost::ui']]],
+  ['group_5fbox_2ehpp',['group_box.hpp',['../group__box_8hpp.html',1,'']]],
   ['gsize',['gsize',['../group__coord.html#ga20703d8476f7a8773e7ec54e19e49437',1,'boost::ui']]]
 ];

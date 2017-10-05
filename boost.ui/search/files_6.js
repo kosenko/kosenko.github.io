@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['groupbox_2ehpp',['groupbox.hpp',['../groupbox_8hpp.html',1,'']]]
+  ['group_5fbox_2ehpp',['group_box.hpp',['../group__box_8hpp.html',1,'']]]
 ];
