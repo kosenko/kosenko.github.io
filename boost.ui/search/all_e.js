@@ -1,9 +1,9 @@
 var searchData=
 [
   ['oblique',['oblique',['../classboost_1_1ui_1_1font.html#aaf8cf6c20bf85ca3c26cadf4380fe09eadff74cf5ebe9c0bf565d0d7f4184ebbf',1,'boost::ui::font']]],
-  ['oldlace',['oldlace',['../namespaceboost_1_1ui_1_1colors.html#a4bbeba9706137ed4df0cfb70e896ff29',1,'boost::ui::colors']]],
-  ['olive',['olive',['../namespaceboost_1_1ui_1_1colors.html#a9e7ab24af393a5e4c9259aec8a6f9d10',1,'boost::ui::colors']]],
-  ['olivedrab',['olivedrab',['../namespaceboost_1_1ui_1_1colors.html#ad44efae73d80b5cb38986a95d62ef0e4',1,'boost::ui::colors']]],
+  ['oldlace',['oldlace',['../classboost_1_1ui_1_1color.html#a2b138d3c1fb9980b6cb2d2b25f7cb074',1,'boost::ui::color']]],
+  ['olive',['olive',['../classboost_1_1ui_1_1color.html#a04402e9397d284f6817d7a3907a9bcdc',1,'boost::ui::color']]],
+  ['olivedrab',['olivedrab',['../classboost_1_1ui_1_1color.html#ac1e51323d7a82fd26e44a5b04141d5aa',1,'boost::ui::color']]],
   ['on_5factivate',['on_activate',['../classboost_1_1ui_1_1list__box.html#aa0736e7d0f93691519a2025c65ce9ab5',1,'boost::ui::list_box']]],
   ['on_5factivate_5fevent',['on_activate_event',['../classboost_1_1ui_1_1list__box.html#adf867eedd719fc6ee436282dcef3b12e',1,'boost::ui::list_box']]],
   ['on_5fchange',['on_change',['../classboost_1_1ui_1_1date__picker.html#a76436e5450490592635b5bf9245d8895',1,'boost::ui::date_picker::on_change()'],['../classboost_1_1ui_1_1time__picker.html#a7c02da02e8cf3632758b171dacf872af',1,'boost::ui::time_picker::on_change()']]],
@@ -74,8 +74,8 @@ var searchData=
   ['operator_3e_3e',['operator&gt;&gt;',['../classboost_1_1ui_1_1uistring.html#a1f3e9d52b9bb46293567662dafbef61b',1,'boost::ui::uistring::operator&gt;&gt;()'],['../namespaceboost_1_1ui.html#a1f3e9d52b9bb46293567662dafbef61b',1,'boost::ui::operator&gt;&gt;(std::basic_istream&lt; char, Traits &gt; &amp;is, ui::uistring &amp;str)'],['../namespaceboost_1_1ui.html#a1f61748414eff784c0e9ee9995b9bf19',1,'boost::ui::operator&gt;&gt;(std::basic_istream&lt; wchar_t, Traits &gt; &amp;is, ui::uistring &amp;str)'],['../namespaceboost_1_1ui.html#a888578aaf0fe061fdfab1e8f029113d8',1,'boost::ui::operator&gt;&gt;(std::basic_istream&lt; char16_t, Traits &gt; &amp;is, ui::uistring &amp;str)'],['../namespaceboost_1_1ui.html#a60b34f86cc81ff3585aa939cdb5aa6d3',1,'boost::ui::operator&gt;&gt;(std::basic_istream&lt; char32_t, Traits &gt; &amp;is, ui::uistring &amp;str)']]],
   ['operator_5b_5d',['operator[]',['../classboost_1_1ui_1_1strings__box.html#a8ef45108dc52fbbb3e9b68adffff4dba',1,'boost::ui::strings_box']]],
   ['optional',['optional',['../classboost_1_1ui_1_1check__box__base.html#a2d286e1b1e0235367b3c01b31aeb2740',1,'boost::ui::check_box_base::optional(boost::optional&lt; bool &gt; value)'],['../classboost_1_1ui_1_1check__box__base.html#a3e5517dda73d9b1537f295b3fdad88b7',1,'boost::ui::check_box_base::optional() const ']]],
-  ['orange',['orange',['../namespaceboost_1_1ui_1_1colors.html#adfd910f24ee82661e104f674348b2501',1,'boost::ui::colors']]],
-  ['orangered',['orangered',['../namespaceboost_1_1ui_1_1colors.html#af6423294b097d5f86a5920de49c68c95',1,'boost::ui::colors']]],
-  ['orchid',['orchid',['../namespaceboost_1_1ui_1_1colors.html#a4cddcf92737228ca5b61615072dc1c73',1,'boost::ui::colors']]],
+  ['orange',['orange',['../classboost_1_1ui_1_1color.html#a4ddb7bac51b3924afda4aff0506509aa',1,'boost::ui::color']]],
+  ['orangered',['orangered',['../classboost_1_1ui_1_1color.html#a893033bf64f66ae2118274c9fe18c11f',1,'boost::ui::color']]],
+  ['orchid',['orchid',['../classboost_1_1ui_1_1color.html#ac28105ddc4131c451fbc905308051005',1,'boost::ui::color']]],
   ['other',['other',['../classboost_1_1ui_1_1font.html#a3e2b46b9699b772cc2d20bfc5531e460a795f3202b17cb6bc3d4b771d8c6c9eaf',1,'boost::ui::font']]]
 ];

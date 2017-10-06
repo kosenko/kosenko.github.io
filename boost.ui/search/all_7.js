@@ -11,15 +11,15 @@ var searchData=
   ['hide',['hide',['../classboost_1_1ui_1_1widget.html#a9b784097f2db2fffe85080392db223bd',1,'boost::ui::widget']]],
   ['hline',['hline',['../classboost_1_1ui_1_1hline.html',1,'boost::ui']]],
   ['hline',['hline',['../classboost_1_1ui_1_1hline.html#ae9d975c727041cc5c69b200cdec105ed',1,'boost::ui::hline']]],
-  ['honeydew',['honeydew',['../namespaceboost_1_1ui_1_1colors.html#aac38e715ebe244de18970ca8b4b00a3a',1,'boost::ui::colors']]],
+  ['honeydew',['honeydew',['../classboost_1_1ui_1_1color.html#a46bd2f4bec660797e001a5065dfe8d13',1,'boost::ui::color']]],
   ['horizontal',['horizontal',['../classboost_1_1ui_1_1wheel__event.html#a5662600adaf9f4a2d86b9fcd85fc4aa7',1,'boost::ui::wheel_event']]],
-  ['hotpink',['hotpink',['../namespaceboost_1_1ui_1_1colors.html#a4c237228ddcbaa2d34d01dc9fa6850bc',1,'boost::ui::colors']]],
+  ['hotpink',['hotpink',['../classboost_1_1ui_1_1color.html#a126090154991e42f45e56a75a804928b',1,'boost::ui::color']]],
   ['hprogress_5fbar',['hprogress_bar',['../classboost_1_1ui_1_1hprogress__bar.html',1,'boost::ui']]],
   ['hprogress_5fbar',['hprogress_bar',['../classboost_1_1ui_1_1hprogress__bar.html#a4d11d0449450237c00abeef6dfd33925',1,'boost::ui::hprogress_bar']]],
   ['hslider',['hslider',['../classboost_1_1ui_1_1hslider.html',1,'boost::ui']]],
   ['hslider',['hslider',['../classboost_1_1ui_1_1hslider.html#aeec4dc47064c60893bf0473f74d7a516',1,'boost::ui::hslider::hslider(widget &amp;parent, value_type initial, value_type min, value_type max)'],['../classboost_1_1ui_1_1hslider.html#a718367d496f7ab99beaec18a1f09071b',1,'boost::ui::hslider::hslider(widget &amp;parent, value_type initial=0)']]],
   ['html',['html',['../classboost_1_1ui_1_1web__widget.html#aa7eda9d35aa50a3359016bd318eec959',1,'boost::ui::web_widget']]],
-  ['hyperlink',['hyperlink',['../classboost_1_1ui_1_1hyperlink.html',1,'boost::ui']]],
   ['hyperlink',['hyperlink',['../classboost_1_1ui_1_1hyperlink.html#a7b248bb2ae4b45e168871ebd278a7a3a',1,'boost::ui::hyperlink']]],
+  ['hyperlink',['hyperlink',['../classboost_1_1ui_1_1hyperlink.html',1,'boost::ui']]],
   ['hyperlink_2ehpp',['hyperlink.hpp',['../hyperlink_8hpp.html',1,'']]]
 ];

@@ -6,7 +6,6 @@ var searchData=
   ['vcenter',['vcenter',['../classboost_1_1ui_1_1layout_1_1item.html#a26627d942055118c9fbd390bcf534082',1,'boost::ui::layout::item']]],
   ['vertical',['vertical',['../classboost_1_1ui_1_1wheel__event.html#a83047a4a4d04d1975fb53bf38d94f0b5',1,'boost::ui::wheel_event']]],
   ['veto',['veto',['../classboost_1_1ui_1_1close__event.html#a59b924018e04fbfe5d77ae763eaa1075',1,'boost::ui::close_event']]],
-  ['violet',['violet',['../namespaceboost_1_1ui_1_1colors.html#adbf7a50c6cb17fd97b162a531da57bec',1,'boost::ui::colors']]],
   ['vline',['vline',['../classboost_1_1ui_1_1vline.html#a6c2ee7323e3831159cb41ad8cd042236',1,'boost::ui::vline']]],
   ['vprogress_5fbar',['vprogress_bar',['../classboost_1_1ui_1_1vprogress__bar.html#a649f153a3ebdf3ca021cbbc08de8c6dc',1,'boost::ui::vprogress_bar']]],
   ['vslider',['vslider',['../classboost_1_1ui_1_1vslider.html#aa59eadbfed4653d648499a6132935fb4',1,'boost::ui::vslider::vslider(widget &amp;parent, value_type initial, value_type min, value_type max)'],['../classboost_1_1ui_1_1vslider.html#a3959996733fbcfa2abcd8d463b019382',1,'boost::ui::vslider::vslider(widget &amp;parent, value_type initial=0)']]]
