@@ -4,7 +4,7 @@ var searchData=
   ['enable',['enable',['../classboost_1_1ui_1_1widget.html#ae4b76ba695f5a0ee1e9607852d07e160',1,'boost::ui::widget']]],
   ['entry',['entry',['../group__helper.html#ga81dde3916e7aad7d4f585832b71d8b95',1,'boost::ui::entry(int(*ui_main)(int, char *[]), int argc, char *argv[])'],['../group__helper.html#ga52f80fff04ee6299ff3007a9236a75fc',1,'boost::ui::entry(int(*ui_main)(), int argc, char *argv[])']]],
   ['error',['error',['../classboost_1_1ui_1_1log_1_1error.html',1,'boost::ui::log']]],
-  ['error_5fdlg',['error_dlg',['../group__alert.html#ga762ec8edd7ef595a52e50e36b568df21',1,'boost::ui']]],
+  ['error_5fdialog',['error_dialog',['../group__alert.html#gae4bc7a08370339de0b5cb772b47419e5',1,'boost::ui']]],
   ['error_5fnotify',['error_notify',['../group__notify.html#ga97d01cab641f7f017c9171501f5c406a',1,'boost::ui']]],
   ['event',['event',['../classboost_1_1ui_1_1event.html',1,'boost::ui']]],
   ['events',['Events',['../group__event.html',1,'']]],

@@ -4,7 +4,7 @@ var searchData=
   ['image_5fwidget',['image_widget',['../classboost_1_1ui_1_1image__widget.html#ae12eb01dd77da7ddf94aa82a5ec96f66',1,'boost::ui::image_widget::image_widget(widget &amp;parent)'],['../classboost_1_1ui_1_1image__widget.html#ae366d549c1503f2e09b8c2ea3c098b80',1,'boost::ui::image_widget::image_widget(widget &amp;parent, const ui::image &amp;img)']]],
   ['indeterminate',['indeterminate',['../classboost_1_1ui_1_1check__box__base.html#a018f56b090b840425d191339bb8e6123',1,'boost::ui::check_box_base']]],
   ['index',['index',['../classboost_1_1ui_1_1index__event.html#a6c51fc7f66b0ffb2e3f55029820c764c',1,'boost::ui::index_event']]],
-  ['info_5fdlg',['info_dlg',['../group__alert.html#ga75e459229029d19386b0bd62581be463',1,'boost::ui']]],
+  ['info_5fdialog',['info_dialog',['../group__alert.html#ga88cf56dee06e124c6955d543604bacfc',1,'boost::ui']]],
   ['info_5fnotify',['info_notify',['../group__notify.html#ga559408876f5d90a2c28b3826caf68a8f',1,'boost::ui']]],
   ['is_5fchecked',['is_checked',['../classboost_1_1ui_1_1check__box__base.html#a5ab6156d9d6804633ba387c45c5a1f67',1,'boost::ui::check_box_base']]],
   ['is_5fenabled',['is_enabled',['../classboost_1_1ui_1_1widget.html#ac410408cc5c5a35a4fe9047ea7cd316c',1,'boost::ui::widget']]],

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['warning',['warning',['../classboost_1_1ui_1_1log_1_1warning.html',1,'boost::ui::log']]],
-  ['warning_5fdlg',['warning_dlg',['../group__alert.html#ga5aac1901d521712e02af7bf453969457',1,'boost::ui']]],
+  ['warning_5fdialog',['warning_dialog',['../group__alert.html#ga9848327707540e6d089b8c7665923d29',1,'boost::ui']]],
   ['warning_5fnotify',['warning_notify',['../group__notify.html#gaab669fecb44c5c0d39b4ab942421cf53',1,'boost::ui']]],
   ['web_5fwidget',['web_widget',['../classboost_1_1ui_1_1web__widget.html',1,'boost::ui']]],
   ['web_5fwidget',['web_widget',['../classboost_1_1ui_1_1web__widget.html#aa60c1f54f1ca217ff3b58a166ce931f9',1,'boost::ui::web_widget']]],
