@@ -1,6 +1,0 @@
-<map id="boost::ui::stringsbox" name="boost::ui::stringsbox">
-<area shape="rect" id="node3" href="$classboost_1_1ui_1_1choice.html" title="Widget to select string from popup list of strings. " alt="" coords="5,155,124,181"/>
-<area shape="rect" id="node4" href="$classboost_1_1ui_1_1combo__box.html" title="Widget to select one or more strings and edit it. " alt="" coords="149,155,295,181"/>
-<area shape="rect" id="node5" href="$classboost_1_1ui_1_1listbox.html" title="Widget to select one or more strings. " alt="" coords="320,155,439,181"/>
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets. " alt="" coords="163,5,281,32"/>
-</map>

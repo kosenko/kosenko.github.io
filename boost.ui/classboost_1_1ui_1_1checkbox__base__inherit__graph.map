@@ -1,5 +1,0 @@
-<map id="boost::ui::checkbox_base" name="boost::ui::checkbox_base">
-<area shape="rect" id="node3" href="$classboost_1_1ui_1_1checkbox.html" title="Labelled widget that that permits the user to make a binary choice. " alt="" coords="5,162,141,189"/>
-<area shape="rect" id="node4" href="$classboost_1_1ui_1_1tristate__checkbox.html" title="Labelled widget that that permits the user to make a ternary choice. " alt="" coords="165,155,285,196"/>
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets. " alt="" coords="90,5,209,32"/>
-</map>
