@@ -1,0 +1,85 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Class group_box</title>
+<link rel="stylesheet" href="http://www.boost.org/doc/libs/1_65_1/doc/src/boostbook.css" type="text/css">
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="up" href="../../index.html#header.boost.ui.group_box_hpp" title="Header &lt;boost/ui/group_box.hpp&gt;">
+<link rel="prev" href="frame.html" title="Class frame">
+<link rel="next" href="hyperlink.html" title="Class hyperlink">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table cellpadding="2" width="100%"><tr>
+<td valign="top"><img alt="Boost C++ Libraries" width="277" height="86" src="http://www.boost.org/doc/libs/1_65_1/boost.png"></td>
+<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/index.html">Home</a></td>
+<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm">Libraries</a></td>
+<td align="center"><a href="http://www.boost.org/users/people.html">People</a></td>
+<td align="center"><a href="http://www.boost.org/users/faq.html">FAQ</a></td>
+<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/more/index.htm">More</a></td>
+</tr></table>
+<hr>
+<div class="spirit-nav">
+<a accesskey="p" href="frame.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.group_box_hpp"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="hyperlink.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
+</div>
+<div class="refentry">
+<a name="boost.ui.group_box"></a><div class="titlepage"></div>
+<div class="refnamediv">
+<h2><span class="refentrytitle">Class group_box</span></h2>
+<p>boost::ui::group_box &#8212; Widget that groups other widgets using a frame and a title. </p>
+</div>
+<h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
+<div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.group_box_hpp" title="Header &lt;boost/ui/group_box.hpp&gt;">boost/ui/group_box.hpp</a>&gt;
+
+</span>
+<span class="keyword">class</span> <a class="link" href="group_box.html" title="Class group_box">group_box</a> <span class="special">:</span> <span class="keyword">public</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">ui</span><span class="special">::</span><span class="identifier">widget</span> <span class="special">{</span>
+<span class="keyword">public</span><span class="special">:</span>
+  <span class="comment">// <a class="link" href="group_box.html#boost.ui.group_boxconstruct-copy-destruct">construct/copy/destruct</a></span>
+  <span class="keyword">explicit</span> <a class="link" href="group_box.html#idm45793452146912-bb"><span class="identifier">group_box</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> <span class="special">=</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a><span class="special">(</span><span class="special">)</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="group_box.html#idm45793452142368-bb"><span class="identifier">group_box</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+
+  <span class="comment">// <a class="link" href="group_box.html#idm45793452142080-bb">private member functions</a></span>
+  <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="group_box.html#idm45793452141504-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="group_box.html#idm45793452140656-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+<span class="special">}</span><span class="special">;</span></pre></div>
+<div class="refsect1">
+<a name="idm46026396224320"></a><h2>Description</h2>
+<p><span class="bold"><strong>See Also:</strong></span></p>
+<p><a href="http://en.wikipedia.org/wiki/Frame_(GUI)" target="_top">Frame (Wikipedia)</a> </p>
+<p>
+</p>
+<div class="refsect2">
+<a name="idm46026396222112"></a><h3>
+<a name="boost.ui.group_boxconstruct-copy-destruct"></a><code class="computeroutput">group_box</code> 
+        public
+       construct/copy/destruct</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm45793452146912-bb"></a><span class="identifier">group_box</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> title <span class="special">=</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a><span class="special">(</span><span class="special">)</span><span class="special">)</span><span class="special">;</span></pre>Creates group box widget. </li>
+<li class="listitem"><pre class="literallayout"><a name="idm45793452142368-bb"></a><span class="identifier">group_box</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+</ol></div>
+</div>
+<div class="refsect2">
+<a name="idm46026396204912"></a><h3>
+<a name="idm45793452142080-bb"></a><code class="computeroutput">group_box</code> private member functions</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem"><pre class="literallayout"><span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm45793452141504-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm45793452140656-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
+</ol></div>
+</div>
+</div>
+</div>
+<table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
+<td align="left"></td>
+<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+        Distributed under the Boost Software License, Version 1.0. (See accompanying
+        file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
+      </p>
+</div></td>
+</tr></table>
+<hr>
+<div class="spirit-nav">
+<a accesskey="p" href="frame.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.group_box_hpp"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="hyperlink.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
+</div>
+</body>
+</html>

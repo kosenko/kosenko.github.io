@@ -1,0 +1,198 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Class uistring</title>
+<link rel="stylesheet" href="http://www.boost.org/doc/libs/1_65_1/doc/src/boostbook.css" type="text/css">
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="up" href="../../index.html#header.boost.ui.string_hpp" title="Header &lt;boost/ui/string.hpp&gt;">
+<link rel="prev" href="vslider.html" title="Class vslider">
+<link rel="next" href="../../std/hash_boo_idm45793451471232.html" title="Struct hash&lt;boost::ui::uistring&gt;">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table cellpadding="2" width="100%"><tr>
+<td valign="top"><img alt="Boost C++ Libraries" width="277" height="86" src="http://www.boost.org/doc/libs/1_65_1/boost.png"></td>
+<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/index.html">Home</a></td>
+<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm">Libraries</a></td>
+<td align="center"><a href="http://www.boost.org/users/people.html">People</a></td>
+<td align="center"><a href="http://www.boost.org/users/faq.html">FAQ</a></td>
+<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/more/index.htm">More</a></td>
+</tr></table>
+<hr>
+<div class="spirit-nav">
+<a accesskey="p" href="vslider.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.string_hpp"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="../../std/hash_boo_idm45793451471232.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
+</div>
+<div class="refentry">
+<a name="boost.ui.uistring"></a><div class="titlepage"></div>
+<div class="refnamediv">
+<h2><span class="refentrytitle">Class uistring</span></h2>
+<p>boost::ui::uistring &#8212; Helper class to convert string between UI and application logic only. </p>
+</div>
+<h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
+<div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.string_hpp" title="Header &lt;boost/ui/string.hpp&gt;">boost/ui/string.hpp</a>&gt;
+
+</span>
+<span class="keyword">class</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">{</span>
+<span class="keyword">public</span><span class="special">:</span>
+  <span class="comment">// types</span>
+  <span class="keyword">typedef</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">size_t</span> <a name="boost.ui.uistring.size_type"></a><span class="identifier">size_type</span><span class="special">;</span>           <span class="comment">// Unsigned integral type. </span>
+  <span class="keyword">typedef</span> <span class="keyword">void</span> <span class="special">*</span>      <a name="boost.ui.uistring.native_handle_type"></a><span class="identifier">native_handle_type</span><span class="special">;</span>  <span class="comment">// Implementation-defined string type. </span>
+
+  <span class="comment">// <a class="link" href="uistring.html#boost.ui.uistringconstruct-copy-destruct">construct/copy/destruct</a></span>
+  <a class="link" href="uistring.html#idm45793451630336-bb"><span class="identifier">uistring</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html#idm45793451628592-bb"><span class="identifier">uistring</span></a><span class="special">(</span><a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html#idm45793451627008-bb"><span class="identifier">uistring</span></a><span class="special">(</span><span class="keyword">const</span> <span class="keyword">wchar_t</span> <span class="special">*</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html#idm45793451625712-bb"><span class="identifier">uistring</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">wstring</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html#idm45793451624416-bb"><span class="identifier">uistring</span></a><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">initializer_list</span><span class="special">&lt;</span> <span class="keyword">wchar_t</span> <span class="special">&gt;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html#idm45793451623104-bb"><span class="identifier">uistring</span></a><span class="special">(</span><span class="keyword">const</span> <span class="keyword">char16_t</span> <span class="special">*</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html#idm45793451621808-bb"><span class="identifier">uistring</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">u16string</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html#idm45793451620512-bb"><span class="identifier">uistring</span></a><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">initializer_list</span><span class="special">&lt;</span> <span class="keyword">char16_t</span> <span class="special">&gt;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html#idm45793451619200-bb"><span class="identifier">uistring</span></a><span class="special">(</span><span class="keyword">const</span> <span class="keyword">char32_t</span> <span class="special">*</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html#idm45793451617904-bb"><span class="identifier">uistring</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">u32string</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html#idm45793451616608-bb"><span class="identifier">uistring</span></a><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">initializer_list</span><span class="special">&lt;</span> <span class="keyword">char32_t</span> <span class="special">&gt;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html#idm45793451578608-bb"><span class="identifier">uistring</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> <a class="link" href="uistring.html#idm45793451615296-bb"><span class="keyword">operator</span><span class="special">=</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> <a class="link" href="uistring.html#idm45793451612992-bb"><span class="keyword">operator</span><span class="special">=</span></a><span class="special">(</span><a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> <a class="link" href="uistring.html#idm45793451610848-bb"><span class="keyword">operator</span><span class="special">=</span></a><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">initializer_list</span><span class="special">&lt;</span> <span class="keyword">wchar_t</span> <span class="special">&gt;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html#idm45793451578320-bb"><span class="special">~</span><span class="identifier">uistring</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+
+  <span class="comment">// <a class="link" href="uistring.html#idm45793451606672-bb">public member functions</a></span>
+  <span class="keyword">void</span> <a class="link" href="uistring.html#idm45793451606112-bb"><span class="identifier">swap</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">bool</span> <a class="link" href="uistring.html#idm45793451603824-bb"><span class="identifier">empty</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span> <span class="keyword">noexcept</span><span class="special">;</span>
+  <span class="keyword">void</span> <a class="link" href="uistring.html#idm45793451602400-bb"><span class="identifier">clear</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
+  <span class="keyword">void</span> <a class="link" href="uistring.html#idm45793451600992-bb"><span class="identifier">shrink_to_fit</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> charT<span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">basic_string</span><span class="special">&lt;</span> <span class="identifier">charT</span> <span class="special">&gt;</span> <a class="link" href="uistring.html#idm45793451599824-bb"><span class="identifier">utf</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> charT<span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">basic_string</span><span class="special">&lt;</span> <span class="identifier">charT</span> <span class="special">&gt;</span> <a class="link" href="uistring.html#idm45793451597344-bb"><span class="identifier">basic_string</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">std</span><span class="special">::</span><span class="identifier">string</span> <a class="link" href="uistring.html#idm45793451595056-bb"><span class="identifier">u8string</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">std</span><span class="special">::</span><span class="identifier">wstring</span> <a class="link" href="uistring.html#idm45793451593632-bb"><span class="identifier">wstring</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">std</span><span class="special">::</span><span class="identifier">u16string</span> <a class="link" href="uistring.html#idm45793451592208-bb"><span class="identifier">u16string</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">basic_string</span><span class="special">&lt;</span> <span class="keyword">char</span> <span class="special">&gt;</span> <a class="link" href="uistring.html#idm45793451590784-bb"><span class="identifier">utf</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">basic_string</span><span class="special">&lt;</span> <span class="keyword">wchar_t</span> <span class="special">&gt;</span> <a class="link" href="uistring.html#idm45793451589056-bb"><span class="identifier">utf</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">wstring</span> <a class="link" href="uistring.html#idm45793451587344-bb"><span class="identifier">basic_string</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">basic_string</span><span class="special">&lt;</span> <span class="keyword">char16_t</span> <span class="special">&gt;</span> <a class="link" href="uistring.html#idm45793451585648-bb"><span class="identifier">utf</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">u16string</span> <a class="link" href="uistring.html#idm45793451583920-bb"><span class="identifier">basic_string</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">basic_string</span><span class="special">&lt;</span> <span class="keyword">char32_t</span> <span class="special">&gt;</span> <a class="link" href="uistring.html#idm45793451582208-bb"><span class="identifier">utf</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">u32string</span> <a class="link" href="uistring.html#idm45793451580480-bb"><span class="identifier">basic_string</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+
+  <span class="comment">// <a class="link" href="uistring.html#idm45793451578032-bb">private member functions</a></span>
+  <span class="keyword">void</span> <a class="link" href="uistring.html#idm45793451577456-bb"><span class="identifier">init</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">void</span> <a class="link" href="uistring.html#idm45793451576608-bb"><span class="identifier">init</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">wstring</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> String<span class="special">&gt;</span> <span class="keyword">void</span> <a class="link" href="uistring.html#idm45793451575072-bb"><span class="identifier">init</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">String</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> String<span class="special">&gt;</span> <span class="identifier">String</span> <a class="link" href="uistring.html#idm45793451572688-bb"><span class="identifier">xstring</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+
+  <span class="comment">// <a class="link" href="uistring.html#idm45793451570560-bb">private static functions</a></span>
+  <span class="keyword">static</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a class="link" href="uistring.html#idm45793451569984-bb"><span class="identifier">make_from_utf8</span></a><span class="special">(</span><span class="keyword">const</span> <span class="keyword">char</span> <span class="special">*</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">static</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a class="link" href="uistring.html#idm45793451568048-bb"><span class="identifier">make_from_ascii</span></a><span class="special">(</span><span class="keyword">const</span> <span class="keyword">char</span> <span class="special">*</span><span class="special">)</span><span class="special">;</span>
+<span class="special">}</span><span class="special">;</span></pre></div>
+<div class="refsect1">
+<a name="idm46026392539840"></a><h2>Description</h2>
+<div class="refsect2">
+<a name="idm46026392539424"></a><h3>
+<a name="boost.ui.uistringconstruct-copy-destruct"></a><code class="computeroutput">uistring</code> 
+        public
+       construct/copy/destruct</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+<pre class="literallayout"><a name="idm45793451630336-bb"></a><span class="identifier">uistring</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> other<span class="special">)</span><span class="special">;</span></pre>Constructs uistring from other uistring. </li>
+<li class="listitem">
+<pre class="literallayout"><a name="idm45793451628592-bb"></a><span class="identifier">uistring</span><span class="special">(</span><a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;&amp;</span> other<span class="special">)</span><span class="special">;</span></pre>Constructs uistring from other uistring. </li>
+<li class="listitem">
+<pre class="literallayout"><a name="idm45793451627008-bb"></a><span class="identifier">uistring</span><span class="special">(</span><span class="keyword">const</span> <span class="keyword">wchar_t</span> <span class="special">*</span> str<span class="special">)</span><span class="special">;</span></pre>Constructs uistring from Unicode wide char string. </li>
+<li class="listitem">
+<pre class="literallayout"><a name="idm45793451625712-bb"></a><span class="identifier">uistring</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">wstring</span> <span class="special">&amp;</span> str<span class="special">)</span><span class="special">;</span></pre>Constructs uistring from Unicode wide char string. </li>
+<li class="listitem">
+<pre class="literallayout"><a name="idm45793451624416-bb"></a><span class="identifier">uistring</span><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">initializer_list</span><span class="special">&lt;</span> <span class="keyword">wchar_t</span> <span class="special">&gt;</span> list<span class="special">)</span><span class="special">;</span></pre>Constructs uistring from Unicode wide char string. </li>
+<li class="listitem">
+<pre class="literallayout"><a name="idm45793451623104-bb"></a><span class="identifier">uistring</span><span class="special">(</span><span class="keyword">const</span> <span class="keyword">char16_t</span> <span class="special">*</span> str<span class="special">)</span><span class="special">;</span></pre>Constructs uistring from UTF-16 string. </li>
+<li class="listitem">
+<pre class="literallayout"><a name="idm45793451621808-bb"></a><span class="identifier">uistring</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">u16string</span> <span class="special">&amp;</span> str<span class="special">)</span><span class="special">;</span></pre>Constructs uistring from UTF-16 string. </li>
+<li class="listitem">
+<pre class="literallayout"><a name="idm45793451620512-bb"></a><span class="identifier">uistring</span><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">initializer_list</span><span class="special">&lt;</span> <span class="keyword">char16_t</span> <span class="special">&gt;</span> list<span class="special">)</span><span class="special">;</span></pre>Constructs uistring from UTF-16 string. </li>
+<li class="listitem">
+<pre class="literallayout"><a name="idm45793451619200-bb"></a><span class="identifier">uistring</span><span class="special">(</span><span class="keyword">const</span> <span class="keyword">char32_t</span> <span class="special">*</span> str<span class="special">)</span><span class="special">;</span></pre>Constructs uistring from UTF-32 string. </li>
+<li class="listitem">
+<pre class="literallayout"><a name="idm45793451617904-bb"></a><span class="identifier">uistring</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">u32string</span> <span class="special">&amp;</span> str<span class="special">)</span><span class="special">;</span></pre>Constructs uistring from UTF-32 string. </li>
+<li class="listitem">
+<pre class="literallayout"><a name="idm45793451616608-bb"></a><span class="identifier">uistring</span><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">initializer_list</span><span class="special">&lt;</span> <span class="keyword">char32_t</span> <span class="special">&gt;</span> list<span class="special">)</span><span class="special">;</span></pre>Constructs uistring from UTF-32 string. </li>
+<li class="listitem"><pre class="literallayout"><a name="idm45793451578608-bb"></a><span class="identifier">uistring</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem">
+<pre class="literallayout"><a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> <a name="idm45793451615296-bb"></a><span class="keyword">operator</span><span class="special">=</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> other<span class="special">)</span><span class="special">;</span></pre>Assigns other string to this string. </li>
+<li class="listitem">
+<pre class="literallayout"><a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> <a name="idm45793451612992-bb"></a><span class="keyword">operator</span><span class="special">=</span><span class="special">(</span><a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;&amp;</span> other<span class="special">)</span><span class="special">;</span></pre>Assigns other string to this string. </li>
+<li class="listitem">
+<pre class="literallayout"><a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> <a name="idm45793451610848-bb"></a><span class="keyword">operator</span><span class="special">=</span><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">initializer_list</span><span class="special">&lt;</span> <span class="keyword">wchar_t</span> <span class="special">&gt;</span> list<span class="special">)</span><span class="special">;</span></pre>Assigns other string to this string. </li>
+<li class="listitem"><pre class="literallayout"><a name="idm45793451578320-bb"></a><span class="special">~</span><span class="identifier">uistring</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+</ol></div>
+</div>
+<div class="refsect2">
+<a name="idm46026392431968"></a><h3>
+<a name="idm45793451606672-bb"></a><code class="computeroutput">uistring</code> public member functions</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">void</span> <a name="idm45793451606112-bb"></a><span class="identifier">swap</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> other<span class="special">)</span><span class="special">;</span></pre>Exchanges the contents of strings. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">bool</span> <a name="idm45793451603824-bb"></a><span class="identifier">empty</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span> <span class="keyword">noexcept</span><span class="special">;</span></pre>Checks whether the string is empty. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">void</span> <a name="idm45793451602400-bb"></a><span class="identifier">clear</span><span class="special">(</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span></pre>Clears the contents. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">void</span> <a name="idm45793451600992-bb"></a><span class="identifier">shrink_to_fit</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Requests the removal of unused capacity. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> charT<span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">basic_string</span><span class="special">&lt;</span> <span class="identifier">charT</span> <span class="special">&gt;</span> <a name="idm45793451599824-bb"></a><span class="identifier">utf</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns UTF-8/16/32 encoded string Returns UTF-8 encoded string if charT is char, returns UTF-16 encoded string if charT is char16_t, returns UTF-32 encoded string if charT is char32_t, returns std::wstring if charT is wchar_t. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> charT<span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">basic_string</span><span class="special">&lt;</span> <span class="identifier">charT</span> <span class="special">&gt;</span> <a name="idm45793451597344-bb"></a><span class="identifier">basic_string</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns std::basic_string&lt;charT&gt; </li>
+<li class="listitem">
+<pre class="literallayout"><span class="identifier">std</span><span class="special">::</span><span class="identifier">string</span> <a name="idm45793451595056-bb"></a><span class="identifier">u8string</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns UTF-8 encoded string. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="identifier">std</span><span class="special">::</span><span class="identifier">wstring</span> <a name="idm45793451593632-bb"></a><span class="identifier">wstring</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns Unicode wide std::wstring. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="identifier">std</span><span class="special">::</span><span class="identifier">u16string</span> <a name="idm45793451592208-bb"></a><span class="identifier">u16string</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns UTF-16 std::u16string. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">basic_string</span><span class="special">&lt;</span> <span class="keyword">char</span> <span class="special">&gt;</span> <a name="idm45793451590784-bb"></a><span class="identifier">utf</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns UTF-8 encoded string. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">basic_string</span><span class="special">&lt;</span> <span class="keyword">wchar_t</span> <span class="special">&gt;</span> <a name="idm45793451589056-bb"></a><span class="identifier">utf</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns std::wstring. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">wstring</span> <a name="idm45793451587344-bb"></a><span class="identifier">basic_string</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns std::wstring. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">basic_string</span><span class="special">&lt;</span> <span class="keyword">char16_t</span> <span class="special">&gt;</span> <a name="idm45793451585648-bb"></a><span class="identifier">utf</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns UTF-16 encoded string. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">u16string</span> <a name="idm45793451583920-bb"></a><span class="identifier">basic_string</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns std::u16string. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">basic_string</span><span class="special">&lt;</span> <span class="keyword">char32_t</span> <span class="special">&gt;</span> <a name="idm45793451582208-bb"></a><span class="identifier">utf</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns UTF-32 encoded string. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="special">&gt;</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">u32string</span> <a name="idm45793451580480-bb"></a><span class="identifier">basic_string</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns std::u32string. </li>
+</ol></div>
+</div>
+<div class="refsect2">
+<a name="idm46026392303264"></a><h3>
+<a name="idm45793451578032-bb"></a><code class="computeroutput">uistring</code> private member functions</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm45793451577456-bb"></a><span class="identifier">init</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm45793451576608-bb"></a><span class="identifier">init</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">wstring</span> <span class="special">&amp;</span> str<span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> String<span class="special">&gt;</span> <span class="keyword">void</span> <a name="idm45793451575072-bb"></a><span class="identifier">init</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">String</span> <span class="special">&amp;</span> str<span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> String<span class="special">&gt;</span> <span class="identifier">String</span> <a name="idm45793451572688-bb"></a><span class="identifier">xstring</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
+</ol></div>
+</div>
+<div class="refsect2">
+<a name="idm46026392272896"></a><h3>
+<a name="idm45793451570560-bb"></a><code class="computeroutput">uistring</code> private static functions</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem"><pre class="literallayout"><span class="keyword">static</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a name="idm45793451569984-bb"></a><span class="identifier">make_from_utf8</span><span class="special">(</span><span class="keyword">const</span> <span class="keyword">char</span> <span class="special">*</span> str<span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">static</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a name="idm45793451568048-bb"></a><span class="identifier">make_from_ascii</span><span class="special">(</span><span class="keyword">const</span> <span class="keyword">char</span> <span class="special">*</span> str<span class="special">)</span><span class="special">;</span></pre></li>
+</ol></div>
+</div>
+</div>
+</div>
+<table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
+<td align="left"></td>
+<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+        Distributed under the Boost Software License, Version 1.0. (See accompanying
+        file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
+      </p>
+</div></td>
+</tr></table>
+<hr>
+<div class="spirit-nav">
+<a accesskey="p" href="vslider.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.string_hpp"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="../../std/hash_boo_idm45793451471232.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
+</div>
+</body>
+</html>

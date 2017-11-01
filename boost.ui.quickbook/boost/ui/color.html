@@ -1,0 +1,293 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Class color</title>
+<link rel="stylesheet" href="http://www.boost.org/doc/libs/1_65_1/doc/src/boostbook.css" type="text/css">
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="up" href="../../index.html#header.boost.ui.color_hpp" title="Header &lt;boost/ui/color.hpp&gt;">
+<link rel="prev" href="choice.html" title="Class choice">
+<link rel="next" href="combo_box.html" title="Class combo_box">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table cellpadding="2" width="100%"><tr>
+<td valign="top"><img alt="Boost C++ Libraries" width="277" height="86" src="http://www.boost.org/doc/libs/1_65_1/boost.png"></td>
+<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/index.html">Home</a></td>
+<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm">Libraries</a></td>
+<td align="center"><a href="http://www.boost.org/users/people.html">People</a></td>
+<td align="center"><a href="http://www.boost.org/users/faq.html">FAQ</a></td>
+<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/more/index.htm">More</a></td>
+</tr></table>
+<hr>
+<div class="spirit-nav">
+<a accesskey="p" href="choice.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.color_hpp"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="combo_box.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
+</div>
+<div class="refentry">
+<a name="boost.ui.color"></a><div class="titlepage"></div>
+<div class="refnamediv">
+<h2><span class="refentrytitle">Class color</span></h2>
+<p>boost::ui::color &#8212; Color class. </p>
+</div>
+<h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
+<div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.color_hpp" title="Header &lt;boost/ui/color.hpp&gt;">boost/ui/color.hpp</a>&gt;
+
+</span>
+<span class="keyword">class</span> <a class="link" href="color.html" title="Class color">color</a> <span class="special">{</span>
+<span class="keyword">public</span><span class="special">:</span>
+  <span class="comment">// types</span>
+  <span class="keyword">typedef</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">uint_least8_t</span> <a name="boost.ui.color.channel255_type"></a><span class="identifier">channel255_type</span><span class="special">;</span>  <span class="comment">// Channel type with values in [0, 255] range. </span>
+  <span class="keyword">typedef</span> <span class="keyword">double</span>               <a name="boost.ui.color.channel1_type"></a><span class="identifier">channel1_type</span><span class="special">;</span>    <span class="comment">// Channel type with values in [0, 1] range. </span>
+
+  <span class="comment">// <a class="link" href="color.html#boost.ui.colorconstruct-copy-destruct">construct/copy/destruct</a></span>
+  <a class="link" href="color.html#idm45793452599152-bb"><span class="identifier">color</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
+
+  <span class="comment">// <a class="link" href="color.html#idm45793452598288-bb">public static functions</a></span>
+  <span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> 
+  <a class="link" href="color.html#idm45793452597728-bb"><span class="identifier">rgba255</span></a><span class="special">(</span><span class="identifier">channel255_type</span><span class="special">,</span> <span class="identifier">channel255_type</span><span class="special">,</span> <span class="identifier">channel255_type</span><span class="special">,</span> <span class="identifier">channel255_type</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> <a class="link" href="color.html#idm45793452593408-bb"><span class="identifier">rgb255</span></a><span class="special">(</span><span class="identifier">channel255_type</span><span class="special">,</span> <span class="identifier">channel255_type</span><span class="special">,</span> <span class="identifier">channel255_type</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> 
+  <a class="link" href="color.html#idm45793452588656-bb"><span class="identifier">rgba1</span></a><span class="special">(</span><span class="identifier">channel1_type</span><span class="special">,</span> <span class="identifier">channel1_type</span><span class="special">,</span> <span class="identifier">channel1_type</span><span class="special">,</span> <span class="identifier">channel1_type</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> <a class="link" href="color.html#idm45793452583232-bb"><span class="identifier">rgb1</span></a><span class="special">(</span><span class="identifier">channel1_type</span><span class="special">,</span> <span class="identifier">channel1_type</span><span class="special">,</span> <span class="identifier">channel1_type</span><span class="special">)</span><span class="special">;</span>
+
+  <span class="comment">// public data members</span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">aliceblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">antiquewhite</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">aqua</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">aquamarine</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">azure</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">beige</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">bisque</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">black</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">blanchedalmond</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">blue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">blueviolet</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">brown</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">burlywood</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">cadetblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">chartreuse</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">chocolate</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">coral</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">cornflowerblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">cornsilk</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">crimson</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">cyan</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkcyan</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkgoldenrod</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkgray</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkgreen</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkgrey</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkkhaki</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkmagenta</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkolivegreen</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkorange</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkorchid</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkred</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darksalmon</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkseagreen</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkslateblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkslategray</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkslategrey</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkturquoise</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">darkviolet</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">deeppink</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">deepskyblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">dimgray</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">dimgrey</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">dodgerblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">firebrick</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">floralwhite</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">forestgreen</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">fuchsia</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">gainsboro</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">ghostwhite</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">gold</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">goldenrod</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">gray</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">green</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">greenyellow</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">grey</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">honeydew</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">hotpink</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">indianred</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">indigo</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">ivory</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">khaki</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lavender</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lavenderblush</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lawngreen</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lemonchiffon</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lightblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lightcoral</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lightcyan</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lightgoldenrodyellow</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lightgray</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lightgreen</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lightgrey</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lightpink</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lightsalmon</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lightseagreen</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lightskyblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lightslategray</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lightslategrey</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lightsteelblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lightyellow</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">lime</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">limegreen</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">linen</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">magenta</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">maroon</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">mediumaquamarine</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">mediumblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">mediumorchid</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">mediumpurple</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">mediumseagreen</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">mediumslateblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">mediumspringgreen</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">mediumturquoise</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">mediumvioletred</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">midnightblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">mintcream</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">mistyrose</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">moccasin</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">navajowhite</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">navy</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">oldlace</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">olive</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">olivedrab</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">orange</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">orangered</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">orchid</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">palegoldenrod</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">palegreen</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">paleturquoise</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">palevioletred</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">papayawhip</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">peachpuff</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">peru</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">pink</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">plum</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">powderblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">purple</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">red</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">rosybrown</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">royalblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">saddlebrown</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">salmon</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">sandybrown</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">seagreen</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">seashell</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">sienna</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">silver</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">skyblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">slateblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">slategray</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">slategrey</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">snow</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">springgreen</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">steelblue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">tan</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">teal</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">thistle</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">tomato</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">turquoise</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">violet</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">wheat</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">white</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">whitesmoke</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">yellow</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+  <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">yellowgreen</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
+<span class="special">}</span><span class="special">;</span></pre></div>
+<div class="refsect1">
+<a name="idm46026398787680"></a><h2>Description</h2>
+<p><span class="bold"><strong>See Also:</strong></span></p>
+<p><a href="http://www.w3.org/TR/css3-color/" target="_top">CSS Color Module (W3C)</a> </p>
+<p>
+</p>
+<p><span class="bold"><strong>See Also:</strong></span></p>
+<p><a href="http://en.wikipedia.org/wiki/Color" target="_top">Color (Wikipedia)</a> </p>
+<p>
+</p>
+<p><span class="bold"><strong>See Also:</strong></span></p>
+<p><a href="http://en.wikipedia.org/wiki/RGB_color_model" target="_top">RGB color model (Wikipedia)</a> </p>
+<p>
+</p>
+<p><span class="bold"><strong>See Also:</strong></span></p>
+<p><a href="http://www.w3.org/TR/css3-color/#html4" target="_top">Basic CSS colors (W3C)</a> </p>
+<p>
+</p>
+<p><span class="bold"><strong>See Also:</strong></span></p>
+<p><a href="http://www.w3.org/TR/css3-color/#svg-color" target="_top">Extended CSS colors (W3C)</a> </p>
+<p>
+</p>
+<p><span class="bold"><strong>See Also:</strong></span></p>
+<p><a href="https://en.wikipedia.org/wiki/Web_colors" target="_top">Web colors (Wikipedia)</a> </p>
+<p>
+</p>
+<div class="refsect2">
+<a name="idm46026398777168"></a><h3>
+<a name="boost.ui.colorconstruct-copy-destruct"></a><code class="computeroutput">color</code> 
+        public
+       construct/copy/destruct</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem">
+<pre class="literallayout"><a name="idm45793452599152-bb"></a><span class="identifier">color</span><span class="special">(</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span></pre>Create transparent black color. </li></ol></div>
+</div>
+<div class="refsect2">
+<a name="idm46026398770464"></a><h3>
+<a name="idm45793452598288-bb"></a><code class="computeroutput">color</code> public static functions</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> 
+<a name="idm45793452597728-bb"></a><span class="identifier">rgba255</span><span class="special">(</span><span class="identifier">channel255_type</span> red<span class="special">,</span> <span class="identifier">channel255_type</span> green<span class="special">,</span> <span class="identifier">channel255_type</span> blue<span class="special">,</span> 
+        <span class="identifier">channel255_type</span> alpha<span class="special">)</span><span class="special">;</span></pre>Creates color from channels in [0, 255]. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> 
+<a name="idm45793452593408-bb"></a><span class="identifier">rgb255</span><span class="special">(</span><span class="identifier">channel255_type</span> red<span class="special">,</span> <span class="identifier">channel255_type</span> green<span class="special">,</span> <span class="identifier">channel255_type</span> blue<span class="special">)</span><span class="special">;</span></pre>Creates opaque color from channels in [0, 255] ragne. <p>
+</p>
+<div class="variablelist"><table border="0" class="variablelist compact">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody><tr>
+<td><p><span class="term">Throws:</span></p></td>
+<td>std::out_of_range </td>
+</tr></tbody>
+</table></div>
+</li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> 
+<a name="idm45793452588656-bb"></a><span class="identifier">rgba1</span><span class="special">(</span><span class="identifier">channel1_type</span> red<span class="special">,</span> <span class="identifier">channel1_type</span> green<span class="special">,</span> <span class="identifier">channel1_type</span> blue<span class="special">,</span> 
+      <span class="identifier">channel1_type</span> alpha<span class="special">)</span><span class="special">;</span></pre>Creates color from channels in [0, 1]. <p>
+</p>
+<div class="variablelist"><table border="0" class="variablelist compact">
+<colgroup>
+<col align="left" valign="top">
+<col>
+</colgroup>
+<tbody><tr>
+<td><p><span class="term">Throws:</span></p></td>
+<td>std::out_of_range </td>
+</tr></tbody>
+</table></div>
+</li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> <a name="idm45793452583232-bb"></a><span class="identifier">rgb1</span><span class="special">(</span><span class="identifier">channel1_type</span> red<span class="special">,</span> <span class="identifier">channel1_type</span> green<span class="special">,</span> <span class="identifier">channel1_type</span> blue<span class="special">)</span><span class="special">;</span></pre>Creates opaque color from channels in [0, 1] ragne. </li>
+</ol></div>
+</div>
+</div>
+</div>
+<table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
+<td align="left"></td>
+<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+        Distributed under the Boost Software License, Version 1.0. (See accompanying
+        file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
+      </p>
+</div></td>
+</tr></table>
+<hr>
+<div class="spirit-nav">
+<a accesskey="p" href="choice.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.color_hpp"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="combo_box.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
+</div>
+</body>
+</html>

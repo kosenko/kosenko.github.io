@@ -1,0 +1,101 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Class template basic_point</title>
+<link rel="stylesheet" href="http://www.boost.org/doc/libs/1_65_1/doc/src/boostbook.css" type="text/css">
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="up" href="../../index.html#header.boost.ui.coord_hpp" title="Header &lt;boost/ui/coord.hpp&gt;">
+<link rel="prev" href="../../BOOST_UI_USE_DATE_TIME_idm45793452515952.html" title="Macro BOOST_UI_USE_DATE_TIME">
+<link rel="next" href="basic_rect.html" title="Class template basic_rect">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table cellpadding="2" width="100%"><tr>
+<td valign="top"><img alt="Boost C++ Libraries" width="277" height="86" src="http://www.boost.org/doc/libs/1_65_1/boost.png"></td>
+<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/index.html">Home</a></td>
+<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm">Libraries</a></td>
+<td align="center"><a href="http://www.boost.org/users/people.html">People</a></td>
+<td align="center"><a href="http://www.boost.org/users/faq.html">FAQ</a></td>
+<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/more/index.htm">More</a></td>
+</tr></table>
+<hr>
+<div class="spirit-nav">
+<a accesskey="p" href="../../BOOST_UI_USE_DATE_TIME_idm45793452515952.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.coord_hpp"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="basic_rect.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
+</div>
+<div class="refentry">
+<a name="boost.ui.basic_point"></a><div class="titlepage"></div>
+<div class="refnamediv">
+<h2><span class="refentrytitle">Class template basic_point</span></h2>
+<p>boost::ui::basic_point &#8212; 2D point data structure with custom coordinates type </p>
+</div>
+<h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
+<div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.coord_hpp" title="Header &lt;boost/ui/coord.hpp&gt;">boost/ui/coord.hpp</a>&gt;
+
+</span><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> T<span class="special">&gt;</span> 
+<span class="keyword">class</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a> <span class="special">:</span> <span class="keyword">public</span> boost::geometry::model::d2::point_xy public::boost::polygon::point_data&lt; T &gt;
+<span class="special">{</span>
+<span class="keyword">public</span><span class="special">:</span>
+  <span class="comment">// types</span>
+  <span class="keyword">typedef</span> <span class="identifier">T</span> <a name="boost.ui.basic_point.value_type"></a><span class="identifier">value_type</span><span class="special">;</span>  <span class="comment">// Type of coordinates. </span>
+
+  <span class="comment">// <a class="link" href="basic_point.html#boost.ui.basic_pointconstruct-copy-destruct">construct/copy/destruct</a></span>
+  <a class="link" href="basic_point.html#idm45793452500464-bb"><span class="identifier">basic_point</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="basic_point.html#idm45793452499856-bb"><span class="identifier">basic_point</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> D<span class="special">&gt;</span> <span class="keyword">explicit</span> <a class="link" href="basic_point.html#idm45793452497872-bb"><span class="identifier">basic_point</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">D</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+
+  <span class="comment">// <a class="link" href="basic_point.html#idm45793452507648-bb">public member functions</a></span>
+  <span class="identifier">T</span> <a class="link" href="basic_point.html#idm45793452507088-bb"><span class="identifier">x</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">T</span> <a class="link" href="basic_point.html#idm45793452505680-bb"><span class="identifier">y</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">void</span> <a class="link" href="basic_point.html#idm45793452504272-bb"><span class="identifier">x</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">void</span> <a class="link" href="basic_point.html#idm45793452502448-bb"><span class="identifier">y</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+<span class="special">}</span><span class="special">;</span></pre></div>
+<div class="refsect1">
+<a name="idm46026398155376"></a><h2>Description</h2>
+<p><span class="bold"><strong>See Also:</strong></span></p>
+<p><a href="http://en.wikipedia.org/wiki/Point_(geometry)" target="_top">Point (Wikipedia)</a> </p>
+<p>
+</p>
+<div class="refsect2">
+<a name="idm46026398153168"></a><h3>
+<a name="boost.ui.basic_pointconstruct-copy-destruct"></a><code class="computeroutput">basic_point</code> 
+        public
+       construct/copy/destruct</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+<pre class="literallayout"><a name="idm45793452500464-bb"></a><span class="identifier">basic_point</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Constructs point with empty coordinates. </li>
+<li class="listitem">
+<pre class="literallayout"><a name="idm45793452499856-bb"></a><span class="identifier">basic_point</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> x<span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> y<span class="special">)</span><span class="special">;</span></pre>Constructs point with x and y coordinates. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> D<span class="special">&gt;</span> <span class="keyword">explicit</span> <a name="idm45793452497872-bb"></a><span class="identifier">basic_point</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">D</span> <span class="special">&gt;</span> <span class="special">&amp;</span> p<span class="special">)</span><span class="special">;</span></pre>Constructs size with an other size object. </li>
+</ol></div>
+</div>
+<div class="refsect2">
+<a name="idm46026398127456"></a><h3>
+<a name="idm45793452507648-bb"></a><code class="computeroutput">basic_point</code> public member functions</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+<pre class="literallayout"><span class="identifier">T</span> <a name="idm45793452507088-bb"></a><span class="identifier">x</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns x coordinate. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="identifier">T</span> <a name="idm45793452505680-bb"></a><span class="identifier">y</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns y coordinate. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">void</span> <a name="idm45793452504272-bb"></a><span class="identifier">x</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> x<span class="special">)</span><span class="special">;</span></pre>Sets x coordinate. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">void</span> <a name="idm45793452502448-bb"></a><span class="identifier">y</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> y<span class="special">)</span><span class="special">;</span></pre>Sets y coordinate. </li>
+</ol></div>
+</div>
+</div>
+</div>
+<table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
+<td align="left"></td>
+<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+        Distributed under the Boost Software License, Version 1.0. (See accompanying
+        file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
+      </p>
+</div></td>
+</tr></table>
+<hr>
+<div class="spirit-nav">
+<a accesskey="p" href="../../BOOST_UI_USE_DATE_TIME_idm45793452515952.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.coord_hpp"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="basic_rect.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
+</div>
+</body>
+</html>
