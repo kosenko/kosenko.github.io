@@ -2,7 +2,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Class choice</title>
-<link rel="stylesheet" href="http://www.boost.org/doc/libs/1_65_1/doc/src/boostbook.css" type="text/css">
+<link rel="stylesheet" href="https://www.boost.org/doc/libs/1_65_1/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
 <link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.choice_hpp" title="Header &lt;boost/ui/choice.hpp&gt;">
@@ -11,16 +11,16 @@
 </head>
 <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
 <table cellpadding="2" width="100%"><tr>
-<td valign="top"><img alt="Boost C++ Libraries" width="277" height="86" src="http://www.boost.org/doc/libs/1_65_1/boost.png"></td>
-<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/index.html">Home</a></td>
-<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm">Libraries</a></td>
+<td valign="top"><img alt="Boost C++ Libraries" width="277" height="86" src="https://www.boost.org/doc/libs/1_65_1/boost.png"></td>
+<td align="center"><a href="https://www.boost.org/doc/libs/1_65_1/index.html">Home</a></td>
+<td align="center"><a href="https://www.boost.org/doc/libs/1_65_1/libs/libraries.htm">Libraries</a></td>
 <td align="center"><a href="http://www.boost.org/users/people.html">People</a></td>
 <td align="center"><a href="http://www.boost.org/users/faq.html">FAQ</a></td>
-<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/more/index.htm">More</a></td>
+<td align="center"><a href="https://www.boost.org/doc/libs/1_65_1/more/index.htm">More</a></td>
 </tr></table>
 <hr>
 <div class="spirit-nav">
-<a accesskey="p" href="tri_state_check_box.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.choice_hpp"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="color.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
+<a accesskey="p" href="tri_state_check_box.html"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.choice_hpp"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="color.html"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
 </div>
 <div class="refentry">
 <a name="boost.ui.choice"></a><div class="titlepage"></div>
@@ -35,64 +35,64 @@
 <span class="keyword">class</span> <a class="link" href="choice.html" title="Class choice">choice</a> <span class="special">:</span> <span class="keyword">public</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">ui</span><span class="special">::</span><span class="identifier">strings_box</span> <span class="special">{</span>
 <span class="keyword">public</span><span class="special">:</span>
   <span class="comment">// <a class="link" href="choice.html#boost.ui.choiceconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <span class="keyword">explicit</span> <a class="link" href="choice.html#idm45793452856960-bb"><span class="identifier">choice</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">explicit</span> <a class="link" href="choice.html#idm45793452855328-bb"><span class="identifier">choice</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">vector</span><span class="special">&lt;</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Iterator<span class="special">&gt;</span> <span class="keyword">explicit</span> <a class="link" href="choice.html#idm45793452852688-bb"><span class="identifier">choice</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="identifier">Iterator</span><span class="special">,</span> <span class="identifier">Iterator</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Range<span class="special">&gt;</span> <span class="keyword">explicit</span> <a class="link" href="choice.html#idm45793452849056-bb"><span class="identifier">choice</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <span class="identifier">Range</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> T<span class="special">&gt;</span> <span class="keyword">explicit</span> <a class="link" href="choice.html#idm45793452846048-bb"><span class="identifier">choice</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">initializer_list</span><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="choice.html#idm45793452839696-bb"><span class="identifier">choice</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">explicit</span> <a class="link" href="choice.html#idm45997021409280-bb"><span class="identifier">choice</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">explicit</span> <a class="link" href="choice.html#idm45997021407648-bb"><span class="identifier">choice</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">vector</span><span class="special">&lt;</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Iterator<span class="special">&gt;</span> <span class="keyword">explicit</span> <a class="link" href="choice.html#idm45997021405008-bb"><span class="identifier">choice</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="identifier">Iterator</span><span class="special">,</span> <span class="identifier">Iterator</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Range<span class="special">&gt;</span> <span class="keyword">explicit</span> <a class="link" href="choice.html#idm45997021401376-bb"><span class="identifier">choice</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <span class="identifier">Range</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> T<span class="special">&gt;</span> <span class="keyword">explicit</span> <a class="link" href="choice.html#idm45997021398368-bb"><span class="identifier">choice</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">initializer_list</span><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="choice.html#idm45997021392112-bb"><span class="identifier">choice</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="choice.html#idm45793452843040-bb">public member functions</a></span>
-  <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a class="link" href="choice.html#idm45793452842544-bb"><span class="identifier">text</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="identifier">index_type</span> <a class="link" href="choice.html#idm45793452841168-bb"><span class="identifier">current_selection_index</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="choice.html#idm45997021395360-bb">public member functions</a></span>
+  <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a class="link" href="choice.html#idm45997021394864-bb"><span class="identifier">text</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">index_type</span> <a class="link" href="choice.html#idm45997021393488-bb"><span class="identifier">current_selection_index</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="choice.html#idm45793452839440-bb">private member functions</a></span>
-  <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="choice.html#idm45793452838944-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="choice.html#idm45793452838192-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="choice.html#idm45997021391856-bb">private member functions</a></span>
+  <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="choice.html#idm45997021391360-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="choice.html#idm45997021390608-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46026399502544"></a><h2>Description</h2>
+<a name="idm45426269500128"></a><h2>Description</h2>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Drop-down_list" target="_top">Drop-down list (Wikipedia)</a> </p>
 <p>
 </p>
 <div class="refsect2">
-<a name="idm46026399500528"></a><h3>
+<a name="idm45426269498112"></a><h3>
 <a name="boost.ui.choiceconstruct-copy-destruct"></a><code class="computeroutput">choice</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm45793452856960-bb"></a><span class="identifier">choice</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">)</span><span class="special">;</span></pre>Creates empty choice widget. </li>
+<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm45997021409280-bb"></a><span class="identifier">choice</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">)</span><span class="special">;</span></pre>Creates empty choice widget. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm45793452855328-bb"></a><span class="identifier">choice</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">,</span> <span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">vector</span><span class="special">&lt;</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&gt;</span> <span class="special">&amp;</span> options<span class="special">)</span><span class="special">;</span></pre>Creates choice widget with options. </li>
+<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm45997021407648-bb"></a><span class="identifier">choice</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">,</span> <span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">vector</span><span class="special">&lt;</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&gt;</span> <span class="special">&amp;</span> options<span class="special">)</span><span class="special">;</span></pre>Creates choice widget with options. </li>
 <li class="listitem">
 <pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Iterator<span class="special">&gt;</span> 
-  <span class="keyword">explicit</span> <a name="idm45793452852688-bb"></a><span class="identifier">choice</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">,</span> <span class="identifier">Iterator</span> first<span class="special">,</span> <span class="identifier">Iterator</span> last<span class="special">)</span><span class="special">;</span></pre>Creates choice widget with options. </li>
+  <span class="keyword">explicit</span> <a name="idm45997021405008-bb"></a><span class="identifier">choice</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">,</span> <span class="identifier">Iterator</span> first<span class="special">,</span> <span class="identifier">Iterator</span> last<span class="special">)</span><span class="special">;</span></pre>Creates choice widget with options. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Range<span class="special">&gt;</span> <span class="keyword">explicit</span> <a name="idm45793452849056-bb"></a><span class="identifier">choice</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">,</span> <span class="keyword">const</span> <span class="identifier">Range</span> <span class="special">&amp;</span> r<span class="special">)</span><span class="special">;</span></pre>Creates choice widget with options. </li>
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Range<span class="special">&gt;</span> <span class="keyword">explicit</span> <a name="idm45997021401376-bb"></a><span class="identifier">choice</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">,</span> <span class="keyword">const</span> <span class="identifier">Range</span> <span class="special">&amp;</span> r<span class="special">)</span><span class="special">;</span></pre>Creates choice widget with options. </li>
 <li class="listitem">
 <pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> T<span class="special">&gt;</span> 
-  <span class="keyword">explicit</span> <a name="idm45793452846048-bb"></a><span class="identifier">choice</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">,</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">initializer_list</span><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> list<span class="special">)</span><span class="special">;</span></pre>Creates choice widget with options. </li>
-<li class="listitem"><pre class="literallayout"><a name="idm45793452839696-bb"></a><span class="identifier">choice</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+  <span class="keyword">explicit</span> <a name="idm45997021398368-bb"></a><span class="identifier">choice</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">,</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">initializer_list</span><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> list<span class="special">)</span><span class="special">;</span></pre>Creates choice widget with options. </li>
+<li class="listitem"><pre class="literallayout"><a name="idm45997021392112-bb"></a><span class="identifier">choice</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46026399448448"></a><h3>
-<a name="idm45793452843040-bb"></a><code class="computeroutput">choice</code> public member functions</h3>
+<a name="idm45426269446032"></a><h3>
+<a name="idm45997021395360-bb"></a><code class="computeroutput">choice</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="uistring.html" title="Class uistring">uistring</a> <a name="idm45793452842544-bb"></a><span class="identifier">text</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns text that is associated this widget. </li>
+<pre class="literallayout"><a class="link" href="uistring.html" title="Class uistring">uistring</a> <a name="idm45997021394864-bb"></a><span class="identifier">text</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns text that is associated this widget. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">index_type</span> <a name="idm45793452841168-bb"></a><span class="identifier">current_selection_index</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns index of the selected text item. If widget has no items then returns npos. </li>
+<pre class="literallayout"><span class="identifier">index_type</span> <a name="idm45997021393488-bb"></a><span class="identifier">current_selection_index</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns index of the selected text item. If widget has no items then returns npos. </li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46026399437408"></a><h3>
-<a name="idm45793452839440-bb"></a><code class="computeroutput">choice</code> private member functions</h3>
+<a name="idm45426269434992"></a><h3>
+<a name="idm45997021391856-bb"></a><code class="computeroutput">choice</code> private member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
-<li class="listitem"><pre class="literallayout"><span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm45793452838944-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
-<li class="listitem"><pre class="literallayout"><span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm45793452838192-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm45997021391360-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm45997021390608-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 </div>
@@ -107,7 +107,7 @@
 </tr></table>
 <hr>
 <div class="spirit-nav">
-<a accesskey="p" href="tri_state_check_box.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.choice_hpp"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="color.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
+<a accesskey="p" href="tri_state_check_box.html"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.choice_hpp"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="color.html"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
 </div>
 </body>
 </html>

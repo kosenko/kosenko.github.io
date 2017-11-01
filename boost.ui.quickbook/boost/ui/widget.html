@@ -2,7 +2,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
 <title>Class widget</title>
-<link rel="stylesheet" href="http://www.boost.org/doc/libs/1_65_1/doc/src/boostbook.css" type="text/css">
+<link rel="stylesheet" href="https://www.boost.org/doc/libs/1_65_1/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
 <link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.widget_hpp" title="Header &lt;boost/ui/widget.hpp&gt;">
@@ -11,16 +11,16 @@
 </head>
 <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
 <table cellpadding="2" width="100%"><tr>
-<td valign="top"><img alt="Boost C++ Libraries" width="277" height="86" src="http://www.boost.org/doc/libs/1_65_1/boost.png"></td>
-<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/index.html">Home</a></td>
-<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/libs/libraries.htm">Libraries</a></td>
+<td valign="top"><img alt="Boost C++ Libraries" width="277" height="86" src="https://www.boost.org/doc/libs/1_65_1/boost.png"></td>
+<td align="center"><a href="https://www.boost.org/doc/libs/1_65_1/index.html">Home</a></td>
+<td align="center"><a href="https://www.boost.org/doc/libs/1_65_1/libs/libraries.htm">Libraries</a></td>
 <td align="center"><a href="http://www.boost.org/users/people.html">People</a></td>
 <td align="center"><a href="http://www.boost.org/users/faq.html">FAQ</a></td>
-<td align="center"><a href="http://www.boost.org/doc/libs/1_65_1/more/index.htm">More</a></td>
+<td align="center"><a href="https://www.boost.org/doc/libs/1_65_1/more/index.htm">More</a></td>
 </tr></table>
 <hr>
 <div class="spirit-nav">
-<a accesskey="p" href="native_widget.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.widget_hpp"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="close_event.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
+<a accesskey="p" href="native_widget.html"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.widget_hpp"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="close_event.html"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
 </div>
 <div class="refentry">
 <a name="boost.ui.widget"></a><div class="titlepage"></div>
@@ -38,36 +38,36 @@
   <span class="keyword">typedef</span> <span class="keyword">void</span> <span class="special">*</span> <a name="boost.ui.widget.native_handle_type"></a><span class="identifier">native_handle_type</span><span class="special">;</span>  <span class="comment">// Implementation-defined widget type. </span>
 
   <span class="comment">// <a class="link" href="widget.html#boost.ui.widgetconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <a class="link" href="widget.html#idm45793451258576-bb"><span class="identifier">widget</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="widget.html#idm45793451258288-bb"><span class="special">~</span><span class="identifier">widget</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="widget.html#idm45997019809328-bb"><span class="identifier">widget</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="widget.html#idm45997019809040-bb"><span class="special">~</span><span class="identifier">widget</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="widget.html#idm45793451297216-bb">public member functions</a></span>
-  <a class="link" href="layout/item.html" title="Class item">ui::layout::item</a> <a class="link" href="widget.html#idm45793451296656-bb"><span class="identifier">layout</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a class="link" href="widget.html#idm45793451294672-bb"><span class="identifier">resize</span></a><span class="special">(</span><span class="identifier">coord_type</span><span class="special">,</span> <span class="identifier">coord_type</span><span class="special">)</span><span class="special">;</span>
-  <span class="identifier">coord_type</span> <a class="link" href="widget.html#idm45793451291840-bb"><span class="identifier">x</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="identifier">coord_type</span> <a class="link" href="widget.html#idm45793451290384-bb"><span class="identifier">y</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="identifier">coord_type</span> <a class="link" href="widget.html#idm45793451288928-bb"><span class="identifier">width</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="identifier">coord_type</span> <a class="link" href="widget.html#idm45793451287520-bb"><span class="identifier">height</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="identifier">point</span> <a class="link" href="widget.html#idm45793451286112-bb"><span class="identifier">pos</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="identifier">size</span> <a class="link" href="widget.html#idm45793451284656-bb"><span class="identifier">dimensions</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="identifier">rect</span> <a class="link" href="widget.html#idm45793451283248-bb"><span class="identifier">bounds</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a class="link" href="widget.html#idm45793451281808-bb"><span class="identifier">enable</span></a><span class="special">(</span><span class="keyword">bool</span> <span class="special">=</span> <span class="keyword">true</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a class="link" href="widget.html#idm45793451278944-bb"><span class="identifier">disable</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">bool</span> <a class="link" href="widget.html#idm45793451277520-bb"><span class="identifier">is_enabled</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a class="link" href="widget.html#idm45793451276080-bb"><span class="identifier">show</span></a><span class="special">(</span><span class="keyword">bool</span> <span class="special">=</span> <span class="keyword">true</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a class="link" href="widget.html#idm45793451273216-bb"><span class="identifier">hide</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">bool</span> <a class="link" href="widget.html#idm45793451271792-bb"><span class="identifier">is_shown</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a class="link" href="widget.html#idm45793451270336-bb"><span class="identifier">tooltip</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a class="link" href="widget.html#idm45793451265808-bb"><span class="identifier">tooltip</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a class="link" href="widget.html#idm45793451264272-bb"><span class="identifier">font</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="font.html" title="Class font">ui::font</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="font.html" title="Class font">ui::font</a> <a class="link" href="widget.html#idm45793451261712-bb"><span class="identifier">font</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="keyword">bool</span> <a class="link" href="widget.html#idm45793451260176-bb"><span class="identifier">native_valid</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span> <span class="keyword">noexcept</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="widget.html#idm45997019847968-bb">public member functions</a></span>
+  <a class="link" href="layout/item.html" title="Class item">ui::layout::item</a> <a class="link" href="widget.html#idm45997019847408-bb"><span class="identifier">layout</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a class="link" href="widget.html#idm45997019845424-bb"><span class="identifier">resize</span></a><span class="special">(</span><span class="identifier">coord_type</span><span class="special">,</span> <span class="identifier">coord_type</span><span class="special">)</span><span class="special">;</span>
+  <span class="identifier">coord_type</span> <a class="link" href="widget.html#idm45997019842592-bb"><span class="identifier">x</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">coord_type</span> <a class="link" href="widget.html#idm45997019841136-bb"><span class="identifier">y</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">coord_type</span> <a class="link" href="widget.html#idm45997019839680-bb"><span class="identifier">width</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">coord_type</span> <a class="link" href="widget.html#idm45997019838272-bb"><span class="identifier">height</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">point</span> <a class="link" href="widget.html#idm45997019836864-bb"><span class="identifier">pos</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">size</span> <a class="link" href="widget.html#idm45997019835408-bb"><span class="identifier">dimensions</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">rect</span> <a class="link" href="widget.html#idm45997019834000-bb"><span class="identifier">bounds</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a class="link" href="widget.html#idm45997019832560-bb"><span class="identifier">enable</span></a><span class="special">(</span><span class="keyword">bool</span> <span class="special">=</span> <span class="keyword">true</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a class="link" href="widget.html#idm45997019829696-bb"><span class="identifier">disable</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">bool</span> <a class="link" href="widget.html#idm45997019828272-bb"><span class="identifier">is_enabled</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a class="link" href="widget.html#idm45997019826832-bb"><span class="identifier">show</span></a><span class="special">(</span><span class="keyword">bool</span> <span class="special">=</span> <span class="keyword">true</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a class="link" href="widget.html#idm45997019823968-bb"><span class="identifier">hide</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">bool</span> <a class="link" href="widget.html#idm45997019822544-bb"><span class="identifier">is_shown</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a class="link" href="widget.html#idm45997019821088-bb"><span class="identifier">tooltip</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a class="link" href="widget.html#idm45997019816560-bb"><span class="identifier">tooltip</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a class="link" href="widget.html#idm45997019815024-bb"><span class="identifier">font</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="font.html" title="Class font">ui::font</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="font.html" title="Class font">ui::font</a> <a class="link" href="widget.html#idm45997019812464-bb"><span class="identifier">font</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">bool</span> <a class="link" href="widget.html#idm45997019810928-bb"><span class="identifier">native_valid</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span> <span class="keyword">noexcept</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="widget.html#idm45793451258000-bb">private member functions</a></span>
-  <span class="keyword">void</span> <a class="link" href="widget.html#idm45793451257424-bb"><span class="identifier">delete_last_detail_impl</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="widget.html#idm45997019808752-bb">private member functions</a></span>
+  <span class="keyword">void</span> <a class="link" href="widget.html#idm45997019808176-bb"><span class="identifier">delete_last_detail_impl</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46026391239584"></a><h2>Description</h2>
+<a name="idm45426261239152"></a><h2>Description</h2>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Widget_(GUI)" target="_top">Widget (Wikipedia)</a> </p>
 <p>
@@ -77,69 +77,69 @@
 <p>
 </p>
 <div class="refsect2">
-<a name="idm46026391235664"></a><h3>
+<a name="idm45426261235232"></a><h3>
 <a name="boost.ui.widgetconstruct-copy-destruct"></a><code class="computeroutput">widget</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
-<li class="listitem"><pre class="literallayout"><a name="idm45793451258576-bb"></a><span class="identifier">widget</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
-<li class="listitem"><pre class="literallayout"><a name="idm45793451258288-bb"></a><span class="special">~</span><span class="identifier">widget</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><a name="idm45997019809328-bb"></a><span class="identifier">widget</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><a name="idm45997019809040-bb"></a><span class="special">~</span><span class="identifier">widget</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46026391225552"></a><h3>
-<a name="idm45793451297216-bb"></a><code class="computeroutput">widget</code> public member functions</h3>
+<a name="idm45426261225120"></a><h3>
+<a name="idm45997019847968-bb"></a><code class="computeroutput">widget</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="layout/item.html" title="Class item">ui::layout::item</a> <a name="idm45793451296656-bb"></a><span class="identifier">layout</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Returns <code class="computeroutput"><a class="link" href="layout/item.html" title="Class item">layout::item</a></code> with this widget. </li>
+<pre class="literallayout"><a class="link" href="layout/item.html" title="Class item">ui::layout::item</a> <a name="idm45997019847408-bb"></a><span class="identifier">layout</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Returns <code class="computeroutput"><a class="link" href="layout/item.html" title="Class item">layout::item</a></code> with this widget. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a name="idm45793451294672-bb"></a><span class="identifier">resize</span><span class="special">(</span><span class="identifier">coord_type</span> width<span class="special">,</span> <span class="identifier">coord_type</span> height<span class="special">)</span><span class="special">;</span></pre>Changes widget size to specified values. </li>
+<pre class="literallayout"><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a name="idm45997019845424-bb"></a><span class="identifier">resize</span><span class="special">(</span><span class="identifier">coord_type</span> width<span class="special">,</span> <span class="identifier">coord_type</span> height<span class="special">)</span><span class="special">;</span></pre>Changes widget size to specified values. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">coord_type</span> <a name="idm45793451291840-bb"></a><span class="identifier">x</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns x coordinate relative to the parent widget client area. </li>
+<pre class="literallayout"><span class="identifier">coord_type</span> <a name="idm45997019842592-bb"></a><span class="identifier">x</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns x coordinate relative to the parent widget client area. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">coord_type</span> <a name="idm45793451290384-bb"></a><span class="identifier">y</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns y coordinate relative to the parent widget client area. </li>
+<pre class="literallayout"><span class="identifier">coord_type</span> <a name="idm45997019841136-bb"></a><span class="identifier">y</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns y coordinate relative to the parent widget client area. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">coord_type</span> <a name="idm45793451288928-bb"></a><span class="identifier">width</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns widget width. </li>
+<pre class="literallayout"><span class="identifier">coord_type</span> <a name="idm45997019839680-bb"></a><span class="identifier">width</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns widget width. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">coord_type</span> <a name="idm45793451287520-bb"></a><span class="identifier">height</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns widget height. </li>
+<pre class="literallayout"><span class="identifier">coord_type</span> <a name="idm45997019838272-bb"></a><span class="identifier">height</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns widget height. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">point</span> <a name="idm45793451286112-bb"></a><span class="identifier">pos</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns widget position relative to the parent widget client area. </li>
+<pre class="literallayout"><span class="identifier">point</span> <a name="idm45997019836864-bb"></a><span class="identifier">pos</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns widget position relative to the parent widget client area. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">size</span> <a name="idm45793451284656-bb"></a><span class="identifier">dimensions</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns widget size. </li>
+<pre class="literallayout"><span class="identifier">size</span> <a name="idm45997019835408-bb"></a><span class="identifier">dimensions</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns widget size. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">rect</span> <a name="idm45793451283248-bb"></a><span class="identifier">bounds</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns widget bounds in client coordinates. </li>
+<pre class="literallayout"><span class="identifier">rect</span> <a name="idm45997019834000-bb"></a><span class="identifier">bounds</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns widget bounds in client coordinates. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a name="idm45793451281808-bb"></a><span class="identifier">enable</span><span class="special">(</span><span class="keyword">bool</span> do_enable <span class="special">=</span> <span class="keyword">true</span><span class="special">)</span><span class="special">;</span></pre>Enables widget if <span class="emphasis"><em>do_enable</em></span> is true, disables otherwise. </li>
+<pre class="literallayout"><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a name="idm45997019832560-bb"></a><span class="identifier">enable</span><span class="special">(</span><span class="keyword">bool</span> do_enable <span class="special">=</span> <span class="keyword">true</span><span class="special">)</span><span class="special">;</span></pre>Enables widget if <span class="emphasis"><em>do_enable</em></span> is true, disables otherwise. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a name="idm45793451278944-bb"></a><span class="identifier">disable</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Disables widget. </li>
+<pre class="literallayout"><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a name="idm45997019829696-bb"></a><span class="identifier">disable</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Disables widget. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">bool</span> <a name="idm45793451277520-bb"></a><span class="identifier">is_enabled</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns true if widget is enabled, false otherwise. </li>
+<pre class="literallayout"><span class="keyword">bool</span> <a name="idm45997019828272-bb"></a><span class="identifier">is_enabled</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns true if widget is enabled, false otherwise. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a name="idm45793451276080-bb"></a><span class="identifier">show</span><span class="special">(</span><span class="keyword">bool</span> do_show <span class="special">=</span> <span class="keyword">true</span><span class="special">)</span><span class="special">;</span></pre>Shows widget if <span class="emphasis"><em>do_show</em></span> is true, hides otherwise. </li>
+<pre class="literallayout"><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a name="idm45997019826832-bb"></a><span class="identifier">show</span><span class="special">(</span><span class="keyword">bool</span> do_show <span class="special">=</span> <span class="keyword">true</span><span class="special">)</span><span class="special">;</span></pre>Shows widget if <span class="emphasis"><em>do_show</em></span> is true, hides otherwise. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a name="idm45793451273216-bb"></a><span class="identifier">hide</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Hides widget. </li>
+<pre class="literallayout"><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a name="idm45997019823968-bb"></a><span class="identifier">hide</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Hides widget. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">bool</span> <a name="idm45793451271792-bb"></a><span class="identifier">is_shown</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns true if widget is shown on screen, false otherwise. </li>
+<pre class="literallayout"><span class="keyword">bool</span> <a name="idm45997019822544-bb"></a><span class="identifier">is_shown</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns true if widget is shown on screen, false otherwise. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a name="idm45793451270336-bb"></a><span class="identifier">tooltip</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> text<span class="special">)</span><span class="special">;</span></pre>Sets tooltip text. <p><span class="bold"><strong>See Also:</strong></span></p>
+<pre class="literallayout"><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a name="idm45997019821088-bb"></a><span class="identifier">tooltip</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> text<span class="special">)</span><span class="special">;</span></pre>Sets tooltip text. <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Tooltip" target="_top">Tooltip (Wikipedia)</a> </p>
 <p>
 </p>
 </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="uistring.html" title="Class uistring">uistring</a> <a name="idm45793451265808-bb"></a><span class="identifier">tooltip</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns tooltip text. </li>
+<pre class="literallayout"><a class="link" href="uistring.html" title="Class uistring">uistring</a> <a name="idm45997019816560-bb"></a><span class="identifier">tooltip</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns tooltip text. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a name="idm45793451264272-bb"></a><span class="identifier">font</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="font.html" title="Class font">ui::font</a> <span class="special">&amp;</span> f<span class="special">)</span><span class="special">;</span></pre>Sets font. </li>
+<pre class="literallayout"><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> <a name="idm45997019815024-bb"></a><span class="identifier">font</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="font.html" title="Class font">ui::font</a> <span class="special">&amp;</span> f<span class="special">)</span><span class="special">;</span></pre>Sets font. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="font.html" title="Class font">ui::font</a> <a name="idm45793451261712-bb"></a><span class="identifier">font</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns font. </li>
+<pre class="literallayout"><a class="link" href="font.html" title="Class font">ui::font</a> <a name="idm45997019812464-bb"></a><span class="identifier">font</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns font. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">bool</span> <a name="idm45793451260176-bb"></a><span class="identifier">native_valid</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span> <span class="keyword">noexcept</span><span class="special">;</span></pre>Returns true only if native widget was created. </li>
+<pre class="literallayout"><span class="keyword">bool</span> <a name="idm45997019810928-bb"></a><span class="identifier">native_valid</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span> <span class="keyword">noexcept</span><span class="special">;</span></pre>Returns true only if native widget was created. </li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46026391023264"></a><h3>
-<a name="idm45793451258000-bb"></a><code class="computeroutput">widget</code> private member functions</h3>
-<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm45793451257424-bb"></a><span class="identifier">delete_last_detail_impl</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li></ol></div>
+<a name="idm45426261104144"></a><h3>
+<a name="idm45997019808752-bb"></a><code class="computeroutput">widget</code> private member functions</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm45997019808176-bb"></a><span class="identifier">delete_last_detail_impl</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li></ol></div>
 </div>
 </div>
 </div>
@@ -153,7 +153,7 @@
 </tr></table>
 <hr>
 <div class="spirit-nav">
-<a accesskey="p" href="native_widget.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.widget_hpp"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="close_event.html"><img src="http://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
+<a accesskey="p" href="native_widget.html"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.widget_hpp"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="close_event.html"><img src="https://www.boost.org/doc/libs/1_65_1/doc/src/images/next.png" alt="Next"></a>
 </div>
 </body>
 </html>
