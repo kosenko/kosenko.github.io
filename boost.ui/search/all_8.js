@@ -10,7 +10,7 @@ var searchData=
   ['index',['index',['../classboost_1_1ui_1_1index__event.html#a6c51fc7f66b0ffb2e3f55029820c764c',1,'boost::ui::index_event']]],
   ['index_5fevent',['index_event',['../classboost_1_1ui_1_1index__event.html',1,'boost::ui']]],
   ['index_5ftype',['index_type',['../group__widget.html#ga4921261ff4b3d54349144deef2a97beb',1,'boost::ui']]],
-  ['indianred',['indianred',['../classboost_1_1ui_1_1color.html#ab4291f126325403333c30f756196e1f9',1,'boost::ui::color']]],
+  ['indian_5fred',['indian_red',['../classboost_1_1ui_1_1color.html#a7e0b37dbfc97e7fc4bfc469c7bb5aecc',1,'boost::ui::color']]],
   ['indigo',['indigo',['../classboost_1_1ui_1_1color.html#a327b39c016f502aad303bb2b39c8dd51',1,'boost::ui::color']]],
   ['info',['info',['../classboost_1_1ui_1_1log_1_1info.html',1,'boost::ui::log']]],
   ['informational_20widgets',['Informational widgets',['../group__info.html',1,'']]],

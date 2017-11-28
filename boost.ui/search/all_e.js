@@ -1,9 +1,9 @@
 var searchData=
 [
   ['oblique',['oblique',['../classboost_1_1ui_1_1font.html#aaf8cf6c20bf85ca3c26cadf4380fe09eadff74cf5ebe9c0bf565d0d7f4184ebbf',1,'boost::ui::font']]],
-  ['oldlace',['oldlace',['../classboost_1_1ui_1_1color.html#a2b138d3c1fb9980b6cb2d2b25f7cb074',1,'boost::ui::color']]],
+  ['old_5flace',['old_lace',['../classboost_1_1ui_1_1color.html#afd2a2c3e467c13191bf71234978a2d54',1,'boost::ui::color']]],
   ['olive',['olive',['../classboost_1_1ui_1_1color.html#a04402e9397d284f6817d7a3907a9bcdc',1,'boost::ui::color']]],
-  ['olivedrab',['olivedrab',['../classboost_1_1ui_1_1color.html#ac1e51323d7a82fd26e44a5b04141d5aa',1,'boost::ui::color']]],
+  ['olive_5fdrab',['olive_drab',['../classboost_1_1ui_1_1color.html#ace10e9bef57089959c018c6666387964',1,'boost::ui::color']]],
   ['on_5factivate',['on_activate',['../classboost_1_1ui_1_1list__box.html#aa0736e7d0f93691519a2025c65ce9ab5',1,'boost::ui::list_box']]],
   ['on_5factivate_5fevent',['on_activate_event',['../classboost_1_1ui_1_1list__box.html#adf867eedd719fc6ee436282dcef3b12e',1,'boost::ui::list_box']]],
   ['on_5fchange',['on_change',['../classboost_1_1ui_1_1date__picker.html#a76436e5450490592635b5bf9245d8895',1,'boost::ui::date_picker::on_change()'],['../classboost_1_1ui_1_1time__picker.html#a7c02da02e8cf3632758b171dacf872af',1,'boost::ui::time_picker::on_change()']]],
@@ -75,7 +75,7 @@ var searchData=
   ['operator_5b_5d',['operator[]',['../classboost_1_1ui_1_1strings__box.html#a8ef45108dc52fbbb3e9b68adffff4dba',1,'boost::ui::strings_box']]],
   ['optional',['optional',['../classboost_1_1ui_1_1check__box__base.html#a2d286e1b1e0235367b3c01b31aeb2740',1,'boost::ui::check_box_base::optional(boost::optional&lt; bool &gt; value)'],['../classboost_1_1ui_1_1check__box__base.html#a3e5517dda73d9b1537f295b3fdad88b7',1,'boost::ui::check_box_base::optional() const ']]],
   ['orange',['orange',['../classboost_1_1ui_1_1color.html#a4ddb7bac51b3924afda4aff0506509aa',1,'boost::ui::color']]],
-  ['orangered',['orangered',['../classboost_1_1ui_1_1color.html#a893033bf64f66ae2118274c9fe18c11f',1,'boost::ui::color']]],
+  ['orange_5fred',['orange_red',['../classboost_1_1ui_1_1color.html#afeb90767a94599eb20fb279626480e6f',1,'boost::ui::color']]],
   ['orchid',['orchid',['../classboost_1_1ui_1_1color.html#ac28105ddc4131c451fbc905308051005',1,'boost::ui::color']]],
   ['other',['other',['../classboost_1_1ui_1_1font.html#a3e2b46b9699b772cc2d20bfc5531e460a795f3202b17cb6bc3d4b771d8c6c9eaf',1,'boost::ui::font']]]
 ];

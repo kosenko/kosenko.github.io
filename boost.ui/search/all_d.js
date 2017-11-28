@@ -6,7 +6,7 @@ var searchData=
   ['native_5fvalid',['native_valid',['../classboost_1_1ui_1_1widget.html#acc0efb7042fb4308e44d38f744379727',1,'boost::ui::widget']]],
   ['native_5fwidget',['native_widget',['../classboost_1_1ui_1_1native__widget.html#a0b700ef1e636234a59b2f6412792c38c',1,'boost::ui::native_widget']]],
   ['native_5fwidget',['native_widget',['../classboost_1_1ui_1_1native__widget.html',1,'boost::ui']]],
-  ['navajowhite',['navajowhite',['../classboost_1_1ui_1_1color.html#add1f9d0373ee2c4908205b312d9cd774',1,'boost::ui::color']]],
+  ['navajo_5fwhite',['navajo_white',['../classboost_1_1ui_1_1color.html#a10580975dd488d76fbe0fdec03bd9084',1,'boost::ui::color']]],
   ['navy',['navy',['../classboost_1_1ui_1_1color.html#a8f17796adadec77d74506ed5c003b278',1,'boost::ui::color']]],
   ['nindex',['nindex',['../group__widget.html#ga5609f61070db3fdf95f4b4fed8fee234',1,'boost::ui']]],
   ['no_5fmargin',['no_margin',['../classboost_1_1ui_1_1layout_1_1item.html#ae493a443c047ca165174e5a6a2b3ab03',1,'boost::ui::layout::item']]],

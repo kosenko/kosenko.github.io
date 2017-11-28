@@ -38,65 +38,65 @@
   <span class="keyword">typedef</span> <span class="keyword">int</span> <a name="boost.ui.slider.value_type"></a><span class="identifier">value_type</span><span class="special">;</span>  <span class="comment">// Slider value type. </span>
 
   <span class="comment">// <a class="link" href="slider.html#boost.ui.sliderconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <a class="link" href="slider.html#idm46557945081024-bb"><span class="identifier">slider</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="slider.html#idm46416013182880-bb"><span class="identifier">slider</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="slider.html#idm46557945091040-bb">public member functions</a></span>
-  <span class="identifier">value_type</span> <a class="link" href="slider.html#idm46557945090480-bb"><span class="identifier">value</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="identifier">value_type</span> <a class="link" href="slider.html#idm46557945089056-bb"><span class="identifier">min</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="identifier">value_type</span> <a class="link" href="slider.html#idm46557945087632-bb"><span class="identifier">max</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <a class="link" href="slider.html" title="Class slider">slider</a> <span class="special">&amp;</span> <a class="link" href="slider.html#idm46557945086208-bb"><span class="identifier">on_slide</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="slider.html" title="Class slider">slider</a> <span class="special">&amp;</span> <a class="link" href="slider.html#idm46557945084064-bb"><span class="identifier">on_slide_end</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="slider.html#idm46416013192896-bb">public member functions</a></span>
+  <span class="identifier">value_type</span> <a class="link" href="slider.html#idm46416013192336-bb"><span class="identifier">value</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">value_type</span> <a class="link" href="slider.html#idm46416013190912-bb"><span class="identifier">min</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">value_type</span> <a class="link" href="slider.html#idm46416013189488-bb"><span class="identifier">max</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="slider.html" title="Class slider">slider</a> <span class="special">&amp;</span> <a class="link" href="slider.html#idm46416013188064-bb"><span class="identifier">on_slide</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="slider.html" title="Class slider">slider</a> <span class="special">&amp;</span> <a class="link" href="slider.html#idm46416013185920-bb"><span class="identifier">on_slide_end</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="slider.html#idm46557945080736-bb">private member functions</a></span>
-  <span class="keyword">void</span> <a class="link" href="slider.html#idm46557945080160-bb"><span class="identifier">check_range</span></a><span class="special">(</span><span class="identifier">value_type</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="slider.html#idm46557945078352-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="slider.html#idm46557945077504-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="slider.html#idm46416013182592-bb">private member functions</a></span>
+  <span class="keyword">void</span> <a class="link" href="slider.html#idm46416013182016-bb"><span class="identifier">check_range</span></a><span class="special">(</span><span class="identifier">value_type</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="slider.html#idm46416013180208-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="slider.html#idm46416013179360-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="slider.html#idm46557945076224-bb">private static functions</a></span>
-  <span class="keyword">static</span> <span class="keyword">void</span> <a class="link" href="slider.html#idm46557945075648-bb"><span class="identifier">check_range</span></a><span class="special">(</span><span class="identifier">value_type</span><span class="special">,</span> <span class="identifier">value_type</span><span class="special">,</span> <span class="identifier">value_type</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="slider.html#idm46416013178080-bb">private static functions</a></span>
+  <span class="keyword">static</span> <span class="keyword">void</span> <a class="link" href="slider.html#idm46416013177504-bb"><span class="identifier">check_range</span></a><span class="special">(</span><span class="identifier">value_type</span><span class="special">,</span> <span class="identifier">value_type</span><span class="special">,</span> <span class="identifier">value_type</span><span class="special">)</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm45584870961008"></a><h2>Description</h2>
+<a name="idm46133855520624"></a><h2>Description</h2>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Slider_(computing)" target="_top">Slider (Wikipedia)</a> </p>
 <p>
 </p>
 <div class="refsect2">
-<a name="idm45584870958800"></a><h3>
+<a name="idm46133855518416"></a><h3>
 <a name="boost.ui.sliderconstruct-copy-destruct"></a><code class="computeroutput">slider</code> 
         public
        construct/copy/destruct</h3>
-<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><a name="idm46557945081024-bb"></a><span class="identifier">slider</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li></ol></div>
+<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><a name="idm46416013182880-bb"></a><span class="identifier">slider</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li></ol></div>
 </div>
 <div class="refsect2">
-<a name="idm45584870952912"></a><h3>
-<a name="idm46557945091040-bb"></a><code class="computeroutput">slider</code> public member functions</h3>
+<a name="idm46133855512464"></a><h3>
+<a name="idm46416013192896-bb"></a><code class="computeroutput">slider</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">value_type</span> <a name="idm46557945090480-bb"></a><span class="identifier">value</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Retruns position value. </li>
+<pre class="literallayout"><span class="identifier">value_type</span> <a name="idm46416013192336-bb"></a><span class="identifier">value</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Retruns position value. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">value_type</span> <a name="idm46557945089056-bb"></a><span class="identifier">min</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Retruns minimum position value. </li>
+<pre class="literallayout"><span class="identifier">value_type</span> <a name="idm46416013190912-bb"></a><span class="identifier">min</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Retruns minimum position value. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">value_type</span> <a name="idm46557945087632-bb"></a><span class="identifier">max</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Retruns maximum position value. </li>
+<pre class="literallayout"><span class="identifier">value_type</span> <a name="idm46416013189488-bb"></a><span class="identifier">max</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Retruns maximum position value. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="slider.html" title="Class slider">slider</a> <span class="special">&amp;</span> <a name="idm46557945086208-bb"></a><span class="identifier">on_slide</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre>Connects slide handler. </li>
+<pre class="literallayout"><a class="link" href="slider.html" title="Class slider">slider</a> <span class="special">&amp;</span> <a name="idm46416013188064-bb"></a><span class="identifier">on_slide</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre>Connects slide handler. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="slider.html" title="Class slider">slider</a> <span class="special">&amp;</span> <a name="idm46557945084064-bb"></a><span class="identifier">on_slide_end</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre>Connects slide end handler. </li>
+<pre class="literallayout"><a class="link" href="slider.html" title="Class slider">slider</a> <span class="special">&amp;</span> <a name="idm46416013185920-bb"></a><span class="identifier">on_slide_end</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre>Connects slide end handler. </li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm45584870912560"></a><h3>
-<a name="idm46557945080736-bb"></a><code class="computeroutput">slider</code> private member functions</h3>
+<a name="idm46133855472112"></a><h3>
+<a name="idm46416013182592-bb"></a><code class="computeroutput">slider</code> private member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
-<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm46557945080160-bb"></a><span class="identifier">check_range</span><span class="special">(</span><span class="identifier">value_type</span> value<span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
-<li class="listitem"><pre class="literallayout"><span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm46557945078352-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
-<li class="listitem"><pre class="literallayout"><span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm46557945077504-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm46416013182016-bb"></a><span class="identifier">check_range</span><span class="special">(</span><span class="identifier">value_type</span> value<span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm46416013180208-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm46416013179360-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm45584870893280"></a><h3>
-<a name="idm46557945076224-bb"></a><code class="computeroutput">slider</code> private static functions</h3>
-<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><span class="keyword">static</span> <span class="keyword">void</span> <a name="idm46557945075648-bb"></a><span class="identifier">check_range</span><span class="special">(</span><span class="identifier">value_type</span> value<span class="special">,</span> <span class="identifier">value_type</span> min<span class="special">,</span> <span class="identifier">value_type</span> max<span class="special">)</span><span class="special">;</span></pre></li></ol></div>
+<a name="idm46133855452896"></a><h3>
+<a name="idm46416013178080-bb"></a><code class="computeroutput">slider</code> private static functions</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><span class="keyword">static</span> <span class="keyword">void</span> <a name="idm46416013177504-bb"></a><span class="identifier">check_range</span><span class="special">(</span><span class="identifier">value_type</span> value<span class="special">,</span> <span class="identifier">value_type</span> min<span class="special">,</span> <span class="identifier">value_type</span> max<span class="special">)</span><span class="special">;</span></pre></li></ol></div>
 </div>
 </div>
 </div>
