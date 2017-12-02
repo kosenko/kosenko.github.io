@@ -6,7 +6,7 @@
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
 <link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.coord_hpp" title="Header &lt;boost/ui/coord.hpp&gt;">
-<link rel="prev" href="../../BOOST_UI_USE_DATE_TIME_idm46416014045136.html" title="Macro BOOST_UI_USE_DATE_TIME">
+<link rel="prev" href="../../BOOST_UI_USE_DATE_TIME_idm45146566527088.html" title="Macro BOOST_UI_USE_DATE_TIME">
 <link rel="next" href="basic_rect.html" title="Class template basic_rect">
 </head>
 <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
@@ -20,7 +20,7 @@
 </tr></table>
 <hr>
 <div class="spirit-nav">
-<a accesskey="p" href="../../BOOST_UI_USE_DATE_TIME_idm46416014045136.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.coord_hpp"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="basic_rect.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
+<a accesskey="p" href="../../BOOST_UI_USE_DATE_TIME_idm45146566527088.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.coord_hpp"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="basic_rect.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
 </div>
 <div class="refentry">
 <a name="boost.ui.basic_point"></a><div class="titlepage"></div>
@@ -39,48 +39,48 @@
   <span class="keyword">typedef</span> <span class="identifier">T</span> <a name="boost.ui.basic_point.value_type"></a><span class="identifier">value_type</span><span class="special">;</span>  <span class="comment">// Type of coordinates. </span>
 
   <span class="comment">// <a class="link" href="basic_point.html#boost.ui.basic_pointconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <a class="link" href="basic_point.html#idm46416014029648-bb"><span class="identifier">basic_point</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="basic_point.html#idm46416014029040-bb"><span class="identifier">basic_point</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> D<span class="special">&gt;</span> <span class="keyword">explicit</span> <a class="link" href="basic_point.html#idm46416014027056-bb"><span class="identifier">basic_point</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">D</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="basic_point.html#idm45146566511600-bb"><span class="identifier">basic_point</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="basic_point.html#idm45146566510992-bb"><span class="identifier">basic_point</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> D<span class="special">&gt;</span> <span class="keyword">explicit</span> <a class="link" href="basic_point.html#idm45146566509008-bb"><span class="identifier">basic_point</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">D</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="basic_point.html#idm46416014036832-bb">public member functions</a></span>
-  <span class="identifier">T</span> <a class="link" href="basic_point.html#idm46416014036272-bb"><span class="identifier">x</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="identifier">T</span> <a class="link" href="basic_point.html#idm46416014034864-bb"><span class="identifier">y</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="keyword">void</span> <a class="link" href="basic_point.html#idm46416014033456-bb"><span class="identifier">x</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">void</span> <a class="link" href="basic_point.html#idm46416014031632-bb"><span class="identifier">y</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="basic_point.html#idm45146566518784-bb">public member functions</a></span>
+  <span class="identifier">T</span> <a class="link" href="basic_point.html#idm45146566518224-bb"><span class="identifier">x</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">T</span> <a class="link" href="basic_point.html#idm45146566516816-bb"><span class="identifier">y</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">void</span> <a class="link" href="basic_point.html#idm45146566515408-bb"><span class="identifier">x</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">void</span> <a class="link" href="basic_point.html#idm45146566513584-bb"><span class="identifier">y</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46133860433376"></a><h2>Description</h2>
+<a name="idm45190138139168"></a><h2>Description</h2>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Point_(geometry)" target="_top">Point (Wikipedia)</a> </p>
 <p>
 </p>
 <div class="refsect2">
-<a name="idm46133860431168"></a><h3>
+<a name="idm45190138136960"></a><h3>
 <a name="boost.ui.basic_pointconstruct-copy-destruct"></a><code class="computeroutput">basic_point</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><a name="idm46416014029648-bb"></a><span class="identifier">basic_point</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Constructs point with empty coordinates. </li>
+<pre class="literallayout"><a name="idm45146566511600-bb"></a><span class="identifier">basic_point</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Constructs point with empty coordinates. </li>
 <li class="listitem">
-<pre class="literallayout"><a name="idm46416014029040-bb"></a><span class="identifier">basic_point</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> x<span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> y<span class="special">)</span><span class="special">;</span></pre>Constructs point with x and y coordinates. </li>
+<pre class="literallayout"><a name="idm45146566510992-bb"></a><span class="identifier">basic_point</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> x<span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> y<span class="special">)</span><span class="special">;</span></pre>Constructs point with x and y coordinates. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> D<span class="special">&gt;</span> <span class="keyword">explicit</span> <a name="idm46416014027056-bb"></a><span class="identifier">basic_point</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">D</span> <span class="special">&gt;</span> <span class="special">&amp;</span> p<span class="special">)</span><span class="special">;</span></pre>Constructs size with an other size object. </li>
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> D<span class="special">&gt;</span> <span class="keyword">explicit</span> <a name="idm45146566509008-bb"></a><span class="identifier">basic_point</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">D</span> <span class="special">&gt;</span> <span class="special">&amp;</span> p<span class="special">)</span><span class="special">;</span></pre>Constructs size with an other size object. </li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46133860405504"></a><h3>
-<a name="idm46416014036832-bb"></a><code class="computeroutput">basic_point</code> public member functions</h3>
+<a name="idm45190138111248"></a><h3>
+<a name="idm45146566518784-bb"></a><code class="computeroutput">basic_point</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">T</span> <a name="idm46416014036272-bb"></a><span class="identifier">x</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns x coordinate. </li>
+<pre class="literallayout"><span class="identifier">T</span> <a name="idm45146566518224-bb"></a><span class="identifier">x</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns x coordinate. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">T</span> <a name="idm46416014034864-bb"></a><span class="identifier">y</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns y coordinate. </li>
+<pre class="literallayout"><span class="identifier">T</span> <a name="idm45146566516816-bb"></a><span class="identifier">y</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns y coordinate. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">void</span> <a name="idm46416014033456-bb"></a><span class="identifier">x</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> x<span class="special">)</span><span class="special">;</span></pre>Sets x coordinate. </li>
+<pre class="literallayout"><span class="keyword">void</span> <a name="idm45146566515408-bb"></a><span class="identifier">x</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> x<span class="special">)</span><span class="special">;</span></pre>Sets x coordinate. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">void</span> <a name="idm46416014031632-bb"></a><span class="identifier">y</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> y<span class="special">)</span><span class="special">;</span></pre>Sets y coordinate. </li>
+<pre class="literallayout"><span class="keyword">void</span> <a name="idm45146566513584-bb"></a><span class="identifier">y</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> y<span class="special">)</span><span class="special">;</span></pre>Sets y coordinate. </li>
 </ol></div>
 </div>
 </div>
@@ -95,7 +95,7 @@
 </tr></table>
 <hr>
 <div class="spirit-nav">
-<a accesskey="p" href="../../BOOST_UI_USE_DATE_TIME_idm46416014045136.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.coord_hpp"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="basic_rect.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
+<a accesskey="p" href="../../BOOST_UI_USE_DATE_TIME_idm45146566527088.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.coord_hpp"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="basic_rect.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
 </div>
 </body>
 </html>

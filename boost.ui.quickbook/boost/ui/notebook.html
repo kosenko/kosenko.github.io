@@ -38,56 +38,56 @@
   <span class="keyword">typedef</span> <span class="identifier">index_type</span> <a name="boost.ui.notebook.size_type"></a><span class="identifier">size_type</span><span class="special">;</span>  <span class="comment">// Unsigned integral type. </span>
 
   <span class="comment">// <a class="link" href="notebook.html#boost.ui.notebookconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <span class="keyword">explicit</span> <a class="link" href="notebook.html#idm46416013395152-bb"><span class="identifier">notebook</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="notebook.html#idm46416013383024-bb"><span class="identifier">notebook</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">explicit</span> <a class="link" href="notebook.html#idm45146565877104-bb"><span class="identifier">notebook</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="notebook.html#idm45146565864976-bb"><span class="identifier">notebook</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="notebook.html#idm46416013390752-bb">public member functions</a></span>
-  <span class="keyword">void</span> <a class="link" href="notebook.html#idm46416013390192-bb"><span class="identifier">append_page</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">void</span> <a class="link" href="notebook.html#idm46416013386928-bb"><span class="identifier">current_page</span></a><span class="special">(</span><span class="identifier">size_type</span><span class="special">)</span><span class="special">;</span>
-  <span class="identifier">size_type</span> <a class="link" href="notebook.html#idm46416013384656-bb"><span class="identifier">current_page_index</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="notebook.html#idm45146565872704-bb">public member functions</a></span>
+  <span class="keyword">void</span> <a class="link" href="notebook.html#idm45146565872144-bb"><span class="identifier">append_page</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">void</span> <a class="link" href="notebook.html#idm45146565868880-bb"><span class="identifier">current_page</span></a><span class="special">(</span><span class="identifier">size_type</span><span class="special">)</span><span class="special">;</span>
+  <span class="identifier">size_type</span> <a class="link" href="notebook.html#idm45146565866608-bb"><span class="identifier">current_page_index</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="notebook.html#idm46416013382736-bb">private member functions</a></span>
-  <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="notebook.html#idm46416013382160-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="notebook.html#idm46416013381312-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="notebook.html#idm45146565864688-bb">private member functions</a></span>
+  <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="notebook.html#idm45146565864112-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="notebook.html#idm45146565863264-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
 
   <span class="comment">// public data members</span>
   <span class="keyword">static</span> <span class="keyword">const</span> <span class="identifier">size_type</span> <span class="identifier">npos</span><span class="special">;</span>  <span class="comment">// Invalid page index. </span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46133856676720"></a><h2>Description</h2>
+<a name="idm45190134382800"></a><h2>Description</h2>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Tab_(GUI)" target="_top">Tab (Wikipedia)</a> </p>
 <p>
 </p>
 <div class="refsect2">
-<a name="idm46133856674528"></a><h3>
+<a name="idm45190134380608"></a><h3>
 <a name="boost.ui.notebookconstruct-copy-destruct"></a><code class="computeroutput">notebook</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm46416013395152-bb"></a><span class="identifier">notebook</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">)</span><span class="special">;</span></pre>Creates notebook widget. </li>
-<li class="listitem"><pre class="literallayout"><a name="idm46416013383024-bb"></a><span class="identifier">notebook</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm45146565877104-bb"></a><span class="identifier">notebook</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">)</span><span class="special">;</span></pre>Creates notebook widget. </li>
+<li class="listitem"><pre class="literallayout"><a name="idm45146565864976-bb"></a><span class="identifier">notebook</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46133856662656"></a><h3>
-<a name="idm46416013390752-bb"></a><code class="computeroutput">notebook</code> public member functions</h3>
+<a name="idm45190134368656"></a><h3>
+<a name="idm45146565872704-bb"></a><code class="computeroutput">notebook</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">void</span> <a name="idm46416013390192-bb"></a><span class="identifier">append_page</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> page<span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> label<span class="special">)</span><span class="special">;</span></pre>Appends page with associated label. </li>
+<pre class="literallayout"><span class="keyword">void</span> <a name="idm45146565872144-bb"></a><span class="identifier">append_page</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> page<span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> label<span class="special">)</span><span class="special">;</span></pre>Appends page with associated label. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">void</span> <a name="idm46416013386928-bb"></a><span class="identifier">current_page</span><span class="special">(</span><span class="identifier">size_type</span> index<span class="special">)</span><span class="special">;</span></pre>Shows page with <span class="emphasis"><em>index</em></span>. </li>
+<pre class="literallayout"><span class="keyword">void</span> <a name="idm45146565868880-bb"></a><span class="identifier">current_page</span><span class="special">(</span><span class="identifier">size_type</span> index<span class="special">)</span><span class="special">;</span></pre>Shows page with <span class="emphasis"><em>index</em></span>. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">size_type</span> <a name="idm46416013384656-bb"></a><span class="identifier">current_page_index</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns index of the current page. If notebook has no pages then returns npos. </li>
+<pre class="literallayout"><span class="identifier">size_type</span> <a name="idm45146565866608-bb"></a><span class="identifier">current_page_index</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns index of the current page. If notebook has no pages then returns npos. </li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46133856640704"></a><h3>
-<a name="idm46416013382736-bb"></a><code class="computeroutput">notebook</code> private member functions</h3>
+<a name="idm45190134346832"></a><h3>
+<a name="idm45146565864688-bb"></a><code class="computeroutput">notebook</code> private member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
-<li class="listitem"><pre class="literallayout"><span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm46416013382160-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
-<li class="listitem"><pre class="literallayout"><span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm46416013381312-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm45146565864112-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm45146565863264-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 </div>

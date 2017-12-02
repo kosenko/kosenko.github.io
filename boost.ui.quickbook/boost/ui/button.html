@@ -35,17 +35,17 @@
 <span class="keyword">class</span> <a class="link" href="button.html" title="Class button">button</a> <span class="special">:</span> <span class="keyword">public</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">ui</span><span class="special">::</span><span class="identifier">widget</span> <span class="special">{</span>
 <span class="keyword">public</span><span class="special">:</span>
   <span class="comment">// <a class="link" href="button.html#boost.ui.buttonconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <span class="keyword">explicit</span> <a class="link" href="button.html#idm46416016994576-bb"><span class="identifier">button</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="button.html#idm46416014437424-bb"><span class="identifier">button</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">explicit</span> <a class="link" href="button.html#idm45146573389296-bb"><span class="identifier">button</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="button.html#idm45146566919360-bb"><span class="identifier">button</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="button.html#idm46416016991600-bb">public member functions</a></span>
-  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> <a class="link" href="button.html" title="Class button">button</a> <span class="special">&amp;</span> <a class="link" href="button.html#idm46416016991040-bb"><span class="identifier">on_press</span></a><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span><span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="button.html#idm45146573386320-bb">public member functions</a></span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> <a class="link" href="button.html" title="Class button">button</a> <span class="special">&amp;</span> <a class="link" href="button.html#idm45146573385760-bb"><span class="identifier">on_press</span></a><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span><span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="button.html#idm46416014437168-bb">private member functions</a></span>
-  <span class="keyword">void</span> <a class="link" href="button.html#idm46416014436672-bb"><span class="identifier">on_press_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="button.html#idm45146566919104-bb">private member functions</a></span>
+  <span class="keyword">void</span> <a class="link" href="button.html#idm45146566918608-bb"><span class="identifier">on_press_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46133862148192"></a><h2>Description</h2>
+<a name="idm45190139856368"></a><h2>Description</h2>
 <p>Usage example: </p>
 <pre class="programlisting"><span class="keyword">class</span> <span class="identifier">button_dialog</span> <span class="special">:</span> <span class="keyword">public</span> <span class="identifier">ui</span><span class="special">::</span><span class="identifier">dialog</span>
 <span class="special">{</span>
@@ -70,26 +70,26 @@
 <p>
 </p>
 <div class="refsect2">
-<a name="idm46133862111360"></a><h3>
+<a name="idm45190139819536"></a><h3>
 <a name="boost.ui.buttonconstruct-copy-destruct"></a><code class="computeroutput">button</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm46416016994576-bb"></a><span class="identifier">button</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> label<span class="special">)</span><span class="special">;</span></pre>Creates button with label string. </li>
-<li class="listitem"><pre class="literallayout"><a name="idm46416014437424-bb"></a><span class="identifier">button</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm45146573389296-bb"></a><span class="identifier">button</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> label<span class="special">)</span><span class="special">;</span></pre>Creates button with label string. </li>
+<li class="listitem"><pre class="literallayout"><a name="idm45146566919360-bb"></a><span class="identifier">button</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46133862098576"></a><h3>
-<a name="idm46416016991600-bb"></a><code class="computeroutput">button</code> public member functions</h3>
+<a name="idm45190139806752"></a><h3>
+<a name="idm45146573386320-bb"></a><code class="computeroutput">button</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem">
-<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> <a class="link" href="button.html" title="Class button">button</a> <span class="special">&amp;</span> <a name="idm46416016991040-bb"></a><span class="identifier">on_press</span><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span> f<span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span> args<span class="special">)</span><span class="special">;</span></pre>Connects button press handler. </li></ol></div>
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> <a class="link" href="button.html" title="Class button">button</a> <span class="special">&amp;</span> <a name="idm45146573385760-bb"></a><span class="identifier">on_press</span><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span> f<span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span> args<span class="special">)</span><span class="special">;</span></pre>Connects button press handler. </li></ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46133862084528"></a><h3>
-<a name="idm46416014437168-bb"></a><code class="computeroutput">button</code> private member functions</h3>
-<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm46416014436672-bb"></a><span class="identifier">on_press_raw</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre></li></ol></div>
+<a name="idm45190139792704"></a><h3>
+<a name="idm45146566919104-bb"></a><code class="computeroutput">button</code> private member functions</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm45146566918608-bb"></a><span class="identifier">on_press_raw</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre></li></ol></div>
 </div>
 </div>
 </div>
