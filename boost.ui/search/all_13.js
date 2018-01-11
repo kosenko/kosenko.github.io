@@ -12,7 +12,7 @@ var searchData=
   ['thread_2ehpp',['thread.hpp',['../thread_8hpp.html',1,'']]],
   ['time_5fpicker',['time_picker',['../classboost_1_1ui_1_1time__picker.html',1,'boost::ui']]],
   ['time_5fpicker',['time_picker',['../classboost_1_1ui_1_1time__picker.html#af5b2744865238fe13d65e43d6419842e',1,'boost::ui::time_picker']]],
-  ['title',['title',['../classboost_1_1ui_1_1window.html#a019078e6a5e8d60aeb158a4a4840ab04',1,'boost::ui::window::title(const uistring &amp;title)'],['../classboost_1_1ui_1_1window.html#adf4ea05a3e34e71772d7a86714654dbb',1,'boost::ui::window::title() const ']]],
+  ['title',['title',['../classboost_1_1ui_1_1window.html#a0ffc02f2640ba2a3325e1eab5251ded7',1,'boost::ui::window::title(const uistring &amp;title)'],['../classboost_1_1ui_1_1window.html#adf4ea05a3e34e71772d7a86714654dbb',1,'boost::ui::window::title() const ']]],
   ['tomato',['tomato',['../classboost_1_1ui_1_1color.html#ac630d4f180314703a9fc7c4df7562b72',1,'boost::ui::color']]],
   ['tooltip',['tooltip',['../classboost_1_1ui_1_1widget.html#a10ead3ef50a7eb2f84d88b5d586c2720',1,'boost::ui::widget::tooltip(const uistring &amp;text)'],['../classboost_1_1ui_1_1widget.html#a8ed59af873d77ef7ab8c94f46bcf9c61',1,'boost::ui::widget::tooltip() const ']]],
   ['top',['top',['../classboost_1_1ui_1_1layout_1_1item.html#ad39bf5e53c1a12febd336493199ef535',1,'boost::ui::layout::item']]],

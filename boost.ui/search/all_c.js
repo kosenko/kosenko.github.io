@@ -14,6 +14,7 @@ var searchData=
   ['medium_5fspring_5fgreen',['medium_spring_green',['../classboost_1_1ui_1_1color.html#a1d029ff07a9fa20062d0086eb03a05ff',1,'boost::ui::color']]],
   ['medium_5fturquoise',['medium_turquoise',['../classboost_1_1ui_1_1color.html#a4986ee9703ff777e225605b3d1d3f92b',1,'boost::ui::color']]],
   ['medium_5fviolet_5fred',['medium_violet_red',['../classboost_1_1ui_1_1color.html#a03502605f2e74af4088d182c000cff6a',1,'boost::ui::color']]],
+  ['menu',['menu',['../classboost_1_1ui_1_1menu.html#abdf8ec97a8dd5e83ced2ac25d2f7cb7e',1,'boost::ui::menu']]],
   ['menu',['menu',['../classboost_1_1ui_1_1menu.html',1,'boost::ui']]],
   ['menu_2ehpp',['menu.hpp',['../menu_8hpp.html',1,'']]],
   ['message_2ehpp',['message.hpp',['../message_8hpp.html',1,'']]],

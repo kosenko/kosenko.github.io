@@ -233,6 +233,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1progress__bar.html">progress_bar</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Progress bar widget base class.  <a href="classboost_1_1ui_1_1progress__bar.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1separator.html">separator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pseudo class that separates menu items.  <a href="classboost_1_1ui_1_1separator.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1slider.html">slider</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slider widget base class.  <a href="classboost_1_1ui_1_1slider.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -569,9 +572,10 @@ template&lt;class T &gt; </td></tr>
 <tr class="memdesc:af5ba66a8633f61ce2c8a3ad0fdf21fd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Arithmetic operation. <br /></td></tr>
 <tr class="separator:af5ba66a8633f61ce2c8a3ad0fdf21fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
-<tr class="memitem:a7f26b340a8989bc254e59896eae897d6"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1ui.html#a7f26b340a8989bc254e59896eae897d6">operator&lt;&lt;</a> (std::ostream &amp;s, const <a class="el" href="classboost_1_1ui_1_1color.html">boost::ui::color</a> &amp;c)</td></tr>
-<tr class="memdesc:a7f26b340a8989bc254e59896eae897d6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes color into the stream.  <a href="#a7f26b340a8989bc254e59896eae897d6">More...</a><br /></td></tr>
-<tr class="separator:a7f26b340a8989bc254e59896eae897d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae12b3c16e3c1e2440470f72d01fbdac1"><td class="memTemplParams" colspan="2">template&lt;class CharT , class Traits &gt; </td></tr>
+<tr class="memitem:ae12b3c16e3c1e2440470f72d01fbdac1"><td class="memTemplItemLeft" align="right" valign="top">std::basic_ostream&lt; CharT, Traits &gt; &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1ui.html#ae12b3c16e3c1e2440470f72d01fbdac1">operator&lt;&lt;</a> (std::basic_ostream&lt; CharT, Traits &gt; &amp;os, const <a class="el" href="classboost_1_1ui_1_1color.html">boost::ui::color</a> &amp;c)</td></tr>
+<tr class="memdesc:ae12b3c16e3c1e2440470f72d01fbdac1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Writes color into the stream.  <a href="#ae12b3c16e3c1e2440470f72d01fbdac1">More...</a><br /></td></tr>
+<tr class="separator:ae12b3c16e3c1e2440470f72d01fbdac1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a7d1d5f06ee2c7145e1a1f9f533f34d6d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1ui.html#a7d1d5f06ee2c7145e1a1f9f533f34d6d">operator==</a> (const <a class="el" href="classboost_1_1ui_1_1color.html">color</a> &amp;lhs, const <a class="el" href="classboost_1_1ui_1_1color.html">color</a> &amp;rhs) noexcept</td></tr>
 <tr class="memdesc:a7d1d5f06ee2c7145e1a1f9f533f34d6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two colors.  <a href="#a7d1d5f06ee2c7145e1a1f9f533f34d6d">More...</a><br /></td></tr>
@@ -1552,18 +1556,17 @@ const <a class="el" href="group__widget.html#ga4921261ff4b3d54349144deef2a97beb"
 
 </div>
 </div>
-<a class="anchor" id="a7f26b340a8989bc254e59896eae897d6"></a>
+<a class="anchor" id="ae12b3c16e3c1e2440470f72d01fbdac1"></a>
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
+<div class="memtemplate">
+template&lt;class CharT , class Traits &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::ostream &amp; operator&lt;&lt; </td>
+          <td class="memname">std::basic_ostream&lt; CharT, Traits &gt; &amp; operator&lt;&lt; </td>
           <td>(</td>
-          <td class="paramtype">std::ostream &amp;&#160;</td>
-          <td class="paramname"><em>s</em>, </td>
+          <td class="paramtype">std::basic_ostream&lt; CharT, Traits &gt; &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -1577,11 +1580,6 @@ const <a class="el" href="group__widget.html#ga4921261ff4b3d54349144deef2a97beb"
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 <p>Writes color into the stream. </p>
