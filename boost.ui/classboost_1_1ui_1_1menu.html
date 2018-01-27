@@ -100,14 +100,8 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </div><!--header-->
 <div class="contents">
 
-<p>List of selected items.  
+<p>Menu (list of commands) class.  
  <a href="classboost_1_1ui_1_1menu.html#details">More...</a></p>
-<div class="dynheader">
-Inheritance diagram for boost::ui::menu:</div>
-<div class="dyncontent">
-<div class="center"><iframe scrolling="no" frameborder="0" src="classboost_1_1ui_1_1menu__inherit__graph.svg" width="146" height="112"><p><b>This browser is not able to show SVG: try Firefox, Chrome, Safari, or Opera instead.</b></p></iframe>
-</div>
-<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
@@ -124,11 +118,11 @@ typedef void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abdf8ec97a8dd5e83ced2ac25d2f7cb7e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abdf8ec97a8dd5e83ced2ac25d2f7cb7e"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1menu.html#abdf8ec97a8dd5e83ced2ac25d2f7cb7e">menu</a> (const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;text)</td></tr>
-<tr class="memdesc:abdf8ec97a8dd5e83ced2ac25d2f7cb7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs menu with text. <br /></td></tr>
+<tr class="memitem:abdf8ec97a8dd5e83ced2ac25d2f7cb7e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1menu.html#abdf8ec97a8dd5e83ced2ac25d2f7cb7e">menu</a> (const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;text)</td></tr>
+<tr class="memdesc:abdf8ec97a8dd5e83ced2ac25d2f7cb7e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs menu with associated text label with mnemonics.  <a href="#abdf8ec97a8dd5e83ced2ac25d2f7cb7e">More...</a><br /></td></tr>
 <tr class="separator:abdf8ec97a8dd5e83ced2ac25d2f7cb7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a225314fa65fef66845942d3c7a1facec"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1menu.html#a225314fa65fef66845942d3c7a1facec">popup</a> (<a class="el" href="classboost_1_1ui_1_1widget.html">widget</a> &amp;w)</td></tr>
+<tr class="memdesc:a225314fa65fef66845942d3c7a1facec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Popups context menu at current mouse postion related to widget <em>w</em>.  <a href="#a225314fa65fef66845942d3c7a1facec">More...</a><br /></td></tr>
 <tr class="separator:a225314fa65fef66845942d3c7a1facec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:a837414804e865536ab1cdf07abfc81ce"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a837414804e865536ab1cdf07abfc81ce"></a>
@@ -168,9 +162,29 @@ const <a class="el" href="classboost_1_1ui_1_1menu.html#a2587e55094e3706b9747f94
 <tr class="separator:ad5e35f8e3da8290736f5733be40de8d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>List of selected items. </p>
+<div class="textblock"><p>Menu (list of commands) class. </p>
 <dl class="section see"><dt>See also</dt><dd><a href="http://en.wikipedia.org/wiki/Menu_(computing)">Menu (Wikipedia)</a> </dd></dl>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="abdf8ec97a8dd5e83ced2ac25d2f7cb7e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::ui::menu::menu </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Constructs menu with associated text label with mnemonics. </p>
+<dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Mnemonics_(keyboard)">Mnemonics (Wikipedia)</a> </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a225314fa65fef66845942d3c7a1facec"></a>
 <div class="memitem">
 <div class="memproto">
@@ -184,7 +198,9 @@ const <a class="el" href="classboost_1_1ui_1_1menu.html#a2587e55094e3706b9747f94
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Popups context menu </p><dl class="section see"><dt>See also</dt><dd><a href="http://en.wikipedia.org/wiki/Context_menu">Context menu (Wikipedia)</a> </dd>
+
+<p>Popups context menu at current mouse postion related to widget <em>w</em>. </p>
+<dl class="section see"><dt>See also</dt><dd><a href="http://en.wikipedia.org/wiki/Context_menu">Context menu (Wikipedia)</a> </dd>
 <dd>
 <a href="http://en.wikipedia.org/wiki/Modal_window">Modal window (Wikipedia)</a> </dd></dl>
 

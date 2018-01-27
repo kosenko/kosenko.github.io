@@ -115,13 +115,11 @@ template&lt;class F , class... Args&gt; </td></tr>
 <tr class="memdesc:adda8d60cbbeb21f4bfae590415e8028b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Connects button press handler. <br /></td></tr>
 <tr class="separator:adda8d60cbbeb21f4bfae590415e8028b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
-<tr class="memitem:a0a5627fa5863a0382579c049016e413b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0a5627fa5863a0382579c049016e413b"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1button.html#a0a5627fa5863a0382579c049016e413b">button</a> (<a class="el" href="classboost_1_1ui_1_1widget.html">widget</a> &amp;parent, const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;<a class="el" href="classboost_1_1ui_1_1label.html">label</a>)</td></tr>
-<tr class="memdesc:a0a5627fa5863a0382579c049016e413b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates button with label string. <br /></td></tr>
+<tr class="memitem:a0a5627fa5863a0382579c049016e413b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1button.html#a0a5627fa5863a0382579c049016e413b">button</a> (<a class="el" href="classboost_1_1ui_1_1widget.html">widget</a> &amp;parent, const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;<a class="el" href="classboost_1_1ui_1_1label.html">label</a>)</td></tr>
+<tr class="memdesc:a0a5627fa5863a0382579c049016e413b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates button with text label with mnemonics.  <a href="#a0a5627fa5863a0382579c049016e413b">More...</a><br /></td></tr>
 <tr class="separator:a0a5627fa5863a0382579c049016e413b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a401da426d19adc791e40552ec3990133"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a401da426d19adc791e40552ec3990133"></a>
-<a class="el" href="classboost_1_1ui_1_1button.html">button</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1button.html#a401da426d19adc791e40552ec3990133">create</a> (<a class="el" href="classboost_1_1ui_1_1widget.html">widget</a> &amp;parent, const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;<a class="el" href="classboost_1_1ui_1_1label.html">label</a>)</td></tr>
-<tr class="memdesc:a401da426d19adc791e40552ec3990133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates button with label string. <br /></td></tr>
+<tr class="memitem:a401da426d19adc791e40552ec3990133"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classboost_1_1ui_1_1button.html">button</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1button.html#a401da426d19adc791e40552ec3990133">create</a> (<a class="el" href="classboost_1_1ui_1_1widget.html">widget</a> &amp;parent, const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;<a class="el" href="classboost_1_1ui_1_1label.html">label</a>)</td></tr>
+<tr class="memdesc:a401da426d19adc791e40552ec3990133"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates button with text label with mnemonics.  <a href="#a401da426d19adc791e40552ec3990133">More...</a><br /></td></tr>
 <tr class="separator:a401da426d19adc791e40552ec3990133"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classboost_1_1ui_1_1widget"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classboost_1_1ui_1_1widget')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classboost_1_1ui_1_1widget.html">boost::ui::widget</a></td></tr>
 <tr class="memitem:a6197ee4e879b42494f9d45f719e52781 inherit pub_methods_classboost_1_1ui_1_1widget"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6197ee4e879b42494f9d45f719e52781"></a>
@@ -387,7 +385,75 @@ typedef void *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" 
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Widget with label that generate event when clicked on. </p>
 <p>Usage example: </p><div class="fragment"><div class="line"><span class="keyword">class </span>button_dialog : <span class="keyword">public</span> ui::dialog</div><div class="line">{</div><div class="line"><span class="keyword">public</span>:</div><div class="line">    button_dialog() : ui::dialog(<span class="stringliteral">&quot;Button usage dialog&quot;</span>)</div><div class="line">    {</div><div class="line">        ui::button(*<span class="keyword">this</span>, <span class="stringliteral">&quot;&amp;Press me&quot;</span>)</div><div class="line">            .on_press(&amp;button_dialog::on_press_me, <span class="keyword">this</span>);</div><div class="line"></div><div class="line">        show_modal();</div><div class="line">    }</div><div class="line"></div><div class="line"><span class="keyword">private</span>:</div><div class="line">    <span class="keywordtype">void</span> on_press_me()</div><div class="line">    {</div><div class="line">        <a class="code" href="group__alert.html#ga88cf56dee06e124c6955d543604bacfc">ui::info_dialog</a>(<span class="stringliteral">&quot;Hello&quot;</span>);</div><div class="line">    }</div><div class="line">};</div></div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a href="http://en.wikipedia.org/wiki/Button_(computing)">Button (Wikipedia)</a> </dd></dl>
-</div><hr/>The documentation for this class was generated from the following file:<ul>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a0a5627fa5863a0382579c049016e413b"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">boost::ui::button::button </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classboost_1_1ui_1_1widget.html">widget</a> &amp;&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;&#160;</td>
+          <td class="paramname"><em>label</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Creates button with text label with mnemonics. </p>
+<dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Mnemonics_(keyboard)">Mnemonics (Wikipedia)</a> </dd></dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a401da426d19adc791e40552ec3990133"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classboost_1_1ui_1_1button.html">button</a>&amp; boost::ui::button::create </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classboost_1_1ui_1_1widget.html">widget</a> &amp;&#160;</td>
+          <td class="paramname"><em>parent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;&#160;</td>
+          <td class="paramname"><em>label</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Creates button with text label with mnemonics. </p>
+<dl class="section see"><dt>See also</dt><dd><a href="https://en.wikipedia.org/wiki/Mnemonics_(keyboard)">Mnemonics (Wikipedia)</a> </dd></dl>
+
+</div>
+</div>
+<hr/>The documentation for this class was generated from the following file:<ul>
 <li>boost/ui/<a class="el" href="button_8hpp_source.html">button.hpp</a></li>
 </ul>
 </div><!-- contents -->

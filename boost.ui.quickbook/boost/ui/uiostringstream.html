@@ -1,0 +1,92 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<title>Class uiostringstream</title>
+<link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
+<meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
+<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="up" href="../../index.html#header.boost.ui.stream_hpp" title="Header &lt;boost/ui/stream.hpp&gt;">
+<link rel="prev" href="vslider.html" title="Class vslider">
+<link rel="next" href="uistring.html" title="Class uistring">
+</head>
+<body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
+<table cellpadding="2" width="100%"><tr>
+<td valign="top"><img alt="Boost C++ Libraries" width="277" height="86" src="https://kosenko.github.io/boost.org/boost.png"></td>
+<td align="center"><a href="https://kosenko.github.io/boost.org/index.html">Home</a></td>
+<td align="center"><a href="https://kosenko.github.io/boost.org/libs/libraries.htm">Libraries</a></td>
+<td align="center"><a href="http://www.boost.org/users/people.html">People</a></td>
+<td align="center"><a href="http://www.boost.org/users/faq.html">FAQ</a></td>
+<td align="center"><a href="https://kosenko.github.io/boost.org/more/index.htm">More</a></td>
+</tr></table>
+<hr>
+<div class="spirit-nav">
+<a accesskey="p" href="vslider.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.stream_hpp"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="uistring.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
+</div>
+<div class="refentry">
+<a name="boost.ui.uiostringstream"></a><div class="titlepage"></div>
+<div class="refnamediv">
+<h2><span class="refentrytitle">Class uiostringstream</span></h2>
+<p>boost::ui::uiostringstream &#8212; Output string stream that collects data for UI. </p>
+</div>
+<h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
+<div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.stream_hpp" title="Header &lt;boost/ui/stream.hpp&gt;">boost/ui/stream.hpp</a>&gt;
+
+</span>
+<span class="keyword">class</span> <a class="link" href="uiostringstream.html" title="Class uiostringstream">uiostringstream</a> <span class="special">{</span>
+<span class="keyword">public</span><span class="special">:</span>
+  <span class="comment">// <a class="link" href="uiostringstream.html#boost.ui.uiostringstreamconstruct-copy-destruct">construct/copy/destruct</a></span>
+  <a class="link" href="uiostringstream.html#idm45532486628192-bb"><span class="identifier">uiostringstream</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uiostringstream.html#idm45532486627616-bb"><span class="identifier">uiostringstream</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+
+  <span class="comment">// <a class="link" href="uiostringstream.html#idm45532486638224-bb">public member functions</a></span>
+  <a class="link" href="uiostringstream.html" title="Class uiostringstream">uiostringstream</a> <span class="special">&amp;</span> 
+  <a class="link" href="uiostringstream.html#idm45532486637664-bb"><span class="keyword">operator</span><span class="special">&lt;&lt;</span></a><span class="special">(</span><a class="link" href="uiostringstream.html" title="Class uiostringstream">boost::ui::uiostringstream</a> <span class="special">&amp;</span><span class="special">(</span><span class="special">*</span><span class="special">)</span><span class="special">(</span><a class="link" href="uiostringstream.html" title="Class uiostringstream">boost::ui::uiostringstream</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">void</span> <a class="link" href="uiostringstream.html#idm45532486634768-bb"><span class="identifier">swap</span></a><span class="special">(</span><a class="link" href="uiostringstream.html" title="Class uiostringstream">uiostringstream</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a class="link" href="uiostringstream.html#idm45532486632640-bb"><span class="identifier">str</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">void</span> <a class="link" href="uiostringstream.html#idm45532486631088-bb"><span class="identifier">str</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+<span class="special">}</span><span class="special">;</span></pre></div>
+<div class="refsect1">
+<a name="idm46170560401568"></a><h2>Description</h2>
+<div class="refsect2">
+<a name="idm46170560401152"></a><h3>
+<a name="boost.ui.uiostringstreamconstruct-copy-destruct"></a><code class="computeroutput">uiostringstream</code> 
+        public
+       construct/copy/destruct</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+<pre class="literallayout"><a name="idm45532486628192-bb"></a><span class="identifier">uiostringstream</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Creates empty stream. </li>
+<li class="listitem">
+<pre class="literallayout"><a name="idm45532486627616-bb"></a><span class="identifier">uiostringstream</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> value<span class="special">)</span><span class="special">;</span></pre>Creates stream and adds <span class="emphasis"><em>value</em></span> to it. </li>
+</ol></div>
+</div>
+<div class="refsect2">
+<a name="idm46170560388656"></a><h3>
+<a name="idm45532486638224-bb"></a><code class="computeroutput">uiostringstream</code> public member functions</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+<pre class="literallayout"><a class="link" href="uiostringstream.html" title="Class uiostringstream">uiostringstream</a> <span class="special">&amp;</span> 
+<a name="idm45532486637664-bb"></a><span class="keyword">operator</span><span class="special">&lt;&lt;</span><span class="special">(</span><a class="link" href="uiostringstream.html" title="Class uiostringstream">boost::ui::uiostringstream</a> <span class="special">&amp;</span><span class="special">(</span><span class="special">*</span><span class="special">)</span><span class="special">(</span><a class="link" href="uiostringstream.html" title="Class uiostringstream">boost::ui::uiostringstream</a> <span class="special">&amp;</span><span class="special">)</span> func<span class="special">)</span><span class="special">;</span></pre>Process stream manipulator. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">void</span> <a name="idm45532486634768-bb"></a><span class="identifier">swap</span><span class="special">(</span><a class="link" href="uiostringstream.html" title="Class uiostringstream">uiostringstream</a> <span class="special">&amp;</span> other<span class="special">)</span><span class="special">;</span></pre>Exchanges contents of the streams. </li>
+<li class="listitem">
+<pre class="literallayout"><a class="link" href="uistring.html" title="Class uistring">uistring</a> <a name="idm45532486632640-bb"></a><span class="identifier">str</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns collected data as a string. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">void</span> <a name="idm45532486631088-bb"></a><span class="identifier">str</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> value<span class="special">)</span><span class="special">;</span></pre>Resets built-in collected data with <span class="emphasis"><em>value</em></span>. </li>
+</ol></div>
+</div>
+</div>
+</div>
+<table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
+<td align="left"></td>
+<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+        Distributed under the Boost Software License, Version 1.0. (See accompanying
+        file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
+      </p>
+</div></td>
+</tr></table>
+<hr>
+<div class="spirit-nav">
+<a accesskey="p" href="vslider.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.stream_hpp"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="uistring.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
+</div>
+</body>
+</html>

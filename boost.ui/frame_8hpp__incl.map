@@ -1,5 +1,6 @@
 <map id="boost/ui/frame.hpp" name="boost/ui/frame.hpp">
-<area shape="rect" id="node2" href="$config_8hpp.html" title="Configuration options. " alt="" coords="2730,244,2862,271"/>
-<area shape="rect" id="node4" href="$window_8hpp.html" title="Window class. " alt="" coords="3793,80,3935,107"/>
-<area shape="rect" id="node10" href="$widget_8hpp.html" title="Widget class. " alt="" coords="1011,162,1146,189"/>
+<area shape="rect" id="node2" href="$config_8hpp.html" title="Configuration options. " alt="" coords="6545,251,6677,278"/>
+<area shape="rect" id="node4" href="$window_8hpp.html" title="Window class. " alt="" coords="4073,80,4215,107"/>
+<area shape="rect" id="node50" href="$menu_8hpp.html" title="Menu classes. " alt="" coords="211,80,341,107"/>
+<area shape="rect" id="node10" href="$widget_8hpp.html" title="Widget class. " alt="" coords="483,162,618,189"/>
 </map>

@@ -210,7 +210,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Logging stream class with output into provided <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>.  <a href="classboost_1_1ui_1_1log__string.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1menu.html">menu</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">List of selected items.  <a href="classboost_1_1ui_1_1menu.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Menu (list of commands) class.  <a href="classboost_1_1ui_1_1menu.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1menu__bar.html">menu_bar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Menu bar class.  <a href="classboost_1_1ui_1_1menu__bar.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1mouse__event.html">mouse_event</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mouse event class that holds information about mouse when event was generated.  <a href="classboost_1_1ui_1_1mouse__event.html#details">More...</a><br /></td></tr>
@@ -256,6 +259,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1tri__state__check__box.html">tri_state_check_box</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Labelled widget that that permits the user to make a ternary choice.  <a href="classboost_1_1ui_1_1tri__state__check__box.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1uiostringstream.html">uiostringstream</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Output string stream that collects data for UI.  <a href="classboost_1_1ui_1_1uiostringstream.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Helper class to convert string between UI and application logic only.  <a href="classboost_1_1ui_1_1uistring.html#details">More...</a><br /></td></tr>
@@ -341,9 +347,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ga3513f8b6cac36cac1d66076e787298ac"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__thread.html#ga3513f8b6cac36cac1d66076e787298ac">call_async</a> (F &amp;&amp;f, Args &amp;&amp;...args)</td></tr>
 <tr class="memdesc:ga3513f8b6cac36cac1d66076e787298ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls <em>f</em> in the idle time in UI thread. This function is thread safe.  <a href="group__thread.html#ga3513f8b6cac36cac1d66076e787298ac">More...</a><br /></td></tr>
 <tr class="separator:ga3513f8b6cac36cac1d66076e787298ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff769e61a6b6df625e95eaa3547206c2"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1ui.html#aff769e61a6b6df625e95eaa3547206c2">hash_value</a> (const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;val)</td></tr>
-<tr class="memdesc:aff769e61a6b6df625e95eaa3547206c2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns hash of <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> for boost::hash.  <a href="#aff769e61a6b6df625e95eaa3547206c2">More...</a><br /></td></tr>
-<tr class="separator:aff769e61a6b6df625e95eaa3547206c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace2666da8e4ed214d44eb5e8531ab728"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1ui.html#ace2666da8e4ed214d44eb5e8531ab728">hash_value</a> (const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;value)</td></tr>
+<tr class="memdesc:ace2666da8e4ed214d44eb5e8531ab728"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns hash of <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> for boost::hash.  <a href="#ace2666da8e4ed214d44eb5e8531ab728">More...</a><br /></td></tr>
+<tr class="separator:ace2666da8e4ed214d44eb5e8531ab728"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ga559408876f5d90a2c28b3826caf68a8f"><td class="memItemLeft" align="right" valign="top">
 void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__notify.html#ga559408876f5d90a2c28b3826caf68a8f">info_notify</a> (const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;message, const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;title=<a class="el" href="namespaceboost_1_1ui.html#adae62409b5606293506d7cde6b52be74">ascii</a>(&quot;Information&quot;))</td></tr>
 <tr class="memdesc:ga559408876f5d90a2c28b3826caf68a8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Display information as an non intrusive notification. <br /></td></tr>
@@ -521,6 +527,34 @@ std::locale&#160;</td><td class="memItemRight" valign="bottom"><a class="el" hre
 <tr class="memitem:a274afd9b3cc9b6db6f364157d02af9e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1ui.html#a274afd9b3cc9b6db6f364157d02af9e2">operator+</a> (<a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;&amp;lhs, const char32_t *rhs)</td></tr>
 <tr class="memdesc:a274afd9b3cc9b6db6f364157d02af9e2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Concatenates two strings or the string and the character.  <a href="#a274afd9b3cc9b6db6f364157d02af9e2">More...</a><br /></td></tr>
 <tr class="separator:a274afd9b3cc9b6db6f364157d02af9e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr><td colspan="2"><div class="groupHeader"></div></td></tr>
+<tr class="memitem:a76a38e6ee26d103afc42250103773304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1ui.html#a76a38e6ee26d103afc42250103773304">to_uistring</a> (int value)</td></tr>
+<tr class="memdesc:a76a38e6ee26d103afc42250103773304"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>.  <a href="#a76a38e6ee26d103afc42250103773304">More...</a><br /></td></tr>
+<tr class="separator:a76a38e6ee26d103afc42250103773304"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7e112d1d96e70bbc6b13d42da2df6d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1ui.html#af7e112d1d96e70bbc6b13d42da2df6d4">to_uistring</a> (unsigned int value)</td></tr>
+<tr class="memdesc:af7e112d1d96e70bbc6b13d42da2df6d4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>.  <a href="#af7e112d1d96e70bbc6b13d42da2df6d4">More...</a><br /></td></tr>
+<tr class="separator:af7e112d1d96e70bbc6b13d42da2df6d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a0efdc45713edc492bd431255c01326"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1ui.html#a9a0efdc45713edc492bd431255c01326">to_uistring</a> (long value)</td></tr>
+<tr class="memdesc:a9a0efdc45713edc492bd431255c01326"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>.  <a href="#a9a0efdc45713edc492bd431255c01326">More...</a><br /></td></tr>
+<tr class="separator:a9a0efdc45713edc492bd431255c01326"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa250e4aa23e8973c0dac38c3d58a178c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1ui.html#aa250e4aa23e8973c0dac38c3d58a178c">to_uistring</a> (unsigned long value)</td></tr>
+<tr class="memdesc:aa250e4aa23e8973c0dac38c3d58a178c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>.  <a href="#aa250e4aa23e8973c0dac38c3d58a178c">More...</a><br /></td></tr>
+<tr class="separator:aa250e4aa23e8973c0dac38c3d58a178c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1033d067f7745ec25177aca358a2004"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1ui.html#aa1033d067f7745ec25177aca358a2004">to_uistring</a> (long long value)</td></tr>
+<tr class="memdesc:aa1033d067f7745ec25177aca358a2004"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>.  <a href="#aa1033d067f7745ec25177aca358a2004">More...</a><br /></td></tr>
+<tr class="separator:aa1033d067f7745ec25177aca358a2004"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad300544d56080e2f2d22eee314e9f97f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1ui.html#ad300544d56080e2f2d22eee314e9f97f">to_uistring</a> (unsigned long long value)</td></tr>
+<tr class="memdesc:ad300544d56080e2f2d22eee314e9f97f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>.  <a href="#ad300544d56080e2f2d22eee314e9f97f">More...</a><br /></td></tr>
+<tr class="separator:ad300544d56080e2f2d22eee314e9f97f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa293dc3f03f4e5846af9dc5073d1e6a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1ui.html#aa293dc3f03f4e5846af9dc5073d1e6a4">to_uistring</a> (float value)</td></tr>
+<tr class="memdesc:aa293dc3f03f4e5846af9dc5073d1e6a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>.  <a href="#aa293dc3f03f4e5846af9dc5073d1e6a4">More...</a><br /></td></tr>
+<tr class="separator:aa293dc3f03f4e5846af9dc5073d1e6a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad541319b593a9ea4494560cef2967a4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1ui.html#ad541319b593a9ea4494560cef2967a4d">to_uistring</a> (double value)</td></tr>
+<tr class="memdesc:ad541319b593a9ea4494560cef2967a4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>.  <a href="#ad541319b593a9ea4494560cef2967a4d">More...</a><br /></td></tr>
+<tr class="separator:ad541319b593a9ea4494560cef2967a4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8489d053ef3c065db77cd6c9d3cf69b7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceboost_1_1ui.html#a8489d053ef3c065db77cd6c9d3cf69b7">to_uistring</a> (long double value)</td></tr>
+<tr class="memdesc:a8489d053ef3c065db77cd6c9d3cf69b7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>.  <a href="#a8489d053ef3c065db77cd6c9d3cf69b7">More...</a><br /></td></tr>
+<tr class="separator:a8489d053ef3c065db77cd6c9d3cf69b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
 <tr class="memitem:gaf419d8f78e78a9234144a31e2d536607"><td class="memItemLeft" align="right" valign="top">
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__prompt.html#gaf419d8f78e78a9234144a31e2d536607">prompt</a> (const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;message, const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;title, std::wstring &amp;value)</td></tr>
@@ -710,7 +744,7 @@ const <a class="el" href="group__widget.html#ga4921261ff4b3d54349144deef2a97beb"
 
 </div>
 </div>
-<a class="anchor" id="aff769e61a6b6df625e95eaa3547206c2"></a>
+<a class="anchor" id="ace2666da8e4ed214d44eb5e8531ab728"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -718,7 +752,7 @@ const <a class="el" href="group__widget.html#ga4921261ff4b3d54349144deef2a97beb"
           <td class="memname">std::size_t hash_value </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;&#160;</td>
-          <td class="paramname"><em>val</em></td><td>)</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -1586,36 +1620,6 @@ template&lt;class CharT , class Traits &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="ad8d10e0aa5ad45e98e05de55fe5e35dd"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Traits &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::basic_ostream&lt;char16_t, Traits&gt;&amp; boost::ui::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::basic_ostream&lt; char16_t, Traits &gt; &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;&#160;</td>
-          <td class="paramname"><em>str</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Writes string into the stream. </p>
-
-</div>
-</div>
 <a class="anchor" id="a71b09e24a639e5b3f4912cd189b28e12"></a>
 <div class="memitem">
 <div class="memproto">
@@ -1626,36 +1630,6 @@ template&lt;class Traits &gt; </div>
           <td class="memname">std::basic_ostream&lt;char32_t, Traits&gt;&amp; boost::ui::operator&lt;&lt; </td>
           <td>(</td>
           <td class="paramtype">std::basic_ostream&lt; char32_t, Traits &gt; &amp;&#160;</td>
-          <td class="paramname"><em>os</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;&#160;</td>
-          <td class="paramname"><em>str</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Writes string into the stream. </p>
-
-</div>
-</div>
-<a class="anchor" id="ae5bfd64bd7bcafa381e961b4c30faa61"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Traits &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">std::basic_ostream&lt;wchar_t, Traits&gt;&amp; boost::ui::operator&lt;&lt; </td>
-          <td>(</td>
-          <td class="paramtype">std::basic_ostream&lt; wchar_t, Traits &gt; &amp;&#160;</td>
           <td class="paramname"><em>os</em>, </td>
         </tr>
         <tr>
@@ -1706,7 +1680,67 @@ template&lt;class Traits &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a1976b3f01ac9954576500093b48c6644"></a>
+<a class="anchor" id="ad8d10e0aa5ad45e98e05de55fe5e35dd"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Traits &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::basic_ostream&lt;char16_t, Traits&gt;&amp; boost::ui::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::basic_ostream&lt; char16_t, Traits &gt; &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes string into the stream. </p>
+
+</div>
+</div>
+<a class="anchor" id="ae5bfd64bd7bcafa381e961b4c30faa61"></a>
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Traits &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">std::basic_ostream&lt;wchar_t, Traits&gt;&amp; boost::ui::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">std::basic_ostream&lt; wchar_t, Traits &gt; &amp;&#160;</td>
+          <td class="paramname"><em>os</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> &amp;&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Writes string into the stream. </p>
+
+</div>
+</div>
+<a class="anchor" id="a24c27cdd4219c7c608cd952f67478ed1"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -1721,8 +1755,8 @@ template&lt;class T , class CharT , class Traits &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classboost_1_1ui_1_1basic__rect.html">basic_rect</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>r</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classboost_1_1ui_1_1basic__point.html">basic_point</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1732,7 +1766,7 @@ template&lt;class T , class CharT , class Traits &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Writes <a class="el" href="classboost_1_1ui_1_1basic__rect.html" title="2D rectangle plane figure data structure with custom coordinates type ">basic_rect</a> into the stream. </p>
+<p>Writes <a class="el" href="classboost_1_1ui_1_1basic__point.html" title="2D point data structure with custom coordinates type ">basic_point</a> into the stream. </p>
 
 </div>
 </div>
@@ -1766,7 +1800,7 @@ template&lt;class T , class CharT , class Traits &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a24c27cdd4219c7c608cd952f67478ed1"></a>
+<a class="anchor" id="a1976b3f01ac9954576500093b48c6644"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
@@ -1781,8 +1815,8 @@ template&lt;class T , class CharT , class Traits &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const <a class="el" href="classboost_1_1ui_1_1basic__point.html">basic_point</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>p</em>&#160;</td>
+          <td class="paramtype">const <a class="el" href="classboost_1_1ui_1_1basic__rect.html">basic_rect</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>r</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1792,7 +1826,7 @@ template&lt;class T , class CharT , class Traits &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Writes <a class="el" href="classboost_1_1ui_1_1basic__point.html" title="2D point data structure with custom coordinates type ">basic_point</a> into the stream. </p>
+<p>Writes <a class="el" href="classboost_1_1ui_1_1basic__rect.html" title="2D rectangle plane figure data structure with custom coordinates type ">basic_rect</a> into the stream. </p>
 
 </div>
 </div>
@@ -1950,6 +1984,168 @@ template&lt;class Traits &gt; </div>
 </div><div class="memdoc">
 
 <p>Reads string from the stream. </p>
+
+</div>
+</div>
+<a class="anchor" id="a76a38e6ee26d103afc42250103773304"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> to_uistring </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="af7e112d1d96e70bbc6b13d42da2df6d4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> boost::ui::to_uistring </td>
+          <td>(</td>
+          <td class="paramtype">unsigned int&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a9a0efdc45713edc492bd431255c01326"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> boost::ui::to_uistring </td>
+          <td>(</td>
+          <td class="paramtype">long&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa250e4aa23e8973c0dac38c3d58a178c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> boost::ui::to_uistring </td>
+          <td>(</td>
+          <td class="paramtype">unsigned long&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa1033d067f7745ec25177aca358a2004"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> boost::ui::to_uistring </td>
+          <td>(</td>
+          <td class="paramtype">long long&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad300544d56080e2f2d22eee314e9f97f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> boost::ui::to_uistring </td>
+          <td>(</td>
+          <td class="paramtype">unsigned long long&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="aa293dc3f03f4e5846af9dc5073d1e6a4"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> boost::ui::to_uistring </td>
+          <td>(</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="ad541319b593a9ea4494560cef2967a4d"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> boost::ui::to_uistring </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>. </p>
+
+</div>
+</div>
+<a class="anchor" id="a8489d053ef3c065db77cd6c9d3cf69b7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a> boost::ui::to_uistring </td>
+          <td>(</td>
+          <td class="paramtype">long double&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts numeric value to <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>. </p>
 
 </div>
 </div>

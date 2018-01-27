@@ -17,6 +17,8 @@ var searchData=
   ['menu',['menu',['../classboost_1_1ui_1_1menu.html#abdf8ec97a8dd5e83ced2ac25d2f7cb7e',1,'boost::ui::menu']]],
   ['menu',['menu',['../classboost_1_1ui_1_1menu.html',1,'boost::ui']]],
   ['menu_2ehpp',['menu.hpp',['../menu_8hpp.html',1,'']]],
+  ['menu_5fbar',['menu_bar',['../classboost_1_1ui_1_1menu__bar.html',1,'boost::ui']]],
+  ['menu_5fbar',['menu_bar',['../classboost_1_1ui_1_1menu__bar.html#af491e01b590213039467252e94373531',1,'boost::ui::menu_bar::menu_bar()'],['../classboost_1_1ui_1_1frame.html#af67c0a2c513da77204e0022d5b0afc3b',1,'boost::ui::frame::menu_bar()']]],
   ['message_2ehpp',['message.hpp',['../message_8hpp.html',1,'']]],
   ['meta',['meta',['../classboost_1_1ui_1_1keyboard__state.html#a961f4d632a26c5be658bcd918a94964e',1,'boost::ui::keyboard_state']]],
   ['middle',['middle',['../classboost_1_1ui_1_1mouse__event.html#ac32c24d424b04f0a63b7e727d09d261f',1,'boost::ui::mouse_event']]],
