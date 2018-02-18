@@ -459,7 +459,7 @@
 </g>
 <!-- Node36 -->
 <g id="node36" class="node"><title>Node36</title>
-<g id="a_node36"><a xlink:href="classboost_1_1ui_1_1frame.html" target="_top" xlink:title="Top level widget that hosts other widgets and supports menus. ">
+<g id="a_node36"><a xlink:href="classboost_1_1ui_1_1frame.html" target="_top" xlink:title="Top level widget that hosts other widgets and supports menu bar. ">
 <polygon fill="white" stroke="black" points="314,-0.5 314,-19.5 399,-19.5 399,-0.5 314,-0.5"/>
 <text text-anchor="middle" x="356.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost::ui::frame</text>
 </a>

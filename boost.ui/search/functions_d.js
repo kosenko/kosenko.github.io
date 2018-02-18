@@ -5,5 +5,7 @@ var searchData=
   ['native_5fvalid',['native_valid',['../classboost_1_1ui_1_1widget.html#acc0efb7042fb4308e44d38f744379727',1,'boost::ui::widget']]],
   ['native_5fwidget',['native_widget',['../classboost_1_1ui_1_1native__widget.html#a0b700ef1e636234a59b2f6412792c38c',1,'boost::ui::native_widget']]],
   ['no_5fmargin',['no_margin',['../classboost_1_1ui_1_1layout_1_1item.html#ae493a443c047ca165174e5a6a2b3ab03',1,'boost::ui::layout::item']]],
+  ['noquotes',['noquotes',['../classboost_1_1ui_1_1log__string.html#a91cdf85c98757bb818516f84d45b358c',1,'boost::ui::log_string']]],
+  ['nospaces',['nospaces',['../classboost_1_1ui_1_1log__string.html#a3d24857f9b099d15f5ade8c6352b4104',1,'boost::ui::log_string']]],
   ['notebook',['notebook',['../classboost_1_1ui_1_1notebook.html#afc52d486fb95f450d429f346de006c07',1,'boost::ui::notebook']]]
 ];

@@ -23,6 +23,7 @@ var searchData=
   ['boost',['boost',['../namespaceboost.html',1,'']]],
   ['boost_5fchrono_5fduration',['boost_chrono_duration',['../classboost_1_1ui_1_1time__picker.html#a9c7c8df084d8ec0bf08605b0c92ef293',1,'boost::ui::time_picker']]],
   ['boost_5fsystem_5fclock_5ftime_5fpoint',['boost_system_clock_time_point',['../classboost_1_1ui_1_1date__picker.html#a39bc2b886366a08991ba38d00ee92164',1,'boost::ui::date_picker']]],
+  ['boost_5fui_5fdetail_5fhandler',['BOOST_UI_DETAIL_HANDLER',['../classboost_1_1ui_1_1date__picker.html#ab098911d7099d601de98736367f27fdd',1,'boost::ui::date_picker::BOOST_UI_DETAIL_HANDLER()'],['../classboost_1_1ui_1_1time__picker.html#a2bb7e3ced616320efd6f0cfaf45febd1',1,'boost::ui::time_picker::BOOST_UI_DETAIL_HANDLER()']]],
   ['boost_5fui_5flog',['BOOST_UI_LOG',['../classboost_1_1ui_1_1log.html#adca6418214a4653bce4a5d5fbfc70b7a',1,'boost::ui::log']]],
   ['boost_5fui_5fno_5fcast_5ffrom_5fascii',['BOOST_UI_NO_CAST_FROM_ASCII',['../classboost_1_1ui_1_1uistring.html#a940ccdb502557bdbc78474067e2e005c',1,'boost::ui::uistring']]],
   ['boost_5fui_5fno_5fstring_5fdestructive',['BOOST_UI_NO_STRING_DESTRUCTIVE',['../classboost_1_1ui_1_1uistring.html#a815bdce99ff382d194ba62bb36558fb4',1,'boost::ui::uistring']]],

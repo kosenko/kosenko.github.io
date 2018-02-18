@@ -1,8 +1,8 @@
 <map id="boost/ui/widget.hpp" name="boost/ui/widget.hpp">
 <area shape="rect" id="node2" href="$config_8hpp.html" title="Configuration options. " alt="" coords="919,251,1051,278"/>
-<area shape="rect" id="node4" href="$coord_8hpp.html" title="Coordinates classes. " alt="" coords="557,169,687,196"/>
-<area shape="rect" id="node10" href="$string_8hpp.html" title="String class and operations. " alt="" coords="1287,169,1416,196"/>
-<area shape="rect" id="node14" href="$event_8hpp.html" title="Event classes. " alt="" coords="763,87,892,114"/>
-<area shape="rect" id="node16" href="$font_8hpp.html" title="Font class. " alt="" coords="1072,87,1191,114"/>
-<area shape="rect" id="node18" href="$layout_8hpp.html" title="Layout classes. " alt="" coords="916,87,1048,114"/>
+<area shape="rect" id="node4" href="$coord_8hpp.html" title="Coordinates classes. " alt="" coords="509,169,639,196"/>
+<area shape="rect" id="node10" href="$string_8hpp.html" title="String class and operations. " alt="" coords="1344,169,1473,196"/>
+<area shape="rect" id="node14" href="$event_8hpp.html" title="Event classes. " alt="" coords="740,87,869,114"/>
+<area shape="rect" id="node16" href="$font_8hpp.html" title="Font class. " alt="" coords="1027,87,1145,114"/>
+<area shape="rect" id="node18" href="$layout_8hpp.html" title="Layout classes. " alt="" coords="919,169,1051,196"/>
 </map>

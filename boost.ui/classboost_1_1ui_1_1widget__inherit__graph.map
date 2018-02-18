@@ -33,5 +33,5 @@
 <area shape="rect" id="node30" href="$classboost_1_1ui_1_1string__box.html" title="Single&#45;line text editor widget. " alt="" coords="411,867,551,893"/>
 <area shape="rect" id="node31" href="$classboost_1_1ui_1_1text__box.html" title="Multi&#45;line text editor widget. " alt="" coords="415,917,546,944"/>
 <area shape="rect" id="node35" href="$classboost_1_1ui_1_1dialog.html" title="Top level widget that hosts other widgets. " alt="" coords="423,968,538,995"/>
-<area shape="rect" id="node36" href="$classboost_1_1ui_1_1frame.html" title="Top level widget that hosts other widgets and supports menus. " alt="" coords="424,1019,537,1045"/>
+<area shape="rect" id="node36" href="$classboost_1_1ui_1_1frame.html" title="Top level widget that hosts other widgets and supports menu bar. " alt="" coords="424,1019,537,1045"/>
 </map>

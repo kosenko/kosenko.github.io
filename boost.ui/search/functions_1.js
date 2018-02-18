@@ -11,6 +11,7 @@ var searchData=
   ['blue255',['blue255',['../classboost_1_1ui_1_1color.html#aa31f7a37ae1d8b5f0779d677c10af8c9',1,'boost::ui::color']]],
   ['boost_5fchrono_5fduration',['boost_chrono_duration',['../classboost_1_1ui_1_1time__picker.html#a9c7c8df084d8ec0bf08605b0c92ef293',1,'boost::ui::time_picker']]],
   ['boost_5fsystem_5fclock_5ftime_5fpoint',['boost_system_clock_time_point',['../classboost_1_1ui_1_1date__picker.html#a39bc2b886366a08991ba38d00ee92164',1,'boost::ui::date_picker']]],
+  ['boost_5fui_5fdetail_5fhandler',['BOOST_UI_DETAIL_HANDLER',['../classboost_1_1ui_1_1date__picker.html#ab098911d7099d601de98736367f27fdd',1,'boost::ui::date_picker::BOOST_UI_DETAIL_HANDLER()'],['../classboost_1_1ui_1_1time__picker.html#a2bb7e3ced616320efd6f0cfaf45febd1',1,'boost::ui::time_picker::BOOST_UI_DETAIL_HANDLER()']]],
   ['bottom',['bottom',['../classboost_1_1ui_1_1layout_1_1item.html#ab3e84daf70015f042f5a51a9b5dd2bc8',1,'boost::ui::layout::item']]],
   ['bounds',['bounds',['../classboost_1_1ui_1_1widget.html#a68fc541854e3f67d4813a57a6852082f',1,'boost::ui::widget']]],
   ['button',['button',['../classboost_1_1ui_1_1button.html#a0a5627fa5863a0382579c049016e413b',1,'boost::ui::button']]]
