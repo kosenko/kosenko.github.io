@@ -242,6 +242,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1slider.html">slider</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Slider widget base class.  <a href="classboost_1_1ui_1_1slider.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1status__bar.html">status_bar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Status bar class.  <a href="classboost_1_1ui_1_1status__bar.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1string__box.html">string_box</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Single-line text editor widget.  <a href="classboost_1_1ui_1_1string__box.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -625,10 +628,10 @@ template&lt;class T &gt; </td></tr>
 <tr class="memdesc:ga52f80fff04ee6299ff3007a9236a75fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">UI application entry.  <a href="group__helper.html#ga52f80fff04ee6299ff3007a9236a75fc">More...</a><br /></td></tr>
 <tr class="separator:ga52f80fff04ee6299ff3007a9236a75fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr><td colspan="2"><div class="groupHeader"></div></td></tr>
-<tr class="memitem:gae02f1da3c9125d185d60440bde91c605"><td class="memTemplParams" colspan="2">template&lt;class Rep , class Period &gt; </td></tr>
-<tr class="memitem:gae02f1da3c9125d185d60440bde91c605"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__event.html#gae02f1da3c9125d185d60440bde91c605">on_timeout</a> (const std::chrono::duration&lt; Rep, Period &gt; &amp;d, const boost::function&lt; void()&gt; &amp;fn)</td></tr>
-<tr class="memdesc:gae02f1da3c9125d185d60440bde91c605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls function one time after the specified time duration.  <a href="group__event.html#gae02f1da3c9125d185d60440bde91c605">More...</a><br /></td></tr>
-<tr class="separator:gae02f1da3c9125d185d60440bde91c605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabc04f0091fc0e5dc00ebd3e617c87230"><td class="memTemplParams" colspan="2">template&lt;class Rep , class Period , class F , class... Args&gt; </td></tr>
+<tr class="memitem:gabc04f0091fc0e5dc00ebd3e617c87230"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__event.html#gabc04f0091fc0e5dc00ebd3e617c87230">on_timeout</a> (const std::chrono::duration&lt; Rep, Period &gt; &amp;d, F &amp;&amp;f, Args &amp;&amp;...args)</td></tr>
+<tr class="memdesc:gabc04f0091fc0e5dc00ebd3e617c87230"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls function one time after the specified time duration.  <a href="group__event.html#gabc04f0091fc0e5dc00ebd3e617c87230">More...</a><br /></td></tr>
+<tr class="separator:gabc04f0091fc0e5dc00ebd3e617c87230"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>

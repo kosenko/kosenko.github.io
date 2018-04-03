@@ -111,21 +111,21 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1wheel__event.html">boost::ui::wheel_event</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Mouse wheel event class.  <a href="classboost_1_1ui_1_1wheel__event.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:gae02f1da3c9125d185d60440bde91c605"><td class="memTemplParams" colspan="2">template&lt;class Rep , class Period &gt; </td></tr>
-<tr class="memitem:gae02f1da3c9125d185d60440bde91c605"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__event.html#gae02f1da3c9125d185d60440bde91c605">boost::ui::on_timeout</a> (const std::chrono::duration&lt; Rep, Period &gt; &amp;d, const boost::function&lt; void()&gt; &amp;fn)</td></tr>
-<tr class="memdesc:gae02f1da3c9125d185d60440bde91c605"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls function one time after the specified time duration.  <a href="group__event.html#gae02f1da3c9125d185d60440bde91c605">More...</a><br /></td></tr>
-<tr class="separator:gae02f1da3c9125d185d60440bde91c605"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gabc04f0091fc0e5dc00ebd3e617c87230"><td class="memTemplParams" colspan="2">template&lt;class Rep , class Period , class F , class... Args&gt; </td></tr>
+<tr class="memitem:gabc04f0091fc0e5dc00ebd3e617c87230"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="group__event.html#gabc04f0091fc0e5dc00ebd3e617c87230">boost::ui::on_timeout</a> (const std::chrono::duration&lt; Rep, Period &gt; &amp;d, F &amp;&amp;f, Args &amp;&amp;...args)</td></tr>
+<tr class="memdesc:gabc04f0091fc0e5dc00ebd3e617c87230"><td class="mdescLeft">&#160;</td><td class="mdescRight">Calls function one time after the specified time duration.  <a href="group__event.html#gabc04f0091fc0e5dc00ebd3e617c87230">More...</a><br /></td></tr>
+<tr class="separator:gabc04f0091fc0e5dc00ebd3e617c87230"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <p>Usage example: </p><div class="fragment"><div class="line">ui::dialog dlg(<span class="stringliteral">&quot;Example dialog&quot;</span>);</div><div class="line">ui::button(dlg, <span class="stringliteral">&quot;&amp;Quit&quot;</span>)</div><div class="line">    .on_press(&amp;ui::dialog::close, &amp;dlg);</div><div class="line">dlg.show_modal();</div></div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a href="http://en.wikipedia.org/wiki/Event_(computing)">Event (Wikipedia)</a> </dd>
 <dd>
 <a href="http://www.w3.org/TR/uievents/">UI Events (W3C)</a> </dd></dl>
 <h2 class="groupheader">Function Documentation</h2>
-<a class="anchor" id="gae02f1da3c9125d185d60440bde91c605"></a>
+<a class="anchor" id="gabc04f0091fc0e5dc00ebd3e617c87230"></a>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class Rep , class Period &gt; </div>
+template&lt;class Rep , class Period , class F , class... Args&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">void boost::ui::on_timeout </td>
@@ -136,8 +136,14 @@ template&lt;class Rep , class Period &gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const boost::function&lt; void()&gt; &amp;&#160;</td>
-          <td class="paramname"><em>fn</em>&#160;</td>
+          <td class="paramtype">F &amp;&amp;&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -148,7 +154,7 @@ template&lt;class Rep , class Period &gt; </div>
 </div><div class="memdoc">
 
 <p>Calls function one time after the specified time duration. </p>
-<p>Usage example: </p><div class="fragment"><div class="line"><a class="code" href="group__event.html#gae02f1da3c9125d185d60440bde91c605">ui::on_timeout</a>(std::chrono::milliseconds(1000),</div><div class="line">               []{ BOOST_UI_LOG; }</div><div class="line">              );</div></div><!-- fragment --> <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__helper.html#ga05c0dcb071a16d0d95663934994eeb5c" title="Enables Boost.Chrono library. ">BOOST_UI_USE_CHRONO</a> </dd>
+<p>Usage example: </p><div class="fragment"><div class="line"><a class="code" href="group__event.html#gabc04f0091fc0e5dc00ebd3e617c87230">ui::on_timeout</a>(std::chrono::milliseconds(1000),</div><div class="line">               []{ BOOST_UI_LOG; }</div><div class="line">              );</div></div><!-- fragment --> <dl class="section see"><dt>See also</dt><dd><a class="el" href="group__helper.html#ga05c0dcb071a16d0d95663934994eeb5c" title="Enables Boost.Chrono library. ">BOOST_UI_USE_CHRONO</a> </dd>
 <dd>
 <a class="el" href="group__helper.html#gafb8371e5ea94f9dbff65bac8927e7566" title="Enables Boost.Date_Time library. ">BOOST_UI_USE_DATE_TIME</a> </dd>
 <dd>

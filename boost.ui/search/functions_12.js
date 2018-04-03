@@ -19,6 +19,7 @@ var searchData=
   ['size_5fpt',['size_pt',['../classboost_1_1ui_1_1font.html#a977940c3e4682c47070fe29df6cefa15',1,'boost::ui::font::size_pt(double pt)'],['../classboost_1_1ui_1_1font.html#a0667d00e05505d827f5396e63bfa810a',1,'boost::ui::font::size_pt() const ']]],
   ['spaces',['spaces',['../classboost_1_1ui_1_1log__string.html#a8a09ecfcad5bc5b772ee423965f932c0',1,'boost::ui::log_string']]],
   ['state_5fsaver',['state_saver',['../classboost_1_1ui_1_1painter_1_1state__saver.html#ac8e105acc1b4fed583950e02073b60bc',1,'boost::ui::painter::state_saver']]],
+  ['status_5fbar',['status_bar',['../classboost_1_1ui_1_1status__bar.html#a88d2a0abd5230a3516b7b5b07b75d0b1',1,'boost::ui::status_bar::status_bar()'],['../classboost_1_1ui_1_1frame.html#a841b093f87032e74ed9cccdd6cea1315',1,'boost::ui::frame::status_bar()']]],
   ['str',['str',['../classboost_1_1ui_1_1uiostringstream.html#a7a4745f75703e8ac098ca236728171b4',1,'boost::ui::uiostringstream::str() const '],['../classboost_1_1ui_1_1uiostringstream.html#a28ab1a3df5cdbc5b2f0ab69b8986dd90',1,'boost::ui::uiostringstream::str(const uistring &amp;value)']]],
   ['stretch',['stretch',['../classboost_1_1ui_1_1layout_1_1item.html#ad43c3e6c1f911d4e11089f9e7a248477',1,'boost::ui::layout::item']]],
   ['string_5fbox',['string_box',['../classboost_1_1ui_1_1string__box.html#a65bca8cf0c22421dc9a4f2dc711ada9e',1,'boost::ui::string_box']]],

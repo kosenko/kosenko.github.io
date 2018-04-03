@@ -6,7 +6,7 @@
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
 <link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.application_hpp" title="Header &lt;boost/ui/application.hpp&gt;">
-<link rel="prev" href="entry_idm45388248214800.html" title="Function entry">
+<link rel="prev" href="entry_idm45943571395616.html" title="Function entry">
 <link rel="next" href="beep.html" title="Function beep">
 </head>
 <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
@@ -20,7 +20,7 @@
 </tr></table>
 <hr>
 <div class="spirit-nav">
-<a accesskey="p" href="entry_idm45388248214800.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.application_hpp"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="beep.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
+<a accesskey="p" href="entry_idm45943571395616.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.application_hpp"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="beep.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
 </div>
 <div class="refentry">
 <a name="boost.ui.on_timeout"></a><div class="titlepage"></div>
@@ -32,11 +32,11 @@
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.application_hpp" title="Header &lt;boost/ui/application.hpp&gt;">boost/ui/application.hpp</a>&gt;
 
 </span>
-<span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Rep<span class="special">,</span> <span class="keyword">typename</span> Period<span class="special">&gt;</span> 
-  <span class="keyword">void</span> <span class="identifier">on_timeout</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <span class="special">&amp;</span> d<span class="special">,</span> 
-                  <span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> fn<span class="special">)</span><span class="special">;</span></pre></div>
+<span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Rep<span class="special">,</span> <span class="keyword">typename</span> Period<span class="special">,</span> <span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> 
+  <span class="keyword">void</span> <span class="identifier">on_timeout</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <span class="special">&amp;</span> d<span class="special">,</span> <span class="identifier">F</span> <span class="special">&amp;&amp;</span> f<span class="special">,</span> 
+                  <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span> args<span class="special">)</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm45019170409968"></a><h2>Description</h2>
+<a name="idm45891918886912"></a><h2>Description</h2>
 <p>Usage example: </p>
 <pre class="programlisting"><span class="identifier">ui</span><span class="special">::</span><span class="identifier">on_timeout</span><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">milliseconds</span><span class="special">(</span><span class="number">1000</span><span class="special">)</span><span class="special">,</span>
                <span class="special">[</span><span class="special">]</span><span class="special">{</span> <span class="identifier">BOOST_UI_LOG</span><span class="special">;</span> <span class="special">}</span>
@@ -71,7 +71,7 @@
 </tr></table>
 <hr>
 <div class="spirit-nav">
-<a accesskey="p" href="entry_idm45388248214800.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.application_hpp"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="beep.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
+<a accesskey="p" href="entry_idm45943571395616.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.application_hpp"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="beep.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
 </div>
 </body>
 </html>
