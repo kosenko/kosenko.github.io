@@ -6,6 +6,7 @@ var searchData=
   ['olive_5fdrab',['olive_drab',['../classboost_1_1ui_1_1color.html#ace10e9bef57089959c018c6666387964',1,'boost::ui::color']]],
   ['on_5factivate',['on_activate',['../classboost_1_1ui_1_1list__box.html#af9e3598c70e48eafb471fb2eda942899',1,'boost::ui::list_box']]],
   ['on_5factivate_5fevent',['on_activate_event',['../classboost_1_1ui_1_1list__box.html#aff15e3a86c3c4460b0c48cd2449b2262',1,'boost::ui::list_box']]],
+  ['on_5fchange',['on_change',['../classboost_1_1ui_1_1date__picker.html#a4994ed444ccb28acf78187baa96b916c',1,'boost::ui::date_picker::on_change()'],['../classboost_1_1ui_1_1time__picker.html#a72609d3f7a8ad45591c3f2f9099d135b',1,'boost::ui::time_picker::on_change()']]],
   ['on_5fclose',['on_close',['../classboost_1_1ui_1_1window.html#acbe3ce80a26c24209ae78219b8b5211f',1,'boost::ui::window']]],
   ['on_5fclose_5fevent',['on_close_event',['../classboost_1_1ui_1_1window.html#acc5aa9a4a55f5fe1efa820b79e190e74',1,'boost::ui::window']]],
   ['on_5fcontext_5fmenu',['on_context_menu',['../classboost_1_1ui_1_1widget.html#a38cdcdf2ae227c82da806d707966330a',1,'boost::ui::widget']]],

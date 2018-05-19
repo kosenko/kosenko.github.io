@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
 <link rel="home" href="../../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
-<link rel="up" href="../menu.html#idm45891911938960" title="Description">
+<link rel="up" href="../menu.html#idm45299278250528" title="Description">
 <link rel="prev" href="../menu.html" title="Class menu">
 <link rel="next" href="../menu_bar.html" title="Class menu_bar">
 </head>
@@ -20,7 +20,7 @@
 </tr></table>
 <hr>
 <div class="spirit-nav">
-<a accesskey="p" href="../menu.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../menu.html#idm45891911938960"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="../menu_bar.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
+<a accesskey="p" href="../menu.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../menu.html#idm45299278250528"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="../menu_bar.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
 </div>
 <div class="refentry">
 <a name="boost.ui.menu.item"></a><div class="titlepage"></div>
@@ -41,38 +41,38 @@
   <span class="keyword">typedef</span> <span class="keyword">void</span> <span class="special">*</span> <a name="boost.ui.menu.item.native_handle_type"></a><span class="identifier">native_handle_type</span><span class="special">;</span>  <span class="comment">// Implementation-defined menu item type. </span>
 
   <span class="comment">// <a class="link" href="item.html#boost.ui.menu.itemconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <a class="link" href="item.html#idm45943563629024-bb"><span class="identifier">item</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="../uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="item.html#idm45839573960944-bb"><span class="identifier">item</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="../uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="item.html#idm45943563634256-bb">public member functions</a></span>
-  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> <a class="link" href="item.html" title="Class item">item</a> <span class="special">&amp;</span> <a class="link" href="item.html#idm45943563633696-bb"><span class="identifier">on_press</span></a><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span><span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="item.html#idm45839573966176-bb">public member functions</a></span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> <a class="link" href="item.html" title="Class item">item</a> <span class="special">&amp;</span> <a class="link" href="item.html#idm45839573965616-bb"><span class="identifier">on_press</span></a><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span><span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="item.html#idm45943563625280-bb">private member functions</a></span>
-  <span class="keyword">void</span> <a class="link" href="item.html#idm45943563624704-bb"><span class="identifier">on_press_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="item.html#idm45839573957200-bb">private member functions</a></span>
+  <span class="keyword">void</span> <a class="link" href="item.html#idm45839573956624-bb"><span class="identifier">on_press_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm45891911859776"></a><h2>Description</h2>
+<a name="idm45299278171328"></a><h2>Description</h2>
 <div class="refsect2">
-<a name="idm45891911859360"></a><h3>
+<a name="idm45299278170912"></a><h3>
 <a name="boost.ui.menu.itemconstruct-copy-destruct"></a><code class="computeroutput">item</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem">
-<pre class="literallayout"><a name="idm45943563629024-bb"></a><span class="identifier">item</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="../uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> text<span class="special">)</span><span class="special">;</span></pre>Constructs menu item with associated text label with mnemonics. <p><span class="bold"><strong>See Also:</strong></span></p>
+<pre class="literallayout"><a name="idm45839573960944-bb"></a><span class="identifier">item</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="../uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> text<span class="special">)</span><span class="special">;</span></pre>Constructs menu item with associated text label with mnemonics. <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="https://en.wikipedia.org/wiki/Mnemonics_(keyboard)" target="_top">Mnemonics (Wikipedia)</a> </p>
 <p>
 </p>
 </li></ol></div>
 </div>
 <div class="refsect2">
-<a name="idm45891911849280"></a><h3>
-<a name="idm45943563634256-bb"></a><code class="computeroutput">item</code> public member functions</h3>
+<a name="idm45299278160832"></a><h3>
+<a name="idm45839573966176-bb"></a><code class="computeroutput">item</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem">
-<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> <a class="link" href="item.html" title="Class item">item</a> <span class="special">&amp;</span> <a name="idm45943563633696-bb"></a><span class="identifier">on_press</span><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span> f<span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span> args<span class="special">)</span><span class="special">;</span></pre>Connects menu item press handler. </li></ol></div>
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> <a class="link" href="item.html" title="Class item">item</a> <span class="special">&amp;</span> <a name="idm45839573965616-bb"></a><span class="identifier">on_press</span><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span> f<span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span> args<span class="special">)</span><span class="special">;</span></pre>Connects menu item press handler. </li></ol></div>
 </div>
 <div class="refsect2">
-<a name="idm45891911833424"></a><h3>
-<a name="idm45943563625280-bb"></a><code class="computeroutput">item</code> private member functions</h3>
-<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm45943563624704-bb"></a><span class="identifier">on_press_raw</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre></li></ol></div>
+<a name="idm45299278144976"></a><h3>
+<a name="idm45839573957200-bb"></a><code class="computeroutput">item</code> private member functions</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm45839573956624-bb"></a><span class="identifier">on_press_raw</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre></li></ol></div>
 </div>
 </div>
 </div>
@@ -86,7 +86,7 @@
 </tr></table>
 <hr>
 <div class="spirit-nav">
-<a accesskey="p" href="../menu.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../menu.html#idm45891911938960"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="../menu_bar.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
+<a accesskey="p" href="../menu.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../menu.html#idm45299278250528"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="../menu_bar.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
 </div>
 </body>
 </html>

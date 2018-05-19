@@ -1,4 +1,5 @@
 <map id="boost/ui/color.hpp" name="boost/ui/color.hpp">
-<area shape="rect" id="node2" href="$color__io_8hpp.html" title="Color I/O operations. " alt="" coords="5,80,148,107"/>
-<area shape="rect" id="node3" href="$ui_8hpp.html" title="Master Boost.UI file. " alt="" coords="173,80,266,107"/>
+<area shape="rect" id="node2" href="$message_8hpp.html" title="Display message file. " alt="" coords="5,80,156,107"/>
+<area shape="rect" id="node3" href="$color__io_8hpp.html" title="Color I/O operations. " alt="" coords="180,80,323,107"/>
+<area shape="rect" id="node4" href="$ui_8hpp.html" title="Master Boost.UI file. " alt="" coords="347,80,441,107"/>
 </map>
