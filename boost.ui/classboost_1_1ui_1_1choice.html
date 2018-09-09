@@ -182,7 +182,7 @@ template&lt;class F , class... Args&gt; </td></tr>
 <tr class="separator:a44f07ffb5cccef448ff345834012e874 inherit pub_methods_classboost_1_1ui_1_1strings__box"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ef45108dc52fbbb3e9b68adffff4dba inherit pub_methods_classboost_1_1ui_1_1strings__box"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8ef45108dc52fbbb3e9b68adffff4dba"></a>
 <a class="el" href="classboost_1_1ui_1_1uistring.html">uistring</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1strings__box.html#a8ef45108dc52fbbb3e9b68adffff4dba">operator[]</a> (<a class="el" href="classboost_1_1ui_1_1strings__box.html#a6d6ee922cdd40b26b3713ddf3299d040">size_type</a> <a class="el" href="classboost_1_1ui_1_1widget.html#a93e64c7897beb20fb1282edc1dfa10d3">pos</a>) const </td></tr>
-<tr class="memdesc:a8ef45108dc52fbbb3e9b68adffff4dba inherit pub_methods_classboost_1_1ui_1_1strings__box"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reruns specified element. <br /></td></tr>
+<tr class="memdesc:a8ef45108dc52fbbb3e9b68adffff4dba inherit pub_methods_classboost_1_1ui_1_1strings__box"><td class="mdescLeft">&#160;</td><td class="mdescRight">Retuns specified element. <br /></td></tr>
 <tr class="separator:a8ef45108dc52fbbb3e9b68adffff4dba inherit pub_methods_classboost_1_1ui_1_1strings__box"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84f3f0cc881fb092783188824fcde42f inherit pub_methods_classboost_1_1ui_1_1strings__box"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a84f3f0cc881fb092783188824fcde42f"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classboost_1_1ui_1_1strings__box.html#a84f3f0cc881fb092783188824fcde42f">empty</a> () const </td></tr>
@@ -564,7 +564,7 @@ static const <a class="el" href="classboost_1_1ui_1_1strings__box.html#a6d6ee922
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Widget to select string from popup list of strings. </p>
-<dl class="section see"><dt>See also</dt><dd><a href="http://en.wikipedia.org/wiki/Drop-down_list">Drop-down list (Wikipedia)</a> </dd></dl>
+<p>Usage example: </p><div class="fragment"><div class="line">ui::choice choice = ui::choice(parent,</div><div class="line">    { <span class="stringliteral">&quot;Option 1&quot;</span>, <span class="stringliteral">&quot;Option 2&quot;</span>, <span class="stringliteral">&quot;Option 3&quot;</span> })</div><div class="line">    .<a class="code" href="classboost_1_1ui_1_1choice.html#a6f3dd3122100d89b9fe5de56e106f7ef">on_select_event</a>([&amp;](ui::index_event&amp; e)</div><div class="line">    {</div><div class="line">        ui::log::info() &lt;&lt; <span class="stringliteral">&quot;Selected option index: &quot;</span> &lt;&lt; e.index()</div><div class="line">                        &lt;&lt; <span class="stringliteral">&quot;, text: &quot;</span>                &lt;&lt; choice.text();</div><div class="line">    });</div></div><!-- fragment --><dl class="section see"><dt>See also</dt><dd><a href="http://en.wikipedia.org/wiki/Drop-down_list">Drop-down list (Wikipedia)</a> </dd></dl>
 </div><hr/>The documentation for this class was generated from the following file:<ul>
 <li>boost/ui/<a class="el" href="choice_8hpp_source.html">choice.hpp</a></li>
 </ul>

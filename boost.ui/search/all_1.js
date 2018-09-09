@@ -23,6 +23,8 @@ var searchData=
   ['boost',['boost',['../namespaceboost.html',1,'']]],
   ['boost_5fchrono_5fduration',['boost_chrono_duration',['../classboost_1_1ui_1_1time__picker.html#a9c7c8df084d8ec0bf08605b0c92ef293',1,'boost::ui::time_picker']]],
   ['boost_5fsystem_5fclock_5ftime_5fpoint',['boost_system_clock_time_point',['../classboost_1_1ui_1_1date__picker.html#a39bc2b886366a08991ba38d00ee92164',1,'boost::ui::date_picker']]],
+  ['boost_5fui_5fdetail_5fhandler',['BOOST_UI_DETAIL_HANDLER',['../classboost_1_1ui_1_1window.html#a84b6c01ac137ac522f4f961027dc8f37',1,'boost::ui::window']]],
+  ['boost_5fui_5fdetail_5fhandler_5fevent',['BOOST_UI_DETAIL_HANDLER_EVENT',['../classboost_1_1ui_1_1window.html#a022d22eabbd537efa6af456b5b2aada8',1,'boost::ui::window']]],
   ['boost_5fui_5flog',['BOOST_UI_LOG',['../classboost_1_1ui_1_1log.html#adca6418214a4653bce4a5d5fbfc70b7a',1,'boost::ui::log']]],
   ['boost_5fui_5fno_5fcast_5ffrom_5fascii',['BOOST_UI_NO_CAST_FROM_ASCII',['../classboost_1_1ui_1_1uistring.html#a940ccdb502557bdbc78474067e2e005c',1,'boost::ui::uistring']]],
   ['boost_5fui_5fno_5fstring_5fdestructive',['BOOST_UI_NO_STRING_DESTRUCTIVE',['../classboost_1_1ui_1_1uistring.html#a815bdce99ff382d194ba62bb36558fb4',1,'boost::ui::uistring']]],
@@ -37,8 +39,8 @@ var searchData=
   ['brown',['brown',['../classboost_1_1ui_1_1color.html#a572d49d48391bb7e6216c61f0fad2180',1,'boost::ui::color']]],
   ['burly_5fwood',['burly_wood',['../classboost_1_1ui_1_1color.html#a1ceecd7d3de0b69afa773ab8bd4616c9',1,'boost::ui::color']]],
   ['butt',['butt',['../group__graphics.html#ggaae6b1767fdd936148f109aec9d5bcbdda31d7c3e829be03400641f80b821ef728',1,'boost::ui']]],
-  ['button',['button',['../classboost_1_1ui_1_1button.html#a0a5627fa5863a0382579c049016e413b',1,'boost::ui::button']]],
   ['button',['button',['../classboost_1_1ui_1_1button.html',1,'boost::ui']]],
+  ['button',['button',['../classboost_1_1ui_1_1button.html#a0a5627fa5863a0382579c049016e413b',1,'boost::ui::button']]],
   ['button_2ehpp',['button.hpp',['../button_8hpp.html',1,'']]],
   ['ui',['ui',['../namespaceboost_1_1ui.html',1,'boost']]]
 ];

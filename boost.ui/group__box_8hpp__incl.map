@@ -1,9 +1,7 @@
 <map id="boost/ui/group_box.hpp" name="boost/ui/group_box.hpp">
-<area shape="rect" id="node2" href="$config_8hpp.html" title="Configuration options. " alt="" coords="919,326,1051,353"/>
-<area shape="rect" id="node4" href="$widget_8hpp.html" title="Widget class. " alt="" coords="937,80,1072,107"/>
-<area shape="rect" id="node5" href="$coord_8hpp.html" title="Coordinates classes. " alt="" coords="523,244,652,271"/>
-<area shape="rect" id="node11" href="$string_8hpp.html" title="String class and operations. " alt="" coords="1191,244,1320,271"/>
-<area shape="rect" id="node15" href="$event_8hpp.html" title="Event classes. " alt="" coords="829,162,959,189"/>
-<area shape="rect" id="node17" href="$font_8hpp.html" title="Font class. " alt="" coords="1093,162,1212,189"/>
-<area shape="rect" id="node19" href="$layout_8hpp.html" title="Layout classes. " alt="" coords="983,244,1115,271"/>
+<area shape="rect" id="node2" href="$config_8hpp.html" title="Configuration options. " alt="" coords="2285,341,2417,367"/>
+<area shape="rect" id="node4" href="$widget_8hpp.html" title="Widget class. " alt="" coords="2308,80,2443,107"/>
+<area shape="rect" id="node5" href="$coord_8hpp.html" title="Coordinates classes. " alt="" coords="1284,259,1413,285"/>
+<area shape="rect" id="node23" href="$string_8hpp.html" title="String class and operations. " alt="" coords="1913,259,2043,285"/>
+<area shape="rect" id="node26" href="$event_8hpp.html" title="Event classes. " alt="" coords="1897,169,2027,196"/>
 </map>
