@@ -100,6 +100,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 <li class="level2"><a href="#event_handling">Event handing</a></li>
 <li class="level2"><a href="#exception_safety">Exception safety</a></li>
 <li class="level2"><a href="#strings">Strings</a></li>
+<li class="level2"><a href="#winmain">WinMain() under Windows</a></li>
 </ul>
 </li>
 <li class="level1"><a href="#src">Source code</a></li>
@@ -181,6 +182,9 @@ Exception safety</h2>
 <h2><a class="anchor" id="strings"></a>
 Strings</h2>
 <p>Boost.UI has own <a class="el" href="classboost_1_1ui_1_1uistring.html">boost::ui::uistring</a> string class that simplifies conversion between native widget toolkit string classes and C++ Standard string classes. Native string format could be ANSI, UTF-8, wchar_t etc.</p>
+<h2><a class="anchor" id="winmain"></a>
+WinMain() under Windows</h2>
+<p><code>WinMain()</code> function is used under Windows as entry point for GUI applications, but Boost.UI requires <code>main()</code> function. You can call <code>main()</code> from <code>WinMain()</code> by including into your cpp file: </p><div class="fragment"><div class="line"><span class="preprocessor">#include &lt;boost/ui/native/winmain.cpp&gt;</span></div></div><!-- fragment --><p>Or make this call manually.</p>
 <h1><a class="anchor" id="src"></a>
 Source code</h1>
 <p>See <a href="https://github.com/kosenko/ui">source code (GitHub)</a>. Read README.md file for build instructions and library details.</p>
