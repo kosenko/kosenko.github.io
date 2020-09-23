@@ -1,5 +1,6 @@
 <map id="boost::ui::check_box_base" name="boost::ui::check_box_base">
-<area shape="rect" id="node3" href="$classboost_1_1ui_1_1check__box.html" title="Labelled widget that that permits the user to make a binary choice. " alt="" coords="5,162,148,189"/>
-<area shape="rect" id="node4" href="$classboost_1_1ui_1_1tri__state__check__box.html" title="Labelled widget that that permits the user to make a ternary choice. " alt="" coords="172,155,299,196"/>
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets. " alt="" coords="96,5,215,32"/>
+<area shape="rect" id="node1" title="Check box base class." alt="" coords="71,80,265,107"/>
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1check__box.html" title="Labelled widget that that permits the user to make a binary choice." alt="" coords="5,162,160,189"/>
+<area shape="rect" id="node4" href="$classboost_1_1ui_1_1tri__state__check__box.html" title="Labelled widget that that permits the user to make a ternary choice." alt="" coords="185,155,325,196"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets." alt="" coords="103,5,233,32"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="boost::ui::log::info" name="boost::ui::log::info">
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1log.html" title="Logging stream class. " alt="" coords="25,80,122,107"/>
-<area shape="rect" id="node3" href="$classboost_1_1ui_1_1log__string.html" title="Logging stream class with output into provided uistring. " alt="" coords="5,5,141,32"/>
+<area shape="rect" id="node1" title="Shows information dialog in idle time." alt="" coords="11,155,150,181"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1log.html" title="Logging stream class." alt="" coords="27,80,134,107"/>
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1log__string.html" title="Logging stream class with output into provided uistring." alt="" coords="5,5,156,32"/>
 </map>

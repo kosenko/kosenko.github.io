@@ -1,10 +1,10 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Class close_event</title>
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
-<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="home" href="../../index.html" title="Chapter 1. Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.window_hpp" title="Header &lt;boost/ui/window.hpp&gt;">
 <link rel="prev" href="widget.html" title="Class widget">
 <link rel="next" href="window.html" title="Class window">
@@ -26,7 +26,7 @@
 <a name="boost.ui.close_event"></a><div class="titlepage"></div>
 <div class="refnamediv">
 <h2><span class="refentrytitle">Class close_event</span></h2>
-<p>boost::ui::close_event &#8212; Close event class. </p>
+<p>boost::ui::close_event — Close event class. </p>
 </div>
 <h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.window_hpp" title="Header &lt;boost/ui/window.hpp&gt;">boost/ui/window.hpp</a>&gt;
@@ -35,35 +35,35 @@
 <span class="keyword">class</span> <a class="link" href="close_event.html" title="Class close_event">close_event</a> <span class="special">:</span> <span class="keyword">public</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">ui</span><span class="special">::</span><span class="identifier">event</span> <span class="special">{</span>
 <span class="keyword">public</span><span class="special">:</span>
   <span class="comment">// <a class="link" href="close_event.html#boost.ui.close_eventconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <a class="link" href="close_event.html#idm44939227759904-bb"><span class="identifier">close_event</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="close_event.html#idm44939227759616-bb"><span class="special">~</span><span class="identifier">close_event</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="close_event.html#idm4907-bb"><span class="identifier">close_event</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="close_event.html#idm4908-bb"><span class="special">~</span><span class="identifier">close_event</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="close_event.html#idm44939227761776-bb">public member functions</a></span>
-  <span class="keyword">void</span> <a class="link" href="close_event.html#idm44939227761216-bb"><span class="identifier">veto</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="close_event.html#idm4903-bb">public member functions</a></span>
+  <span class="keyword">void</span> <a class="link" href="close_event.html#idm4904-bb"><span class="identifier">veto</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46156360951296"></a><h2>Description</h2>
+<a name="idm19353"></a><h2>Description</h2>
 <div class="refsect2">
-<a name="idm46156360950880"></a><h3>
+<a name="idm19355"></a><h3>
 <a name="boost.ui.close_eventconstruct-copy-destruct"></a><code class="computeroutput">close_event</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
-<li class="listitem"><pre class="literallayout"><a name="idm44939227759904-bb"></a><span class="identifier">close_event</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
-<li class="listitem"><pre class="literallayout"><a name="idm44939227759616-bb"></a><span class="special">~</span><span class="identifier">close_event</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><a name="idm4907-bb"></a><span class="identifier">close_event</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><a name="idm4908-bb"></a><span class="special">~</span><span class="identifier">close_event</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156360940784"></a><h3>
-<a name="idm44939227761776-bb"></a><code class="computeroutput">close_event</code> public member functions</h3>
+<a name="idm19377"></a><h3>
+<a name="idm4903-bb"></a><code class="computeroutput">close_event</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem">
-<pre class="literallayout"><span class="keyword">void</span> <a name="idm44939227761216-bb"></a><span class="identifier">veto</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Don't close application. </li></ol></div>
+<pre class="literallayout"><span class="keyword">void</span> <a name="idm4904-bb"></a><span class="identifier">veto</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Don't close application. </li></ol></div>
 </div>
 </div>
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+<td align="right"><div class="copyright-footer">Copyright © 2017 Kolya Kosenko<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>

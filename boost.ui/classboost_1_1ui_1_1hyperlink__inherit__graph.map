@@ -1,3 +1,4 @@
 <map id="boost::ui::hyperlink" name="boost::ui::hyperlink">
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets. " alt="" coords="12,5,131,32"/>
+<area shape="rect" id="node1" title="Widget that displays static text which links to an URL." alt="" coords="5,80,152,107"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets." alt="" coords="13,5,144,32"/>
 </map>

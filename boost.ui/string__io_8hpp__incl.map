@@ -1,4 +1,11 @@
 <map id="boost/ui/string_io.hpp" name="boost/ui/string_io.hpp">
-<area shape="rect" id="node2" href="$config_8hpp.html" title="Configuration options. " alt="" coords="5,155,137,181"/>
-<area shape="rect" id="node4" href="$string_8hpp.html" title="String class and operations. " alt="" coords="124,80,253,107"/>
+<area shape="rect" id="node1" title="String I/O operations." alt="" coords="190,5,353,32"/>
+<area shape="rect" id="node2" href="$config_8hpp.html" title="Configuration options." alt="" coords="5,155,151,181"/>
+<area shape="rect" id="node4" href="$string_8hpp.html" title="String class and operations." alt="" coords="133,80,276,107"/>
+<area shape="rect" id="node8" title=" " alt="" coords="300,80,376,107"/>
+<area shape="rect" id="node9" title=" " alt="" coords="401,80,473,107"/>
+<area shape="rect" id="node3" title=" " alt="" coords="13,229,143,256"/>
+<area shape="rect" id="node5" title=" " alt="" coords="175,155,234,181"/>
+<area shape="rect" id="node6" title=" " alt="" coords="259,155,369,181"/>
+<area shape="rect" id="node7" title=" " alt="" coords="393,155,480,181"/>
 </map>

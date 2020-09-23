@@ -1,10 +1,10 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Class window</title>
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
-<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="home" href="../../index.html" title="Chapter 1. Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.window_hpp" title="Header &lt;boost/ui/window.hpp&gt;">
 <link rel="prev" href="close_event.html" title="Class close_event">
 </head>
@@ -25,7 +25,7 @@
 <a name="boost.ui.window"></a><div class="titlepage"></div>
 <div class="refnamediv">
 <h2><span class="refentrytitle">Class window</span></h2>
-<p>boost::ui::window &#8212; Abstract top level widget that hosts other widgets. </p>
+<p>boost::ui::window — Abstract top level widget that hosts other widgets. </p>
 </div>
 <h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.window_hpp" title="Header &lt;boost/ui/window.hpp&gt;">boost/ui/window.hpp</a>&gt;
@@ -34,18 +34,18 @@
 <span class="keyword">class</span> <a class="link" href="window.html" title="Class window">window</a> <span class="special">:</span> <span class="keyword">public</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">ui</span><span class="special">::</span><span class="identifier">widget</span> <span class="special">{</span>
 <span class="keyword">public</span><span class="special">:</span>
 
-  <span class="comment">// <a class="link" href="window.html#idm44939227753936-bb">public member functions</a></span>
-  <a class="link" href="window.html" title="Class window">window</a> <span class="special">&amp;</span> <a class="link" href="window.html#idm44939227753376-bb"><span class="identifier">title</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a class="link" href="window.html#idm44939227748848-bb"><span class="identifier">title</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="keyword">void</span> <a class="link" href="window.html#idm44939227747312-bb"><span class="identifier">show_modal</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">bool</span> <a class="link" href="window.html#idm44939227744160-bb"><span class="identifier">close</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="window.html#idm4920-bb">public member functions</a></span>
+  <a class="link" href="window.html" title="Class window">window</a> <span class="special">&amp;</span> <a class="link" href="window.html#idm4921-bb"><span class="identifier">title</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a class="link" href="window.html#idm4934-bb"><span class="identifier">title</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">void</span> <a class="link" href="window.html#idm4938-bb"><span class="identifier">show_modal</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">bool</span> <a class="link" href="window.html#idm4947-bb"><span class="identifier">close</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="window.html#idm44939227742816-bb">private member functions</a></span>
-  <span class="keyword">void</span> <a class="link" href="window.html#idm44939227742240-bb"><span class="identifier">on_close_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">void</span> <a class="link" href="window.html#idm44939227740688-bb"><span class="identifier">on_close_event_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><a class="link" href="close_event.html" title="Class close_event">close_event</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="window.html#idm4950-bb">private member functions</a></span>
+  <span class="keyword">void</span> <a class="link" href="window.html#idm4951-bb"><span class="identifier">on_close_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">void</span> <a class="link" href="window.html#idm4955-bb"><span class="identifier">on_close_event_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><a class="link" href="close_event.html" title="Class close_event">close_event</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46156360879776"></a><h2>Description</h2>
+<a name="idm19483"></a><h2>Description</h2>
 <p>Usage examples: </p>
 <pre class="programlisting"><span class="keyword">class</span> <span class="identifier">my_dialog</span> <span class="special">:</span> <span class="keyword">public</span> <span class="identifier">ui</span><span class="special">::</span><span class="identifier">dialog</span>
 <span class="special">{</span>
@@ -104,41 +104,47 @@
 <p><a href="http://en.wikipedia.org/wiki/Window_(computing)" target="_top">Window (Wikipedia)</a> </p>
 <p>
 </p>
+<p>
+</p>
 <div class="refsect2">
-<a name="idm46156360767760"></a><h3>
-<a name="idm44939227753936-bb"></a><code class="computeroutput">window</code> public member functions</h3>
+<a name="idm19677"></a><h3>
+<a name="idm4920-bb"></a><code class="computeroutput">window</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="window.html" title="Class window">window</a> <span class="special">&amp;</span> <a name="idm44939227753376-bb"></a><span class="identifier">title</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> title<span class="special">)</span><span class="special">;</span></pre>Sets title. <p><span class="bold"><strong>See Also:</strong></span></p>
+<pre class="literallayout"><a class="link" href="window.html" title="Class window">window</a> <span class="special">&amp;</span> <a name="idm4921-bb"></a><span class="identifier">title</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> title<span class="special">)</span><span class="special">;</span></pre>Sets title. <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Title_bar" target="_top">Title bar (Wikipedia)</a> </p>
 <p>
 </p>
-</li>
-<li class="listitem">
-<pre class="literallayout"><a class="link" href="uistring.html" title="Class uistring">uistring</a> <a name="idm44939227748848-bb"></a><span class="identifier">title</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns title. </li>
-<li class="listitem">
-<pre class="literallayout"><span class="keyword">void</span> <a name="idm44939227747312-bb"></a><span class="identifier">show_modal</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Shows an application-modal dialog. <p><span class="bold"><strong>See Also:</strong></span></p>
-<p><a href="http://en.wikipedia.org/wiki/Modal_window" target="_top">Modal window (Wikipedia)</a> </p>
 <p>
 </p>
 </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">bool</span> <a name="idm44939227744160-bb"></a><span class="identifier">close</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Initiates window close. Returns false if operation was vetoed. </li>
+<pre class="literallayout"><a class="link" href="uistring.html" title="Class uistring">uistring</a> <a name="idm4934-bb"></a><span class="identifier">title</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns title. </li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">void</span> <a name="idm4938-bb"></a><span class="identifier">show_modal</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Shows an application-modal dialog. <p><span class="bold"><strong>See Also:</strong></span></p>
+<p><a href="http://en.wikipedia.org/wiki/Modal_window" target="_top">Modal window (Wikipedia)</a> </p>
+<p>
+</p>
+<p>
+</p>
+</li>
+<li class="listitem">
+<pre class="literallayout"><span class="keyword">bool</span> <a name="idm4947-bb"></a><span class="identifier">close</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Initiates window close. Returns false if operation was vetoed. </li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156360740160"></a><h3>
-<a name="idm44939227742816-bb"></a><code class="computeroutput">window</code> private member functions</h3>
+<a name="idm19733"></a><h3>
+<a name="idm4950-bb"></a><code class="computeroutput">window</code> private member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
-<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm44939227742240-bb"></a><span class="identifier">on_close_raw</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre></li>
-<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm44939227740688-bb"></a><span class="identifier">on_close_event_raw</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><a class="link" href="close_event.html" title="Class close_event">close_event</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm4951-bb"></a><span class="identifier">on_close_raw</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm4955-bb"></a><span class="identifier">on_close_event_raw</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><a class="link" href="close_event.html" title="Class close_event">close_event</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 </div>
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+<td align="right"><div class="copyright-footer">Copyright © 2017 Kolya Kosenko<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>

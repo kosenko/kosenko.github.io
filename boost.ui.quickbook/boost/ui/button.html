@@ -1,10 +1,10 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Class button</title>
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
-<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="home" href="../../index.html" title="Chapter 1. Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.button_hpp" title="Header &lt;boost/ui/button.hpp&gt;">
 <link rel="prev" href="beep.html" title="Function beep">
 <link rel="next" href="canvas.html" title="Class canvas">
@@ -26,7 +26,7 @@
 <a name="boost.ui.button"></a><div class="titlepage"></div>
 <div class="refnamediv">
 <h2><span class="refentrytitle">Class button</span></h2>
-<p>boost::ui::button &#8212; Widget with label that generate event when clicked on. </p>
+<p>boost::ui::button — Widget with label that generate event when clicked on. </p>
 </div>
 <h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.button_hpp" title="Header &lt;boost/ui/button.hpp&gt;">boost/ui/button.hpp</a>&gt;
@@ -35,17 +35,17 @@
 <span class="keyword">class</span> <a class="link" href="button.html" title="Class button">button</a> <span class="special">:</span> <span class="keyword">public</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">ui</span><span class="special">::</span><span class="identifier">widget</span> <span class="special">{</span>
 <span class="keyword">public</span><span class="special">:</span>
   <span class="comment">// <a class="link" href="button.html#boost.ui.buttonconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <span class="keyword">explicit</span> <a class="link" href="button.html#idm44939232412848-bb"><span class="identifier">button</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="button.html#idm44939229652656-bb"><span class="identifier">button</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">explicit</span> <a class="link" href="button.html#idm110-bb"><span class="identifier">button</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="button.html#idm137-bb"><span class="identifier">button</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="button.html#idm44939229657184-bb">public member functions</a></span>
-  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> <a class="link" href="button.html" title="Class button">button</a> <span class="special">&amp;</span> <a class="link" href="button.html#idm44939229656800-bb"><span class="identifier">on_press</span></a><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span><span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="button.html#idm124-bb">public member functions</a></span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span> <span class="special">...</span> Args<span class="special">&gt;</span> <a class="link" href="button.html" title="Class button">button</a> <span class="special">&amp;</span> <a class="link" href="button.html#idm125-bb"><span class="identifier">on_press</span></a><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span><span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="button.html#idm44939229652400-bb">private member functions</a></span>
-  <span class="keyword">void</span> <a class="link" href="button.html#idm44939229651904-bb"><span class="identifier">on_press_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="button.html#idm138-bb">private member functions</a></span>
+  <span class="keyword">void</span> <a class="link" href="button.html#idm139-bb"><span class="identifier">on_press_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46156371676288"></a><h2>Description</h2>
+<a name="idm438"></a><h2>Description</h2>
 <p>Usage example: </p>
 <pre class="programlisting"><span class="keyword">class</span> <span class="identifier">button_dialog</span> <span class="special">:</span> <span class="keyword">public</span> <span class="identifier">ui</span><span class="special">::</span><span class="identifier">dialog</span>
 <span class="special">{</span>
@@ -69,37 +69,42 @@
 <p><a href="http://en.wikipedia.org/wiki/Button_(computing)" target="_top">Button (Wikipedia)</a> </p>
 <p>
 </p>
+<p>
+</p>
 <div class="refsect2">
-<a name="idm46156371639456"></a><h3>
+<a name="idm509"></a><h3>
 <a name="boost.ui.buttonconstruct-copy-destruct"></a><code class="computeroutput">button</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm44939232412848-bb"></a><span class="identifier">button</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> label<span class="special">)</span><span class="special">;</span></pre>Creates button with text label with mnemonics. <p><span class="bold"><strong>See Also:</strong></span></p>
+<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm110-bb"></a><span class="identifier">button</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> label<span class="special">)</span><span class="special">;</span></pre>Creates button with text label with mnemonics. <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="https://en.wikipedia.org/wiki/Mnemonics_(keyboard)" target="_top">Mnemonics (Wikipedia)</a> </p>
 <p>
 </p>
+<p>
+</p>
 </li>
-<li class="listitem"><pre class="literallayout"><a name="idm44939229652656-bb"></a><span class="identifier">button</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><a name="idm137-bb"></a><span class="identifier">button</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156371625040"></a><h3>
-<a name="idm44939229657184-bb"></a><code class="computeroutput">button</code> public member functions</h3>
+<a name="idm542"></a><h3>
+<a name="idm124-bb"></a><code class="computeroutput">button</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem">
-<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> <a class="link" href="button.html" title="Class button">button</a> <span class="special">&amp;</span> <a name="idm44939229656800-bb"></a><span class="identifier">on_press</span><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span> f<span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span> args<span class="special">)</span><span class="special">;</span></pre>Connects button press handler. </li></ol></div>
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span> <span class="special">...</span> Args<span class="special">&gt;</span> 
+  <a class="link" href="button.html" title="Class button">button</a> <span class="special">&amp;</span> <a name="idm125-bb"></a><span class="identifier">on_press</span><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span> f<span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span> args<span class="special">)</span><span class="special">;</span></pre>Connects button press handler. </li></ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156371610992"></a><h3>
-<a name="idm44939229652400-bb"></a><code class="computeroutput">button</code> private member functions</h3>
-<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm44939229651904-bb"></a><span class="identifier">on_press_raw</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre></li></ol></div>
+<a name="idm570"></a><h3>
+<a name="idm138-bb"></a><code class="computeroutput">button</code> private member functions</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm139-bb"></a><span class="identifier">on_press_raw</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre></li></ol></div>
 </div>
 </div>
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+<td align="right"><div class="copyright-footer">Copyright © 2017 Kolya Kosenko<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>

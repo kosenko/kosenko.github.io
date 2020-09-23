@@ -1,10 +1,10 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Class key_event</title>
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
-<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="home" href="../../index.html" title="Chapter 1. Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.event_hpp" title="Header &lt;boost/ui/event.hpp&gt;">
 <link rel="prev" href="index_event.html" title="Class index_event">
 <link rel="next" href="keyboard_state.html" title="Class keyboard_state">
@@ -26,7 +26,7 @@
 <a name="boost.ui.key_event"></a><div class="titlepage"></div>
 <div class="refnamediv">
 <h2><span class="refentrytitle">Class key_event</span></h2>
-<p>boost::ui::key_event &#8212; Keyboard event class that holds information about keyboard when event was generated. </p>
+<p>boost::ui::key_event — Keyboard event class that holds information about keyboard when event was generated. </p>
 </div>
 <h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.event_hpp" title="Header &lt;boost/ui/event.hpp&gt;">boost/ui/event.hpp</a>&gt;
@@ -35,44 +35,48 @@
 <span class="keyword">class</span> <a class="link" href="key_event.html" title="Class key_event">key_event</a> <span class="special">:</span> <span class="keyword">public</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">ui</span><span class="special">::</span><span class="identifier">event</span>, <span class="keyword">public</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">ui</span><span class="special">::</span><span class="identifier">keyboard_state</span> <span class="special">{</span>
 <span class="keyword">public</span><span class="special">:</span>
   <span class="comment">// <a class="link" href="key_event.html#boost.ui.key_eventconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <a class="link" href="key_event.html#idm44939228969952-bb"><span class="identifier">key_event</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="key_event.html#idm1852-bb"><span class="identifier">key_event</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="key_event.html#idm44939228973520-bb">public member functions</a></span>
-  <span class="keyword">int</span> <a class="link" href="key_event.html#idm44939228972960-bb"><span class="identifier">key_code</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="keyword">char32_t</span> <a class="link" href="key_event.html#idm44939228971536-bb"><span class="identifier">get_char</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="key_event.html#idm1845-bb">public member functions</a></span>
+  <span class="keyword">int</span> <a class="link" href="key_event.html#idm1846-bb"><span class="identifier">key_code</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">char32_t</span> <a class="link" href="key_event.html#idm1849-bb"><span class="identifier">get_char</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46156368502704"></a><h2>Description</h2>
+<a name="idm6101"></a><h2>Description</h2>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Computer_keyboard" target="_top">Keyboard (Wikipedia)</a> </p>
+<p>
+</p>
 <p>
 </p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://www.w3.org/TR/DOM-Level-3-Events-key/" target="_top">DOM Level 3 KeyboardEvent key Values (W3C)</a> </p>
 <p>
 </p>
+<p>
+</p>
 <div class="refsect2">
-<a name="idm46156368498800"></a><h3>
+<a name="idm6112"></a><h3>
 <a name="boost.ui.key_eventconstruct-copy-destruct"></a><code class="computeroutput">key_event</code> 
         public
        construct/copy/destruct</h3>
-<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><a name="idm44939228969952-bb"></a><span class="identifier">key_event</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li></ol></div>
+<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><a name="idm1852-bb"></a><span class="identifier">key_event</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li></ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156368492928"></a><h3>
-<a name="idm44939228973520-bb"></a><code class="computeroutput">key_event</code> public member functions</h3>
+<a name="idm6125"></a><h3>
+<a name="idm1845-bb"></a><code class="computeroutput">key_event</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">int</span> <a name="idm44939228972960-bb"></a><span class="identifier">key_code</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns associated key code. </li>
+<pre class="literallayout"><span class="keyword">int</span> <a name="idm1846-bb"></a><span class="identifier">key_code</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns associated key code. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">char32_t</span> <a name="idm44939228971536-bb"></a><span class="identifier">get_char</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns associated character. </li>
+<pre class="literallayout"><span class="keyword">char32_t</span> <a name="idm1849-bb"></a><span class="identifier">get_char</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns associated character. </li>
 </ol></div>
 </div>
 </div>
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+<td align="right"><div class="copyright-footer">Copyright © 2017 Kolya Kosenko<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>

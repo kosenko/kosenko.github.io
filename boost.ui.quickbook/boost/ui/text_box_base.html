@@ -1,10 +1,10 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Class text_box_base</title>
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
-<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="home" href="../../index.html" title="Chapter 1. Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.text_box_hpp" title="Header &lt;boost/ui/text_box.hpp&gt;">
 <link rel="prev" href="text_box.html" title="Class text_box">
 <link rel="next" href="call_async.html" title="Function template call_async">
@@ -26,7 +26,7 @@
 <a name="boost.ui.text_box_base"></a><div class="titlepage"></div>
 <div class="refnamediv">
 <h2><span class="refentrytitle">Class text_box_base</span></h2>
-<p>boost::ui::text_box_base &#8212; Abstract text editor widget. </p>
+<p>boost::ui::text_box_base — Abstract text editor widget. </p>
 </div>
 <h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.text_box_hpp" title="Header &lt;boost/ui/text_box.hpp&gt;">boost/ui/text_box.hpp</a>&gt;
@@ -35,20 +35,20 @@
 <span class="keyword">class</span> <a class="link" href="text_box_base.html" title="Class text_box_base">text_box_base</a> <span class="special">:</span> <span class="keyword">public</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">ui</span><span class="special">::</span><span class="identifier">widget</span> <span class="special">{</span>
 <span class="keyword">public</span><span class="special">:</span>
   <span class="comment">// <a class="link" href="text_box_base.html#boost.ui.text_box_baseconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <a class="link" href="text_box_base.html#idm44939227919760-bb"><span class="identifier">text_box_base</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="text_box_base.html#idm4516-bb"><span class="identifier">text_box_base</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="text_box_base.html#idm44939227926480-bb">public member functions</a></span>
-  <span class="keyword">void</span> <a class="link" href="text_box_base.html#idm44939227925920-bb"><span class="identifier">clear</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="text_box_base.html" title="Class text_box_base">text_box_base</a> <span class="special">&amp;</span> <a class="link" href="text_box_base.html#idm44939227924784-bb"><span class="identifier">text</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a class="link" href="text_box_base.html#idm44939227922208-bb"><span class="identifier">text</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="text_box_base.html#idm4500-bb">public member functions</a></span>
+  <span class="keyword">void</span> <a class="link" href="text_box_base.html#idm4501-bb"><span class="identifier">clear</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="text_box_base.html" title="Class text_box_base">text_box_base</a> <span class="special">&amp;</span> <a class="link" href="text_box_base.html#idm4504-bb"><span class="identifier">text</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a class="link" href="text_box_base.html#idm4511-bb"><span class="identifier">text</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="text_box_base.html#idm44939227919472-bb">private member functions</a></span>
-  <span class="keyword">void</span> <a class="link" href="text_box_base.html#idm44939227918896-bb"><span class="identifier">on_edit_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="text_box_base.html#idm44939227917344-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="text_box_base.html#idm44939227916496-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="text_box_base.html#idm4517-bb">private member functions</a></span>
+  <span class="keyword">void</span> <a class="link" href="text_box_base.html#idm4518-bb"><span class="identifier">on_edit_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="text_box_base.html#idm4522-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="text_box_base.html#idm4524-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46156362291296"></a><h2>Description</h2>
+<a name="idm16981"></a><h2>Description</h2>
 <p>Usage example: </p>
 <pre class="programlisting"><span class="identifier">ui</span><span class="special">::</span><span class="identifier">string_box</span> <span class="identifier">string_box</span> <span class="special">=</span> <span class="identifier">ui</span><span class="special">::</span><span class="identifier">string_box</span><span class="special">(</span><span class="identifier">parent</span><span class="special">,</span> <span class="string">"Initial text"</span><span class="special">)</span><span class="special">;</span>
 <span class="identifier">string_box</span><span class="special">.</span><span class="identifier">on_edit</span><span class="special">(</span><span class="special">[</span><span class="special">&amp;</span><span class="special">]</span>
@@ -57,38 +57,38 @@
 <span class="special">}</span><span class="special">)</span><span class="special">;</span>
 </pre>
 <div class="refsect2">
-<a name="idm46156362266432"></a><h3>
+<a name="idm17026"></a><h3>
 <a name="boost.ui.text_box_baseconstruct-copy-destruct"></a><code class="computeroutput">text_box_base</code> 
         public
        construct/copy/destruct</h3>
-<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><a name="idm44939227919760-bb"></a><span class="identifier">text_box_base</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li></ol></div>
+<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><a name="idm4516-bb"></a><span class="identifier">text_box_base</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li></ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156362260592"></a><h3>
-<a name="idm44939227926480-bb"></a><code class="computeroutput">text_box_base</code> public member functions</h3>
+<a name="idm17039"></a><h3>
+<a name="idm4500-bb"></a><code class="computeroutput">text_box_base</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">void</span> <a name="idm44939227925920-bb"></a><span class="identifier">clear</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Clears the contents. </li>
+<pre class="literallayout"><span class="keyword">void</span> <a name="idm4501-bb"></a><span class="identifier">clear</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Clears the contents. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="text_box_base.html" title="Class text_box_base">text_box_base</a> <span class="special">&amp;</span> <a name="idm44939227924784-bb"></a><span class="identifier">text</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> text<span class="special">)</span><span class="special">;</span></pre>Sets text into the editor. </li>
+<pre class="literallayout"><a class="link" href="text_box_base.html" title="Class text_box_base">text_box_base</a> <span class="special">&amp;</span> <a name="idm4504-bb"></a><span class="identifier">text</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> text<span class="special">)</span><span class="special">;</span></pre>Sets text into the editor. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="uistring.html" title="Class uistring">uistring</a> <a name="idm44939227922208-bb"></a><span class="identifier">text</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns text from the editor. </li>
+<pre class="literallayout"><a class="link" href="uistring.html" title="Class uistring">uistring</a> <a name="idm4511-bb"></a><span class="identifier">text</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns text from the editor. </li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156362241088"></a><h3>
-<a name="idm44939227919472-bb"></a><code class="computeroutput">text_box_base</code> private member functions</h3>
+<a name="idm17076"></a><h3>
+<a name="idm4517-bb"></a><code class="computeroutput">text_box_base</code> private member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
-<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm44939227918896-bb"></a><span class="identifier">on_edit_raw</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre></li>
-<li class="listitem"><pre class="literallayout"><span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm44939227917344-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
-<li class="listitem"><pre class="literallayout"><span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm44939227916496-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm4518-bb"></a><span class="identifier">on_edit_raw</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm4522-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm4524-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 </div>
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+<td align="right"><div class="copyright-footer">Copyright © 2017 Kolya Kosenko<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>

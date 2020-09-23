@@ -1,5 +1,6 @@
 <map id="boost::ui::line_widget" name="boost::ui::line_widget">
-<area shape="rect" id="node3" href="$classboost_1_1ui_1_1hline.html" title="Horizontal line widget. " alt="" coords="5,155,112,181"/>
-<area shape="rect" id="node4" href="$classboost_1_1ui_1_1vline.html" title="Vertical line widget. " alt="" coords="136,155,243,181"/>
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets. " alt="" coords="65,5,183,32"/>
+<area shape="rect" id="node1" title="Abstract widget that displays horizontal or vertical line." alt="" coords="55,80,216,107"/>
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1hline.html" title="Horizontal line widget." alt="" coords="5,155,124,181"/>
+<area shape="rect" id="node4" href="$classboost_1_1ui_1_1vline.html" title="Vertical line widget." alt="" coords="148,155,267,181"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets." alt="" coords="70,5,201,32"/>
 </map>

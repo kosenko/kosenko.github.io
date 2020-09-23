@@ -1,10 +1,10 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Class web_widget</title>
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
-<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="home" href="../../index.html" title="Chapter 1. Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.web_widget_hpp" title="Header &lt;boost/ui/web_widget.hpp&gt;">
 <link rel="prev" href="call_async.html" title="Function template call_async">
 <link rel="next" href="native_widget.html" title="Class native_widget">
@@ -26,7 +26,7 @@
 <a name="boost.ui.web_widget"></a><div class="titlepage"></div>
 <div class="refnamediv">
 <h2><span class="refentrytitle">Class web_widget</span></h2>
-<p>boost::ui::web_widget &#8212; Widget that renders HTML. </p>
+<p>boost::ui::web_widget — Widget that renders HTML. </p>
 </div>
 <h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.web_widget_hpp" title="Header &lt;boost/ui/web_widget.hpp&gt;">boost/ui/web_widget.hpp</a>&gt;
@@ -35,65 +35,73 @@
 <span class="keyword">class</span> <a class="link" href="web_widget.html" title="Class web_widget">web_widget</a> <span class="special">:</span> <span class="keyword">public</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">ui</span><span class="special">::</span><span class="identifier">widget</span> <span class="special">{</span>
 <span class="keyword">public</span><span class="special">:</span>
   <span class="comment">// <a class="link" href="web_widget.html#boost.ui.web_widgetconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <span class="keyword">explicit</span> <a class="link" href="web_widget.html#idm44939227898352-bb"><span class="identifier">web_widget</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="web_widget.html#idm44939227885984-bb"><span class="identifier">web_widget</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">explicit</span> <a class="link" href="web_widget.html#idm4565-bb"><span class="identifier">web_widget</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="web_widget.html#idm4598-bb"><span class="identifier">web_widget</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="web_widget.html#idm44939227895808-bb">public member functions</a></span>
-  <a class="link" href="web_widget.html" title="Class web_widget">web_widget</a> <span class="special">&amp;</span> <a class="link" href="web_widget.html#idm44939227895248-bb"><span class="identifier">html</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="web_widget.html" title="Class web_widget">web_widget</a> <span class="special">&amp;</span> <a class="link" href="web_widget.html#idm44939227890720-bb"><span class="identifier">load</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="web_widget.html#idm4571-bb">public member functions</a></span>
+  <a class="link" href="web_widget.html" title="Class web_widget">web_widget</a> <span class="special">&amp;</span> <a class="link" href="web_widget.html#idm4572-bb"><span class="identifier">html</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="web_widget.html" title="Class web_widget">web_widget</a> <span class="special">&amp;</span> <a class="link" href="web_widget.html#idm4585-bb"><span class="identifier">load</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="web_widget.html#idm44939227885696-bb">private member functions</a></span>
-  <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="web_widget.html#idm44939227885120-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="web_widget.html#idm4599-bb">private member functions</a></span>
+  <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="web_widget.html#idm4600-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46156362126256"></a><h2>Description</h2>
+<a name="idm17278"></a><h2>Description</h2>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Web_browser_engine" target="_top">Web browser engine (Wikipedia)</a> </p>
+<p>
+</p>
 <p>
 </p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://www.w3.org/TR/html-markup/iframe.html" target="_top">iframe (W3C)</a> </p>
 <p>
 </p>
+<p>
+</p>
 <div class="refsect2">
-<a name="idm46156362122368"></a><h3>
+<a name="idm17289"></a><h3>
 <a name="boost.ui.web_widgetconstruct-copy-destruct"></a><code class="computeroutput">web_widget</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm44939227898352-bb"></a><span class="identifier">web_widget</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">)</span><span class="special">;</span></pre>Creates <code class="computeroutput"><a class="link" href="web_widget.html" title="Class web_widget">web_widget</a></code> widget. </li>
-<li class="listitem"><pre class="literallayout"><a name="idm44939227885984-bb"></a><span class="identifier">web_widget</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm4565-bb"></a><span class="identifier">web_widget</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">)</span><span class="special">;</span></pre>Creates <code class="computeroutput"><a class="link" href="web_widget.html" title="Class web_widget">web_widget</a></code> widget. </li>
+<li class="listitem"><pre class="literallayout"><a name="idm4598-bb"></a><span class="identifier">web_widget</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156362109200"></a><h3>
-<a name="idm44939227895808-bb"></a><code class="computeroutput">web_widget</code> public member functions</h3>
+<a name="idm17315"></a><h3>
+<a name="idm4571-bb"></a><code class="computeroutput">web_widget</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="web_widget.html" title="Class web_widget">web_widget</a> <span class="special">&amp;</span> <a name="idm44939227895248-bb"></a><span class="identifier">html</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> html<span class="special">)</span><span class="special">;</span></pre>Sets HTML content. <p><span class="bold"><strong>See Also:</strong></span></p>
+<pre class="literallayout"><a class="link" href="web_widget.html" title="Class web_widget">web_widget</a> <span class="special">&amp;</span> <a name="idm4572-bb"></a><span class="identifier">html</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> html<span class="special">)</span><span class="special">;</span></pre>Sets HTML content. <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/HTML" target="_top">HTML (Wikipedia)</a> </p>
 <p>
 </p>
+<p>
+</p>
 </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="web_widget.html" title="Class web_widget">web_widget</a> <span class="special">&amp;</span> <a name="idm44939227890720-bb"></a><span class="identifier">load</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> url<span class="special">)</span><span class="special">;</span></pre>Loads content from the URL. <p><span class="bold"><strong>See Also:</strong></span></p>
+<pre class="literallayout"><a class="link" href="web_widget.html" title="Class web_widget">web_widget</a> <span class="special">&amp;</span> <a name="idm4585-bb"></a><span class="identifier">load</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> url<span class="special">)</span><span class="special">;</span></pre>Loads content from the URL. <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Uniform_resource_locator" target="_top">Uniform resource locator (Wikipedia)</a> </p>
+<p>
+</p>
 <p>
 </p>
 </li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156362088400"></a><h3>
-<a name="idm44939227885696-bb"></a><code class="computeroutput">web_widget</code> private member functions</h3>
-<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm44939227885120-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li></ol></div>
+<a name="idm17356"></a><h3>
+<a name="idm4599-bb"></a><code class="computeroutput">web_widget</code> private member functions</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm4600-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li></ol></div>
 </div>
 </div>
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+<td align="right"><div class="copyright-footer">Copyright © 2017 Kolya Kosenko<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>

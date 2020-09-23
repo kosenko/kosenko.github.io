@@ -1,3 +1,4 @@
 <map id="Alerts" name="Alerts">
-<area shape="rect" id="node1" href="$group__container.html" title="Containers" alt="" coords="5,5,91,32"/>
+<area shape="rect" id="node1" href="$group__container.html" title="Widgets that holds other widgets." alt="" coords="5,5,97,31"/>
+<area shape="rect" id="node2" title="Predefined dialog boxes." alt="" coords="145,5,205,31"/>
 </map>

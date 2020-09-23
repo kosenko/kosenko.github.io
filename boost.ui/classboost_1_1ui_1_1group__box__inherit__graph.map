@@ -1,3 +1,4 @@
 <map id="boost::ui::group_box" name="boost::ui::group_box">
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets. " alt="" coords="16,5,135,32"/>
+<area shape="rect" id="node1" title="Widget that groups other widgets using a frame and a title." alt="" coords="5,80,160,107"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets." alt="" coords="17,5,148,32"/>
 </map>

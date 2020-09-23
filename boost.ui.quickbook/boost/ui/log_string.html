@@ -1,10 +1,10 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Class log_string</title>
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
-<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="home" href="../../index.html" title="Chapter 1. Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.log_hpp" title="Header &lt;boost/ui/log.hpp&gt;">
 <link rel="prev" href="log/warning.html" title="Class warning">
 <link rel="next" href="menu.html" title="Class menu">
@@ -26,7 +26,7 @@
 <a name="boost.ui.log_string"></a><div class="titlepage"></div>
 <div class="refnamediv">
 <h2><span class="refentrytitle">Class log_string</span></h2>
-<p>boost::ui::log_string &#8212; Logging stream class with output into provided <a class="link" href="uistring.html" title="Class uistring">uistring</a>. </p>
+<p>boost::ui::log_string — Logging stream class with output into provided <a class="link" href="uistring.html" title="Class uistring">uistring</a>. </p>
 </div>
 <h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.log_hpp" title="Header &lt;boost/ui/log.hpp&gt;">boost/ui/log.hpp</a>&gt;
@@ -35,46 +35,46 @@
 <span class="keyword">class</span> <a class="link" href="log_string.html" title="Class log_string">log_string</a> <span class="special">{</span>
 <span class="keyword">public</span><span class="special">:</span>
   <span class="comment">// <a class="link" href="log_string.html#boost.ui.log_stringconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <a class="link" href="log_string.html#idm44939228649760-bb"><span class="identifier">log_string</span></a><span class="special">(</span><a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="log_string.html#idm2619-bb"><span class="identifier">log_string</span></a><span class="special">(</span><a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="log_string.html#idm44939228657152-bb">public member functions</a></span>
-  <a class="link" href="log_string.html" title="Class log_string">log_string</a> <span class="special">&amp;</span> <a class="link" href="log_string.html#idm44939228656592-bb"><span class="identifier">location</span></a><span class="special">(</span><span class="keyword">const</span> <span class="keyword">char</span> <span class="special">*</span><span class="special">,</span> <span class="keyword">int</span> <span class="special">=</span> <span class="special">-</span><span class="number">1</span><span class="special">,</span> <span class="keyword">const</span> <span class="keyword">char</span> <span class="special">*</span> <span class="special">=</span> <span class="identifier">NULL</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="log_string.html" title="Class log_string">log_string</a> <span class="special">&amp;</span> <a class="link" href="log_string.html#idm44939228652496-bb"><span class="identifier">raw</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="log_string.html#idm2599-bb">public member functions</a></span>
+  <a class="link" href="log_string.html" title="Class log_string">log_string</a> <span class="special">&amp;</span> <a class="link" href="log_string.html#idm2600-bb"><span class="identifier">location</span></a><span class="special">(</span><span class="keyword">const</span> <span class="keyword">char</span> <span class="special">*</span><span class="special">,</span> <span class="keyword">int</span> <span class="special">=</span> <span class="special">-</span><span class="number">1</span><span class="special">,</span> <span class="keyword">const</span> <span class="keyword">char</span> <span class="special">*</span> <span class="special">=</span> <span class="identifier">NULL</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="log_string.html" title="Class log_string">log_string</a> <span class="special">&amp;</span> <a class="link" href="log_string.html#idm2612-bb"><span class="identifier">raw</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="log_string.html#idm44939228648176-bb">private member functions</a></span>
-  <span class="keyword">void</span> <a class="link" href="log_string.html#idm44939228647600-bb"><span class="identifier">append_space</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="log_string.html#idm2624-bb">private member functions</a></span>
+  <span class="keyword">void</span> <a class="link" href="log_string.html#idm2625-bb"><span class="identifier">append_space</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46156366237856"></a><h2>Description</h2>
+<a name="idm10226"></a><h2>Description</h2>
 <div class="refsect2">
-<a name="idm46156366237440"></a><h3>
+<a name="idm10228"></a><h3>
 <a name="boost.ui.log_stringconstruct-copy-destruct"></a><code class="computeroutput">log_string</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem">
-<pre class="literallayout"><a name="idm44939228649760-bb"></a><span class="identifier">log_string</span><span class="special">(</span><a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> str<span class="special">)</span><span class="special">;</span></pre>Constructs log using string for output. </li></ol></div>
+<pre class="literallayout"><a name="idm2619-bb"></a><span class="identifier">log_string</span><span class="special">(</span><a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> str<span class="special">)</span><span class="special">;</span></pre>Constructs log using string for output. </li></ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156366229792"></a><h3>
-<a name="idm44939228657152-bb"></a><code class="computeroutput">log_string</code> public member functions</h3>
+<a name="idm10243"></a><h3>
+<a name="idm2599-bb"></a><code class="computeroutput">log_string</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
 <pre class="literallayout"><a class="link" href="log_string.html" title="Class log_string">log_string</a> <span class="special">&amp;</span> 
-<a name="idm44939228656592-bb"></a><span class="identifier">location</span><span class="special">(</span><span class="keyword">const</span> <span class="keyword">char</span> <span class="special">*</span> file<span class="special">,</span> <span class="keyword">int</span> line <span class="special">=</span> <span class="special">-</span><span class="number">1</span><span class="special">,</span> <span class="keyword">const</span> <span class="keyword">char</span> <span class="special">*</span> fn <span class="special">=</span> <span class="identifier">NULL</span><span class="special">)</span><span class="special">;</span></pre>Logs caller location in the source code. </li>
+<a name="idm2600-bb"></a><span class="identifier">location</span><span class="special">(</span><span class="keyword">const</span> <span class="keyword">char</span> <span class="special">*</span> file<span class="special">,</span> <span class="keyword">int</span> line <span class="special">=</span> <span class="special">-</span><span class="number">1</span><span class="special">,</span> <span class="keyword">const</span> <span class="keyword">char</span> <span class="special">*</span> fn <span class="special">=</span> <span class="identifier">NULL</span><span class="special">)</span><span class="special">;</span></pre>Logs caller location in the source code. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="log_string.html" title="Class log_string">log_string</a> <span class="special">&amp;</span> <a name="idm44939228652496-bb"></a><span class="identifier">raw</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> value<span class="special">)</span><span class="special">;</span></pre>Logs string without quotes. </li>
+<pre class="literallayout"><a class="link" href="log_string.html" title="Class log_string">log_string</a> <span class="special">&amp;</span> <a name="idm2612-bb"></a><span class="identifier">raw</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> value<span class="special">)</span><span class="special">;</span></pre>Logs string without quotes. </li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156366205856"></a><h3>
-<a name="idm44939228648176-bb"></a><code class="computeroutput">log_string</code> private member functions</h3>
-<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm44939228647600-bb"></a><span class="identifier">append_space</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li></ol></div>
+<a name="idm10285"></a><h3>
+<a name="idm2624-bb"></a><code class="computeroutput">log_string</code> private member functions</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm2625-bb"></a><span class="identifier">append_space</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li></ol></div>
 </div>
 </div>
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+<td align="right"><div class="copyright-footer">Copyright © 2017 Kolya Kosenko<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>

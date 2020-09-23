@@ -1,3 +1,4 @@
 <map id="boost::ui::index_event" name="boost::ui::index_event">
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1event.html" title="Base class for all events. " alt="" coords="25,5,137,32"/>
+<area shape="rect" id="node1" title="Event class that holds some index in container." alt="" coords="5,80,172,107"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1event.html" title="Base class for all events." alt="" coords="27,5,150,32"/>
 </map>

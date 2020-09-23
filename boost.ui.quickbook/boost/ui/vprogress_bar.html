@@ -1,10 +1,10 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Class vprogress_bar</title>
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
-<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="home" href="../../index.html" title="Chapter 1. Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.progress_bar_hpp" title="Header &lt;boost/ui/progress_bar.hpp&gt;">
 <link rel="prev" href="progress_bar.html" title="Class progress_bar">
 <link rel="next" href="hslider.html" title="Class hslider">
@@ -26,7 +26,7 @@
 <a name="boost.ui.vprogress_bar"></a><div class="titlepage"></div>
 <div class="refnamediv">
 <h2><span class="refentrytitle">Class vprogress_bar</span></h2>
-<p>boost::ui::vprogress_bar &#8212; Vertical progress bar widget. </p>
+<p>boost::ui::vprogress_bar — Vertical progress bar widget. </p>
 </div>
 <h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.progress_bar_hpp" title="Header &lt;boost/ui/progress_bar.hpp&gt;">boost/ui/progress_bar.hpp</a>&gt;
@@ -35,19 +35,19 @@
 <span class="keyword">class</span> <a class="link" href="vprogress_bar.html" title="Class vprogress_bar">vprogress_bar</a> <span class="special">:</span> <span class="keyword">public</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">ui</span><span class="special">::</span><span class="identifier">progress_bar</span> <span class="special">{</span>
 <span class="keyword">public</span><span class="special">:</span>
   <span class="comment">// <a class="link" href="vprogress_bar.html#boost.ui.vprogress_barconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <span class="keyword">explicit</span> <a class="link" href="vprogress_bar.html#idm44939228339360-bb"><span class="identifier">vprogress_bar</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="identifier">value_type</span> <span class="special">=</span> <span class="number">0</span><span class="special">,</span> <span class="identifier">value_type</span> <span class="special">=</span> <span class="number">100</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="vprogress_bar.html#idm44939228333728-bb"><span class="identifier">vprogress_bar</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">explicit</span> <a class="link" href="vprogress_bar.html#idm3431-bb"><span class="identifier">vprogress_bar</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="identifier">value_type</span> <span class="special">=</span> <span class="number">0</span><span class="special">,</span> <span class="identifier">value_type</span> <span class="special">=</span> <span class="number">100</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="vprogress_bar.html#idm3448-bb"><span class="identifier">vprogress_bar</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46156364537136"></a><h2>Description</h2>
+<a name="idm13248"></a><h2>Description</h2>
 <div class="refsect2">
-<a name="idm46156364536720"></a><h3>
+<a name="idm13250"></a><h3>
 <a name="boost.ui.vprogress_barconstruct-copy-destruct"></a><code class="computeroutput">vprogress_bar</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm44939228339360-bb"></a><span class="identifier">vprogress_bar</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">,</span> <span class="identifier">value_type</span> initial <span class="special">=</span> <span class="number">0</span><span class="special">,</span> 
+<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm3431-bb"></a><span class="identifier">vprogress_bar</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">,</span> <span class="identifier">value_type</span> initial <span class="special">=</span> <span class="number">0</span><span class="special">,</span> 
                        <span class="identifier">value_type</span> max <span class="special">=</span> <span class="number">100</span><span class="special">)</span><span class="special">;</span></pre>Creates vertical progress bar. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
@@ -61,14 +61,14 @@
 </tr></tbody>
 </table></div>
 </li>
-<li class="listitem"><pre class="literallayout"><a name="idm44939228333728-bb"></a><span class="identifier">vprogress_bar</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><a name="idm3448-bb"></a><span class="identifier">vprogress_bar</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 </div>
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+<td align="right"><div class="copyright-footer">Copyright © 2017 Kolya Kosenko<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>

@@ -1,4 +1,5 @@
 <map id="boost::ui::log::trace" name="boost::ui::log::trace">
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1log.html" title="Logging stream class. " alt="" coords="25,80,122,107"/>
-<area shape="rect" id="node3" href="$classboost_1_1ui_1_1log__string.html" title="Logging stream class with output into provided uistring. " alt="" coords="5,5,141,32"/>
+<area shape="rect" id="node1" title="Shows information in debug log." alt="" coords="7,155,154,181"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1log.html" title="Logging stream class." alt="" coords="27,80,134,107"/>
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1log__string.html" title="Logging stream class with output into provided uistring." alt="" coords="5,5,156,32"/>
 </map>

@@ -1,4 +1,5 @@
 <map id="boost::ui::mouse_event" name="boost::ui::mouse_event">
-<area shape="rect" id="node3" href="$classboost_1_1ui_1_1wheel__event.html" title="Mouse wheel event class. " alt="" coords="8,155,161,181"/>
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1event.html" title="Base class for all events. " alt="" coords="29,5,141,32"/>
+<area shape="rect" id="node1" title="Mouse event class that holds information about mouse when event was generated." alt="" coords="5,80,180,107"/>
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1wheel__event.html" title="Mouse wheel event class." alt="" coords="8,155,177,181"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1event.html" title="Base class for all events." alt="" coords="31,5,154,32"/>
 </map>

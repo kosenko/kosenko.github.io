@@ -1,5 +1,6 @@
 <map id="boost::ui::window" name="boost::ui::window">
-<area shape="rect" id="node3" href="$classboost_1_1ui_1_1dialog.html" title="Top level widget that hosts other widgets. " alt="" coords="5,155,120,181"/>
-<area shape="rect" id="node4" href="$classboost_1_1ui_1_1frame.html" title="Top level widget that hosts other widgets and supports menu bar. " alt="" coords="145,155,258,181"/>
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets. " alt="" coords="73,5,191,32"/>
+<area shape="rect" id="node1" title="Abstract top level widget that hosts other widgets." alt="" coords="75,80,211,107"/>
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1dialog.html" title="Top level widget that hosts other widgets." alt="" coords="5,155,132,181"/>
+<area shape="rect" id="node4" href="$classboost_1_1ui_1_1frame.html" title="Top level widget that hosts other widgets and supports menu bar." alt="" coords="157,155,282,181"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets." alt="" coords="78,5,209,32"/>
 </map>

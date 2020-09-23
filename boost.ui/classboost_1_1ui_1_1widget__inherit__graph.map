@@ -1,37 +1,38 @@
 <map id="boost::ui::widget" name="boost::ui::widget">
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1button.html" title="Widget with label that generate event when clicked on. " alt="" coords="203,5,319,32"/>
-<area shape="rect" id="node3" href="$classboost_1_1ui_1_1canvas.html" title="Widget for drawing. " alt="" coords="200,56,323,83"/>
-<area shape="rect" id="node4" href="$classboost_1_1ui_1_1check__box__base.html" title="Check box base class. " alt="" coords="172,107,351,133"/>
-<area shape="rect" id="node7" href="$classboost_1_1ui_1_1date__picker.html" title="Date picker widget. " alt="" coords="188,157,335,184"/>
-<area shape="rect" id="node8" href="$classboost_1_1ui_1_1group__box.html" title="Widget that groups other widgets using a frame and a title. " alt="" coords="191,208,331,235"/>
-<area shape="rect" id="node9" href="$classboost_1_1ui_1_1hyperlink.html" title="Widget that displays static text which links to an URL. " alt="" coords="195,259,327,285"/>
-<area shape="rect" id="node10" href="$classboost_1_1ui_1_1image__widget.html" title="Widget that displays image. " alt="" coords="181,309,341,336"/>
-<area shape="rect" id="node11" href="$classboost_1_1ui_1_1label.html" title="Widget that displays static text. " alt="" coords="208,360,315,387"/>
-<area shape="rect" id="node12" href="$classboost_1_1ui_1_1line__widget.html" title="Abstract widget that displays horizontal or vertical line. " alt="" coords="189,411,334,437"/>
-<area shape="rect" id="node15" href="$classboost_1_1ui_1_1native__widget.html" title="Widget that wraps previously created native widget. " alt="" coords="181,461,341,488"/>
-<area shape="rect" id="node16" href="$classboost_1_1ui_1_1notebook.html" title="Widget that is an array of tabbed widgets. " alt="" coords="195,512,328,539"/>
-<area shape="rect" id="node17" href="$classboost_1_1ui_1_1panel.html" title="Widget that hosts other widgets. " alt="" coords="206,563,317,589"/>
-<area shape="rect" id="node18" href="$classboost_1_1ui_1_1progress__bar.html" title="Progress bar widget base class. " alt="" coords="184,613,339,640"/>
-<area shape="rect" id="node21" href="$classboost_1_1ui_1_1slider.html" title="Slider widget base class. " alt="" coords="206,664,317,691"/>
-<area shape="rect" id="node24" href="$classboost_1_1ui_1_1strings__box.html" title="Abstract widget that holds array of strings. " alt="" coords="188,715,335,741"/>
-<area shape="rect" id="node28" href="$classboost_1_1ui_1_1text__box__base.html" title="Abstract text editor widget. " alt="" coords="179,791,344,817"/>
-<area shape="rect" id="node32" href="$classboost_1_1ui_1_1time__picker.html" title="Time picker widget. " alt="" coords="188,841,335,868"/>
-<area shape="rect" id="node33" href="$classboost_1_1ui_1_1web__widget.html" title="Widget that renders HTML. " alt="" coords="187,892,336,919"/>
-<area shape="rect" id="node34" href="$classboost_1_1ui_1_1window.html" title="Abstract top level widget that hosts other widgets. " alt="" coords="199,968,323,995"/>
-<area shape="rect" id="node5" href="$classboost_1_1ui_1_1check__box.html" title="Labelled widget that that permits the user to make a binary choice. " alt="" coords="409,77,552,104"/>
-<area shape="rect" id="node6" href="$classboost_1_1ui_1_1tri__state__check__box.html" title="Labelled widget that that permits the user to make a ternary choice. " alt="" coords="417,129,544,170"/>
-<area shape="rect" id="node13" href="$classboost_1_1ui_1_1hline.html" title="Horizontal line widget. " alt="" coords="427,360,534,387"/>
-<area shape="rect" id="node14" href="$classboost_1_1ui_1_1vline.html" title="Vertical line widget. " alt="" coords="427,411,534,437"/>
-<area shape="rect" id="node19" href="$classboost_1_1ui_1_1hprogress__bar.html" title="Horizontal progress bar widget. " alt="" coords="399,461,562,488"/>
-<area shape="rect" id="node20" href="$classboost_1_1ui_1_1vprogress__bar.html" title="Vertical progress bar widget. " alt="" coords="399,512,562,539"/>
-<area shape="rect" id="node22" href="$classboost_1_1ui_1_1hslider.html" title="Horizontal slider widget. " alt="" coords="421,563,540,589"/>
-<area shape="rect" id="node23" href="$classboost_1_1ui_1_1vslider.html" title="Vertical slider widget. " alt="" coords="421,613,540,640"/>
-<area shape="rect" id="node25" href="$classboost_1_1ui_1_1choice.html" title="Widget to select string from popup list of strings. " alt="" coords="421,664,540,691"/>
-<area shape="rect" id="node26" href="$classboost_1_1ui_1_1combo__box.html" title="Widget to select one or more strings and edit it. " alt="" coords="407,715,554,741"/>
-<area shape="rect" id="node27" href="$classboost_1_1ui_1_1list__box.html" title="Widget to select one or more strings. " alt="" coords="418,765,543,792"/>
-<area shape="rect" id="node29" href="$classboost_1_1ui_1_1password__box.html" title="Password editor widget. " alt="" coords="399,816,563,843"/>
-<area shape="rect" id="node30" href="$classboost_1_1ui_1_1string__box.html" title="Single&#45;line text editor widget. " alt="" coords="411,867,551,893"/>
-<area shape="rect" id="node31" href="$classboost_1_1ui_1_1text__box.html" title="Multi&#45;line text editor widget. " alt="" coords="415,917,546,944"/>
-<area shape="rect" id="node35" href="$classboost_1_1ui_1_1dialog.html" title="Top level widget that hosts other widgets. " alt="" coords="423,968,538,995"/>
-<area shape="rect" id="node36" href="$classboost_1_1ui_1_1frame.html" title="Top level widget that hosts other widgets and supports menu bar. " alt="" coords="424,1019,537,1045"/>
+<area shape="rect" id="node1" title="Base class for all widgets." alt="" coords="5,461,136,488"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1button.html" title="Widget with label that generate event when clicked on." alt="" coords="217,5,345,32"/>
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1canvas.html" title="Widget for drawing." alt="" coords="215,56,347,83"/>
+<area shape="rect" id="node4" href="$classboost_1_1ui_1_1check__box__base.html" title="Check box base class." alt="" coords="184,107,377,133"/>
+<area shape="rect" id="node7" href="$classboost_1_1ui_1_1date__picker.html" title="Date picker widget." alt="" coords="200,157,361,184"/>
+<area shape="rect" id="node8" href="$classboost_1_1ui_1_1group__box.html" title="Widget that groups other widgets using a frame and a title." alt="" coords="203,208,358,235"/>
+<area shape="rect" id="node9" href="$classboost_1_1ui_1_1hyperlink.html" title="Widget that displays static text which links to an URL." alt="" coords="207,259,354,285"/>
+<area shape="rect" id="node10" href="$classboost_1_1ui_1_1image__widget.html" title="Widget that displays image." alt="" coords="191,309,370,336"/>
+<area shape="rect" id="node11" href="$classboost_1_1ui_1_1label.html" title="Widget that displays static text." alt="" coords="221,360,340,387"/>
+<area shape="rect" id="node12" href="$classboost_1_1ui_1_1line__widget.html" title="Abstract widget that displays horizontal or vertical line." alt="" coords="200,411,361,437"/>
+<area shape="rect" id="node15" href="$classboost_1_1ui_1_1native__widget.html" title="Widget that wraps previously created native widget." alt="" coords="191,461,370,488"/>
+<area shape="rect" id="node16" href="$classboost_1_1ui_1_1notebook.html" title="Widget that is an array of tabbed widgets." alt="" coords="207,512,354,539"/>
+<area shape="rect" id="node17" href="$classboost_1_1ui_1_1panel.html" title="Widget that hosts other widgets." alt="" coords="219,563,342,589"/>
+<area shape="rect" id="node18" href="$classboost_1_1ui_1_1progress__bar.html" title="Progress bar widget base class." alt="" coords="195,613,366,640"/>
+<area shape="rect" id="node21" href="$classboost_1_1ui_1_1slider.html" title="Slider widget base class." alt="" coords="219,664,342,691"/>
+<area shape="rect" id="node24" href="$classboost_1_1ui_1_1strings__box.html" title="Abstract widget that holds array of strings." alt="" coords="200,715,361,741"/>
+<area shape="rect" id="node28" href="$classboost_1_1ui_1_1text__box__base.html" title="Abstract text editor widget." alt="" coords="190,791,371,817"/>
+<area shape="rect" id="node32" href="$classboost_1_1ui_1_1time__picker.html" title="Time picker widget." alt="" coords="199,841,362,868"/>
+<area shape="rect" id="node33" href="$classboost_1_1ui_1_1web__widget.html" title="Widget that renders HTML." alt="" coords="199,892,363,919"/>
+<area shape="rect" id="node34" href="$classboost_1_1ui_1_1window.html" title="Abstract top level widget that hosts other widgets." alt="" coords="213,968,349,995"/>
+<area shape="rect" id="node5" href="$classboost_1_1ui_1_1check__box.html" title="Labelled widget that that permits the user to make a binary choice." alt="" coords="437,77,592,104"/>
+<area shape="rect" id="node6" href="$classboost_1_1ui_1_1tri__state__check__box.html" title="Labelled widget that that permits the user to make a ternary choice." alt="" coords="445,129,585,170"/>
+<area shape="rect" id="node13" href="$classboost_1_1ui_1_1hline.html" title="Horizontal line widget." alt="" coords="455,360,574,387"/>
+<area shape="rect" id="node14" href="$classboost_1_1ui_1_1vline.html" title="Vertical line widget." alt="" coords="455,411,574,437"/>
+<area shape="rect" id="node19" href="$classboost_1_1ui_1_1hprogress__bar.html" title="Horizontal progress bar widget." alt="" coords="425,461,604,488"/>
+<area shape="rect" id="node20" href="$classboost_1_1ui_1_1vprogress__bar.html" title="Vertical progress bar widget." alt="" coords="425,512,604,539"/>
+<area shape="rect" id="node22" href="$classboost_1_1ui_1_1hslider.html" title="Horizontal slider widget." alt="" coords="449,563,580,589"/>
+<area shape="rect" id="node23" href="$classboost_1_1ui_1_1vslider.html" title="Vertical slider widget." alt="" coords="449,613,580,640"/>
+<area shape="rect" id="node25" href="$classboost_1_1ui_1_1choice.html" title="Widget to select string from popup list of strings." alt="" coords="451,664,579,691"/>
+<area shape="rect" id="node26" href="$classboost_1_1ui_1_1combo__box.html" title="Widget to select one or more strings and edit it." alt="" coords="434,715,595,741"/>
+<area shape="rect" id="node27" href="$classboost_1_1ui_1_1list__box.html" title="Widget to select one or more strings." alt="" coords="446,765,583,792"/>
+<area shape="rect" id="node29" href="$classboost_1_1ui_1_1password__box.html" title="Password editor widget." alt="" coords="425,816,604,843"/>
+<area shape="rect" id="node30" href="$classboost_1_1ui_1_1string__box.html" title="Single&#45;line text editor widget." alt="" coords="437,867,592,893"/>
+<area shape="rect" id="node31" href="$classboost_1_1ui_1_1text__box.html" title="Multi&#45;line text editor widget." alt="" coords="443,917,586,944"/>
+<area shape="rect" id="node35" href="$classboost_1_1ui_1_1dialog.html" title="Top level widget that hosts other widgets." alt="" coords="451,968,578,995"/>
+<area shape="rect" id="node36" href="$classboost_1_1ui_1_1frame.html" title="Top level widget that hosts other widgets and supports menu bar." alt="" coords="452,1019,577,1045"/>
 </map>

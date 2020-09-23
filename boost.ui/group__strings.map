@@ -1,3 +1,4 @@
 <map id="Strings container widgets" name="Strings container widgets">
-<area shape="rect" id="node1" href="$group__io.html" title="Data input&#45;output widgets" alt="" coords="5,5,176,32"/>
+<area shape="rect" id="node1" href="$group__io.html" title="Data input and output widgets." alt="" coords="5,5,197,31"/>
+<area shape="rect" id="node2" title="String list widgets." alt="" coords="245,5,432,31"/>
 </map>

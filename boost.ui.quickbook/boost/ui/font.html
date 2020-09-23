@@ -1,10 +1,10 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Class font</title>
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
-<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="home" href="../../index.html" title="Chapter 1. Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.font_hpp" title="Header &lt;boost/ui/font.hpp&gt;">
 <link rel="prev" href="event_loop.html" title="Class event_loop">
 <link rel="next" href="frame.html" title="Class frame">
@@ -26,7 +26,7 @@
 <a name="boost.ui.font"></a><div class="titlepage"></div>
 <div class="refnamediv">
 <h2><span class="refentrytitle">Class font</span></h2>
-<p>boost::ui::font &#8212; Font class. </p>
+<p>boost::ui::font — Font class. </p>
 </div>
 <h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.font_hpp" title="Header &lt;boost/ui/font.hpp&gt;">boost/ui/font.hpp</a>&gt;
@@ -47,77 +47,83 @@
   <span class="keyword">enum</span> <a name="boost.ui.font.weight"></a>weight <span class="special">{</span> normal, bold <span class="special">}</span><span class="special">;</span>
 
   <span class="comment">// <a class="link" href="font.html#boost.ui.fontconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <span class="keyword">explicit</span> <a class="link" href="font.html#idm44939228921888-bb"><span class="identifier">font</span></a><span class="special">(</span><span class="keyword">double</span><span class="special">,</span> <span class="identifier">family</span><span class="special">,</span> <span class="identifier">slant</span> <span class="special">=</span> <span class="identifier">slant</span><span class="special">::</span><span class="identifier">normal</span><span class="special">,</span> 
+  <span class="keyword">explicit</span> <a class="link" href="font.html#idm1962-bb"><span class="identifier">font</span></a><span class="special">(</span><span class="keyword">double</span><span class="special">,</span> <span class="identifier">family</span><span class="special">,</span> <span class="identifier">slant</span> <span class="special">=</span> <span class="identifier">slant</span><span class="special">::</span><span class="identifier">normal</span><span class="special">,</span> 
                 <span class="identifier">weight</span> <span class="special">=</span> <span class="identifier">weight</span><span class="special">::</span><span class="identifier">normal</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">explicit</span> <a class="link" href="font.html#idm44939228917712-bb"><span class="identifier">font</span></a><span class="special">(</span><span class="keyword">double</span><span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">,</span> <span class="identifier">slant</span> <span class="special">=</span> <span class="identifier">slant</span><span class="special">::</span><span class="identifier">normal</span><span class="special">,</span> 
+  <span class="keyword">explicit</span> <a class="link" href="font.html#idm1974-bb"><span class="identifier">font</span></a><span class="special">(</span><span class="keyword">double</span><span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">,</span> <span class="identifier">slant</span> <span class="special">=</span> <span class="identifier">slant</span><span class="special">::</span><span class="identifier">normal</span><span class="special">,</span> 
                 <span class="identifier">weight</span> <span class="special">=</span> <span class="identifier">weight</span><span class="special">::</span><span class="identifier">normal</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="font.html#idm44939228879072-bb"><span class="identifier">font</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="font.html#idm44939228878784-bb"><span class="special">~</span><span class="identifier">font</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="font.html#idm2079-bb"><span class="identifier">font</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="font.html#idm2080-bb"><span class="special">~</span><span class="identifier">font</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="font.html#idm44939228901696-bb">public member functions</a></span>
-  <a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a class="link" href="font.html#idm44939228901136-bb"><span class="identifier">set_family</span></a><span class="special">(</span><span class="identifier">family</span><span class="special">)</span><span class="special">;</span>
-  <span class="identifier">family</span> <a class="link" href="font.html#idm44939228899024-bb"><span class="identifier">get_family</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a class="link" href="font.html#idm44939228897616-bb"><span class="identifier">set_slant</span></a><span class="special">(</span><span class="identifier">slant</span><span class="special">)</span><span class="special">;</span>
-  <span class="identifier">slant</span> <a class="link" href="font.html#idm44939228895504-bb"><span class="identifier">get_slant</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a class="link" href="font.html#idm44939228894096-bb"><span class="identifier">set_weight</span></a><span class="special">(</span><span class="identifier">weight</span><span class="special">)</span><span class="special">;</span>
-  <span class="identifier">weight</span> <a class="link" href="font.html#idm44939228891984-bb"><span class="identifier">get_weight</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a class="link" href="font.html#idm44939228890576-bb"><span class="identifier">name</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a class="link" href="font.html#idm44939228886880-bb"><span class="identifier">name</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a class="link" href="font.html#idm44939228885344-bb"><span class="identifier">size_pt</span></a><span class="special">(</span><span class="keyword">double</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">double</span> <a class="link" href="font.html#idm44939228882080-bb"><span class="identifier">size_pt</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="keyword">bool</span> <a class="link" href="font.html#idm44939228880656-bb"><span class="identifier">valid</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span> <span class="keyword">noexcept</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="font.html#idm2018-bb">public member functions</a></span>
+  <a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a class="link" href="font.html#idm2019-bb"><span class="identifier">set_family</span></a><span class="special">(</span><span class="identifier">family</span><span class="special">)</span><span class="special">;</span>
+  <span class="identifier">family</span> <a class="link" href="font.html#idm2025-bb"><span class="identifier">get_family</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a class="link" href="font.html#idm2028-bb"><span class="identifier">set_slant</span></a><span class="special">(</span><span class="identifier">slant</span><span class="special">)</span><span class="special">;</span>
+  <span class="identifier">slant</span> <a class="link" href="font.html#idm2034-bb"><span class="identifier">get_slant</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a class="link" href="font.html#idm2037-bb"><span class="identifier">set_weight</span></a><span class="special">(</span><span class="identifier">weight</span><span class="special">)</span><span class="special">;</span>
+  <span class="identifier">weight</span> <a class="link" href="font.html#idm2043-bb"><span class="identifier">get_weight</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a class="link" href="font.html#idm2046-bb"><span class="identifier">name</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a class="link" href="font.html#idm2058-bb"><span class="identifier">name</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a class="link" href="font.html#idm2062-bb"><span class="identifier">size_pt</span></a><span class="special">(</span><span class="keyword">double</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">double</span> <a class="link" href="font.html#idm2073-bb"><span class="identifier">size_pt</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">bool</span> <a class="link" href="font.html#idm2076-bb"><span class="identifier">valid</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span> <span class="keyword">noexcept</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="font.html#idm44939228878496-bb">public static functions</a></span>
-  <span class="keyword">static</span> <a class="link" href="font.html" title="Class font">font</a> <a class="link" href="font.html#idm44939228877936-bb"><span class="identifier">caption</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="font.html#idm2081-bb">public static functions</a></span>
+  <span class="keyword">static</span> <a class="link" href="font.html" title="Class font">font</a> <a class="link" href="font.html#idm2082-bb"><span class="identifier">caption</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46156368094848"></a><h2>Description</h2>
+<a name="idm6848"></a><h2>Description</h2>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="https://www.w3.org/TR/CSS2/fonts.html" target="_top">CSS 2 Fonts (W3C)</a> </p>
+<p>
+</p>
 <p>
 </p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="https://www.w3.org/TR/css-fonts-3/" target="_top">CSS Fonts 3 (W3C)</a> </p>
 <p>
 </p>
+<p>
+</p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Font" target="_top">Font (Wikipedia)</a> </p>
 <p>
 </p>
+<p>
+</p>
 <div class="refsect2">
-<a name="idm46156368089360"></a><h3>
+<a name="idm6863"></a><h3>
 <a name="boost.ui.fontconstruct-copy-destruct"></a><code class="computeroutput">font</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm44939228921888-bb"></a><span class="identifier">font</span><span class="special">(</span><span class="keyword">double</span> pt<span class="special">,</span> <span class="identifier">family</span> f<span class="special">,</span> <span class="identifier">slant</span> s <span class="special">=</span> <span class="identifier">slant</span><span class="special">::</span><span class="identifier">normal</span><span class="special">,</span> 
+<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm1962-bb"></a><span class="identifier">font</span><span class="special">(</span><span class="keyword">double</span> pt<span class="special">,</span> <span class="identifier">family</span> f<span class="special">,</span> <span class="identifier">slant</span> s <span class="special">=</span> <span class="identifier">slant</span><span class="special">::</span><span class="identifier">normal</span><span class="special">,</span> 
               <span class="identifier">weight</span> w <span class="special">=</span> <span class="identifier">weight</span><span class="special">::</span><span class="identifier">normal</span><span class="special">)</span><span class="special">;</span></pre>Creates font. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm44939228917712-bb"></a><span class="identifier">font</span><span class="special">(</span><span class="keyword">double</span> pt<span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> n<span class="special">,</span> <span class="identifier">slant</span> s <span class="special">=</span> <span class="identifier">slant</span><span class="special">::</span><span class="identifier">normal</span><span class="special">,</span> 
+<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm1974-bb"></a><span class="identifier">font</span><span class="special">(</span><span class="keyword">double</span> pt<span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> n<span class="special">,</span> <span class="identifier">slant</span> s <span class="special">=</span> <span class="identifier">slant</span><span class="special">::</span><span class="identifier">normal</span><span class="special">,</span> 
               <span class="identifier">weight</span> w <span class="special">=</span> <span class="identifier">weight</span><span class="special">::</span><span class="identifier">normal</span><span class="special">)</span><span class="special">;</span></pre>Creates font. </li>
-<li class="listitem"><pre class="literallayout"><a name="idm44939228879072-bb"></a><span class="identifier">font</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
-<li class="listitem"><pre class="literallayout"><a name="idm44939228878784-bb"></a><span class="special">~</span><span class="identifier">font</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><a name="idm2079-bb"></a><span class="identifier">font</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><a name="idm2080-bb"></a><span class="special">~</span><span class="identifier">font</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156368050160"></a><h3>
-<a name="idm44939228901696-bb"></a><code class="computeroutput">font</code> public member functions</h3>
+<a name="idm6935"></a><h3>
+<a name="idm2018-bb"></a><code class="computeroutput">font</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a name="idm44939228901136-bb"></a><span class="identifier">set_family</span><span class="special">(</span><span class="identifier">family</span> f<span class="special">)</span><span class="special">;</span></pre>Sets font family. </li>
+<pre class="literallayout"><a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a name="idm2019-bb"></a><span class="identifier">set_family</span><span class="special">(</span><span class="identifier">family</span> f<span class="special">)</span><span class="special">;</span></pre>Sets font family. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">family</span> <a name="idm44939228899024-bb"></a><span class="identifier">get_family</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns font family. </li>
+<pre class="literallayout"><span class="identifier">family</span> <a name="idm2025-bb"></a><span class="identifier">get_family</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns font family. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a name="idm44939228897616-bb"></a><span class="identifier">set_slant</span><span class="special">(</span><span class="identifier">slant</span> s<span class="special">)</span><span class="special">;</span></pre>Sets font slant. </li>
+<pre class="literallayout"><a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a name="idm2028-bb"></a><span class="identifier">set_slant</span><span class="special">(</span><span class="identifier">slant</span> s<span class="special">)</span><span class="special">;</span></pre>Sets font slant. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">slant</span> <a name="idm44939228895504-bb"></a><span class="identifier">get_slant</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns font slant. </li>
+<pre class="literallayout"><span class="identifier">slant</span> <a name="idm2034-bb"></a><span class="identifier">get_slant</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns font slant. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a name="idm44939228894096-bb"></a><span class="identifier">set_weight</span><span class="special">(</span><span class="identifier">weight</span> w<span class="special">)</span><span class="special">;</span></pre>Sets font weight. </li>
+<pre class="literallayout"><a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a name="idm2037-bb"></a><span class="identifier">set_weight</span><span class="special">(</span><span class="identifier">weight</span> w<span class="special">)</span><span class="special">;</span></pre>Sets font weight. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">weight</span> <a name="idm44939228891984-bb"></a><span class="identifier">get_weight</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns font weight. </li>
+<pre class="literallayout"><span class="identifier">weight</span> <a name="idm2043-bb"></a><span class="identifier">get_weight</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns font weight. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a name="idm44939228890576-bb"></a><span class="identifier">name</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> n<span class="special">)</span><span class="special">;</span></pre>Sets font name. <p>
+<pre class="literallayout"><a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a name="idm2046-bb"></a><span class="identifier">name</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> n<span class="special">)</span><span class="special">;</span></pre>Sets font name. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -131,9 +137,9 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="uistring.html" title="Class uistring">uistring</a> <a name="idm44939228886880-bb"></a><span class="identifier">name</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns font name. </li>
+<pre class="literallayout"><a class="link" href="uistring.html" title="Class uistring">uistring</a> <a name="idm2058-bb"></a><span class="identifier">name</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns font name. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a name="idm44939228885344-bb"></a><span class="identifier">size_pt</span><span class="special">(</span><span class="keyword">double</span> pt<span class="special">)</span><span class="special">;</span></pre>Sets font size in points. <p>
+<pre class="literallayout"><a class="link" href="font.html" title="Class font">font</a> <span class="special">&amp;</span> <a name="idm2062-bb"></a><span class="identifier">size_pt</span><span class="special">(</span><span class="keyword">double</span> pt<span class="special">)</span><span class="special">;</span></pre>Sets font size in points. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -147,22 +153,22 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">double</span> <a name="idm44939228882080-bb"></a><span class="identifier">size_pt</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns font size in points. </li>
+<pre class="literallayout"><span class="keyword">double</span> <a name="idm2073-bb"></a><span class="identifier">size_pt</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns font size in points. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">bool</span> <a name="idm44939228880656-bb"></a><span class="identifier">valid</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span> <span class="keyword">noexcept</span><span class="special">;</span></pre>Returns true only if font is valid. </li>
+<pre class="literallayout"><span class="keyword">bool</span> <a name="idm2076-bb"></a><span class="identifier">valid</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span> <span class="keyword">noexcept</span><span class="special">;</span></pre>Returns true only if font is valid. </li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156367981632"></a><h3>
-<a name="idm44939228878496-bb"></a><code class="computeroutput">font</code> public static functions</h3>
+<a name="idm7070"></a><h3>
+<a name="idm2081-bb"></a><code class="computeroutput">font</code> public static functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem">
-<pre class="literallayout"><span class="keyword">static</span> <a class="link" href="font.html" title="Class font">font</a> <a name="idm44939228877936-bb"></a><span class="identifier">caption</span><span class="special">(</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span></pre>Returns default font used for captioned widgets. </li></ol></div>
+<pre class="literallayout"><span class="keyword">static</span> <a class="link" href="font.html" title="Class font">font</a> <a name="idm2082-bb"></a><span class="identifier">caption</span><span class="special">(</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span></pre>Returns default font used for captioned widgets. </li></ol></div>
 </div>
 </div>
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+<td align="right"><div class="copyright-footer">Copyright © 2017 Kolya Kosenko<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>

@@ -1,6 +1,7 @@
 <map id="boost::ui::strings_box" name="boost::ui::strings_box">
-<area shape="rect" id="node3" href="$classboost_1_1ui_1_1choice.html" title="Widget to select string from popup list of strings. " alt="" coords="5,155,124,181"/>
-<area shape="rect" id="node4" href="$classboost_1_1ui_1_1combo__box.html" title="Widget to select one or more strings and edit it. " alt="" coords="149,155,295,181"/>
-<area shape="rect" id="node5" href="$classboost_1_1ui_1_1list__box.html" title="Widget to select one or more strings. " alt="" coords="319,155,445,181"/>
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets. " alt="" coords="163,5,281,32"/>
+<area shape="rect" id="node1" title="Abstract widget that holds array of strings." alt="" coords="158,80,319,107"/>
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1choice.html" title="Widget to select string from popup list of strings." alt="" coords="5,155,133,181"/>
+<area shape="rect" id="node4" href="$classboost_1_1ui_1_1combo__box.html" title="Widget to select one or more strings and edit it." alt="" coords="158,155,319,181"/>
+<area shape="rect" id="node5" href="$classboost_1_1ui_1_1list__box.html" title="Widget to select one or more strings." alt="" coords="343,155,481,181"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets." alt="" coords="173,5,304,32"/>
 </map>

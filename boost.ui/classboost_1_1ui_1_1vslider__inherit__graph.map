@@ -1,4 +1,5 @@
 <map id="boost::ui::vslider" name="boost::ui::vslider">
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1slider.html" title="Slider widget base class. " alt="" coords="9,80,120,107"/>
-<area shape="rect" id="node3" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets. " alt="" coords="5,5,124,32"/>
+<area shape="rect" id="node1" title="Vertical slider widget." alt="" coords="5,155,136,181"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1slider.html" title="Slider widget base class." alt="" coords="9,80,132,107"/>
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets." alt="" coords="5,5,136,32"/>
 </map>

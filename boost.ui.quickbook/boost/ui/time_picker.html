@@ -1,13 +1,13 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Class time_picker</title>
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
-<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="home" href="../../index.html" title="Chapter 1. Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.datetime_hpp" title="Header &lt;boost/ui/datetime.hpp&gt;">
 <link rel="prev" href="date_picker.html" title="Class date_picker">
-<link rel="next" href="../../BOOST_UI_idm44939229003424.html" title="Macro BOOST_UI_USE_DATE_TIME">
+<link rel="next" href="../../BOOST_UI_USE_DATE__idm1779.html" title="Macro BOOST_UI_USE_DATE_TIME">
 </head>
 <body bgcolor="white" text="black" link="#0000FF" vlink="#840084" alink="#0000FF">
 <table cellpadding="2" width="100%"><tr>
@@ -20,13 +20,13 @@
 </tr></table>
 <hr>
 <div class="spirit-nav">
-<a accesskey="p" href="date_picker.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.datetime_hpp"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="../../BOOST_UI_idm44939229003424.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
+<a accesskey="p" href="date_picker.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.datetime_hpp"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="../../BOOST_UI_USE_DATE__idm1779.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
 </div>
 <div class="refentry">
 <a name="boost.ui.time_picker"></a><div class="titlepage"></div>
 <div class="refnamediv">
 <h2><span class="refentrytitle">Class time_picker</span></h2>
-<p>boost::ui::time_picker &#8212; Time picker widget. </p>
+<p>boost::ui::time_picker — Time picker widget. </p>
 </div>
 <h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.datetime_hpp" title="Header &lt;boost/ui/datetime.hpp&gt;">boost/ui/datetime.hpp</a>&gt;
@@ -35,59 +35,59 @@
 <span class="keyword">class</span> <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">:</span> <span class="keyword">public</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">ui</span><span class="special">::</span><span class="identifier">widget</span> <span class="special">{</span>
 <span class="keyword">public</span><span class="special">:</span>
   <span class="comment">// <a class="link" href="time_picker.html#boost.ui.time_pickerconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <span class="keyword">explicit</span> <a class="link" href="time_picker.html#idm44939229069664-bb"><span class="identifier">time_picker</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="time_picker.html#idm44939229014352-bb"><span class="identifier">time_picker</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">explicit</span> <a class="link" href="time_picker.html#idm1592-bb"><span class="identifier">time_picker</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="time_picker.html#idm1755-bb"><span class="identifier">time_picker</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="time_picker.html#idm44939229067840-bb">public member functions</a></span>
-  <span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span> <a class="link" href="time_picker.html#idm44939229067280-bb"><span class="identifier">get_time_t</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a class="link" href="time_picker.html#idm44939229064656-bb"><span class="identifier">set_time_t</span></a><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span><span class="special">)</span><span class="special">;</span>
-  <span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <a class="link" href="time_picker.html#idm44939229061392-bb"><span class="identifier">get_tm</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a class="link" href="time_picker.html#idm44939229058768-bb"><span class="identifier">set_tm</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <span class="identifier">boost</span><span class="special">::</span><span class="identifier">posix_time</span><span class="special">::</span><span class="identifier">time_duration</span> <a class="link" href="time_picker.html#idm44939229055504-bb"><span class="identifier">posix_time_duration</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a class="link" href="time_picker.html#idm44939229051776-bb"><span class="identifier">posix_time_duration</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">posix_time</span><span class="special">::</span><span class="identifier">time_duration</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="time_picker.html#idm1597-bb">public member functions</a></span>
+  <span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span> <a class="link" href="time_picker.html#idm1598-bb"><span class="identifier">get_time_t</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a class="link" href="time_picker.html#idm1606-bb"><span class="identifier">set_time_t</span></a><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span><span class="special">)</span><span class="special">;</span>
+  <span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <a class="link" href="time_picker.html#idm1617-bb"><span class="identifier">get_tm</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a class="link" href="time_picker.html#idm1625-bb"><span class="identifier">set_tm</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="identifier">boost</span><span class="special">::</span><span class="identifier">posix_time</span><span class="special">::</span><span class="identifier">time_duration</span> <a class="link" href="time_picker.html#idm1636-bb"><span class="identifier">posix_time_duration</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a class="link" href="time_picker.html#idm1647-bb"><span class="identifier">posix_time_duration</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">posix_time</span><span class="special">::</span><span class="identifier">time_duration</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
   <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Rep<span class="special">,</span> <span class="keyword">typename</span> Period<span class="special">&gt;</span> 
-    <span class="identifier">boost</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <a class="link" href="time_picker.html#idm44939229047344-bb"><span class="identifier">boost_chrono_duration</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+    <span class="identifier">boost</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <a class="link" href="time_picker.html#idm1661-bb"><span class="identifier">boost_chrono_duration</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
   <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Rep<span class="special">,</span> <span class="keyword">typename</span> Period<span class="special">&gt;</span> 
     <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> 
-    <a class="link" href="time_picker.html#idm44939229042224-bb"><span class="identifier">chrono_duration</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+    <a class="link" href="time_picker.html#idm1675-bb"><span class="identifier">chrono_duration</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
   <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Rep<span class="special">,</span> <span class="keyword">typename</span> Period<span class="special">&gt;</span> 
-    <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <a class="link" href="time_picker.html#idm44939229036384-bb"><span class="identifier">chrono_duration</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+    <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <a class="link" href="time_picker.html#idm1692-bb"><span class="identifier">chrono_duration</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
   <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Rep<span class="special">,</span> <span class="keyword">typename</span> Period<span class="special">&gt;</span> 
     <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> 
-    <a class="link" href="time_picker.html#idm44939229032400-bb"><span class="identifier">chrono_duration</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> T<span class="special">&gt;</span> <span class="keyword">void</span> <a class="link" href="time_picker.html#idm44939229027696-bb"><span class="identifier">get_time</span></a><span class="special">(</span><span class="identifier">T</span><span class="special">,</span> <span class="identifier">T</span><span class="special">,</span> <span class="identifier">T</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a class="link" href="time_picker.html#idm44939229023648-bb"><span class="identifier">set_time</span></a><span class="special">(</span><span class="keyword">int</span><span class="special">,</span> <span class="keyword">int</span><span class="special">,</span> <span class="keyword">int</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> 
-    <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a class="link" href="time_picker.html#idm44939229019024-bb"><span class="identifier">on_change</span></a><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span><span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span><span class="special">)</span><span class="special">;</span>
+    <a class="link" href="time_picker.html#idm1703-bb"><span class="identifier">chrono_duration</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> T<span class="special">&gt;</span> <span class="keyword">void</span> <a class="link" href="time_picker.html#idm1717-bb"><span class="identifier">get_time</span></a><span class="special">(</span><span class="identifier">T</span><span class="special">,</span> <span class="identifier">T</span><span class="special">,</span> <span class="identifier">T</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a class="link" href="time_picker.html#idm1728-bb"><span class="identifier">set_time</span></a><span class="special">(</span><span class="keyword">int</span><span class="special">,</span> <span class="keyword">int</span><span class="special">,</span> <span class="keyword">int</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span> <span class="special">...</span> Args<span class="special">&gt;</span> 
+    <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a class="link" href="time_picker.html#idm1743-bb"><span class="identifier">on_change</span></a><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span><span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="time_picker.html#idm44939229014064-bb">private member functions</a></span>
-  <span class="keyword">void</span> <a class="link" href="time_picker.html#idm44939229013488-bb"><span class="identifier">get_time_raw</span></a><span class="special">(</span><span class="keyword">int</span> <span class="special">*</span><span class="special">,</span> <span class="keyword">int</span> <span class="special">*</span><span class="special">,</span> <span class="keyword">int</span> <span class="special">*</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="keyword">int</span> <a class="link" href="time_picker.html#idm44939229010304-bb"><span class="identifier">get_seconds</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="keyword">void</span> <a class="link" href="time_picker.html#idm44939229009184-bb"><span class="identifier">set_seconds</span></a><span class="special">(</span><span class="identifier">boost</span><span class="special">::</span><span class="identifier">intmax_t</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">void</span> <a class="link" href="time_picker.html#idm44939229007648-bb"><span class="identifier">on_change_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="time_picker.html#idm44939229006096-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="time_picker.html#idm44939229005248-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="time_picker.html#idm1756-bb">private member functions</a></span>
+  <span class="keyword">void</span> <a class="link" href="time_picker.html#idm1757-bb"><span class="identifier">get_time_raw</span></a><span class="special">(</span><span class="keyword">int</span> <span class="special">*</span><span class="special">,</span> <span class="keyword">int</span> <span class="special">*</span><span class="special">,</span> <span class="keyword">int</span> <span class="special">*</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">int</span> <a class="link" href="time_picker.html#idm1765-bb"><span class="identifier">get_seconds</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="keyword">void</span> <a class="link" href="time_picker.html#idm1767-bb"><span class="identifier">set_seconds</span></a><span class="special">(</span><span class="identifier">boost</span><span class="special">::</span><span class="identifier">intmax_t</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">void</span> <a class="link" href="time_picker.html#idm1771-bb"><span class="identifier">on_change_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="time_picker.html#idm1775-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a class="link" href="time_picker.html#idm1777-bb"><span class="identifier">get_impl</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46156368946912"></a><h2>Description</h2>
+<a name="idm5253"></a><h2>Description</h2>
 <p>Works with time in range [0 hours, 24 hours) </p>
 <div class="refsect2">
-<a name="idm46156368946176"></a><h3>
+<a name="idm5256"></a><h3>
 <a name="boost.ui.time_pickerconstruct-copy-destruct"></a><code class="computeroutput">time_picker</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm44939229069664-bb"></a><span class="identifier">time_picker</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">)</span><span class="special">;</span></pre>Creates widget. </li>
-<li class="listitem"><pre class="literallayout"><a name="idm44939229014352-bb"></a><span class="identifier">time_picker</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm1592-bb"></a><span class="identifier">time_picker</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">)</span><span class="special">;</span></pre>Creates widget. </li>
+<li class="listitem"><pre class="literallayout"><a name="idm1755-bb"></a><span class="identifier">time_picker</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156368934304"></a><h3>
-<a name="idm44939229067840-bb"></a><code class="computeroutput">time_picker</code> public member functions</h3>
+<a name="idm5280"></a><h3>
+<a name="idm1597-bb"></a><code class="computeroutput">time_picker</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span> <a name="idm44939229067280-bb"></a><span class="identifier">get_time_t</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns count of seconds since midnight in std::time_t format. <p>
+<pre class="literallayout"><span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span> <a name="idm1598-bb"></a><span class="identifier">get_time_t</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns count of seconds since midnight in std::time_t format. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -101,7 +101,7 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a name="idm44939229064656-bb"></a><span class="identifier">set_time_t</span><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span> t<span class="special">)</span><span class="special">;</span></pre>Sets time in std::time_t format. <p>
+<pre class="literallayout"><a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a name="idm1606-bb"></a><span class="identifier">set_time_t</span><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span> t<span class="special">)</span><span class="special">;</span></pre>Sets time in std::time_t format. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -115,7 +115,7 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <a name="idm44939229061392-bb"></a><span class="identifier">get_tm</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns local time in std::tm format at epoch start day (1900-01-01) <p>
+<pre class="literallayout"><span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <a name="idm1617-bb"></a><span class="identifier">get_tm</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns local time in std::tm format at epoch start day (1900-01-01) <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -129,7 +129,7 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a name="idm44939229058768-bb"></a><span class="identifier">set_tm</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <span class="special">&amp;</span> t<span class="special">)</span><span class="special">;</span></pre>Sets local time in std::tm format. <p>
+<pre class="literallayout"><a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a name="idm1625-bb"></a><span class="identifier">set_tm</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <span class="special">&amp;</span> t<span class="special">)</span><span class="special">;</span></pre>Sets local time in std::tm format. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -143,10 +143,12 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">boost</span><span class="special">::</span><span class="identifier">posix_time</span><span class="special">::</span><span class="identifier">time_duration</span> <a name="idm44939229055504-bb"></a><span class="identifier">posix_time_duration</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns boost::posix_time::time_duration. <p>
+<pre class="literallayout"><span class="identifier">boost</span><span class="special">::</span><span class="identifier">posix_time</span><span class="special">::</span><span class="identifier">time_duration</span> <a name="idm1636-bb"></a><span class="identifier">posix_time_duration</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns boost::posix_time::time_duration. <p>
 </p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p>BOOST_UI_USE_DATE_TIME </p>
+<p>
+</p>
 <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
@@ -161,10 +163,12 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a name="idm44939229051776-bb"></a><span class="identifier">posix_time_duration</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">posix_time</span><span class="special">::</span><span class="identifier">time_duration</span> <span class="special">&amp;</span> d<span class="special">)</span><span class="special">;</span></pre>Sets boost::posix_time::time_duration. <p>
+<pre class="literallayout"><a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a name="idm1647-bb"></a><span class="identifier">posix_time_duration</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">posix_time</span><span class="special">::</span><span class="identifier">time_duration</span> <span class="special">&amp;</span> d<span class="special">)</span><span class="special">;</span></pre>Sets boost::posix_time::time_duration. <p>
 </p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p>BOOST_UI_USE_DATE_TIME </p>
+<p>
+</p>
 <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
@@ -180,10 +184,12 @@
 </li>
 <li class="listitem">
 <pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Rep<span class="special">,</span> <span class="keyword">typename</span> Period<span class="special">&gt;</span> 
-  <span class="identifier">boost</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <a name="idm44939229047344-bb"></a><span class="identifier">boost_chrono_duration</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns boost::chrono::duration. <p>
+  <span class="identifier">boost</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <a name="idm1661-bb"></a><span class="identifier">boost_chrono_duration</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns boost::chrono::duration. <p>
 </p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p>BOOST_UI_USE_CHRONO </p>
+<p>
+</p>
 <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
@@ -200,10 +206,12 @@
 <li class="listitem">
 <pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Rep<span class="special">,</span> <span class="keyword">typename</span> Period<span class="special">&gt;</span> 
   <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> 
-  <a name="idm44939229042224-bb"></a><span class="identifier">chrono_duration</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <span class="special">&amp;</span> d<span class="special">)</span><span class="special">;</span></pre>Sets boost::chrono::duration. <p>
+  <a name="idm1675-bb"></a><span class="identifier">chrono_duration</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <span class="special">&amp;</span> d<span class="special">)</span><span class="special">;</span></pre>Sets boost::chrono::duration. <p>
 </p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p>BOOST_UI_USE_CHRONO </p>
+<p>
+</p>
 <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
@@ -219,7 +227,7 @@
 </li>
 <li class="listitem">
 <pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Rep<span class="special">,</span> <span class="keyword">typename</span> Period<span class="special">&gt;</span> 
-  <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <a name="idm44939229036384-bb"></a><span class="identifier">chrono_duration</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns std::chrono::duration. <p>
+  <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <a name="idm1692-bb"></a><span class="identifier">chrono_duration</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns std::chrono::duration. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -235,7 +243,7 @@
 <li class="listitem">
 <pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> Rep<span class="special">,</span> <span class="keyword">typename</span> Period<span class="special">&gt;</span> 
   <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> 
-  <a name="idm44939229032400-bb"></a><span class="identifier">chrono_duration</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <span class="special">&amp;</span> d<span class="special">)</span><span class="special">;</span></pre>Sets std::chrono::duration. <p>
+  <a name="idm1703-bb"></a><span class="identifier">chrono_duration</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">duration</span><span class="special">&lt;</span> <span class="identifier">Rep</span><span class="special">,</span> <span class="identifier">Period</span> <span class="special">&gt;</span> <span class="special">&amp;</span> d<span class="special">)</span><span class="special">;</span></pre>Sets std::chrono::duration. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -249,9 +257,9 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> T<span class="special">&gt;</span> <span class="keyword">void</span> <a name="idm44939229027696-bb"></a><span class="identifier">get_time</span><span class="special">(</span><span class="identifier">T</span> hours_ptr<span class="special">,</span> <span class="identifier">T</span> minutes_ptr<span class="special">,</span> <span class="identifier">T</span> seconds_ptr<span class="special">)</span><span class="special">;</span></pre>Returns time. </li>
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> T<span class="special">&gt;</span> <span class="keyword">void</span> <a name="idm1717-bb"></a><span class="identifier">get_time</span><span class="special">(</span><span class="identifier">T</span> hours_ptr<span class="special">,</span> <span class="identifier">T</span> minutes_ptr<span class="special">,</span> <span class="identifier">T</span> seconds_ptr<span class="special">)</span><span class="special">;</span></pre>Returns time. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a name="idm44939229023648-bb"></a><span class="identifier">set_time</span><span class="special">(</span><span class="keyword">int</span> hours<span class="special">,</span> <span class="keyword">int</span> minutes<span class="special">,</span> <span class="keyword">int</span> seconds<span class="special">)</span><span class="special">;</span></pre>Sets time. <p>
+<pre class="literallayout"><a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a name="idm1728-bb"></a><span class="identifier">set_time</span><span class="special">(</span><span class="keyword">int</span> hours<span class="special">,</span> <span class="keyword">int</span> minutes<span class="special">,</span> <span class="keyword">int</span> seconds<span class="special">)</span><span class="special">;</span></pre>Sets time. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -265,27 +273,27 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> 
-  <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a name="idm44939229019024-bb"></a><span class="identifier">on_change</span><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span> f<span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span> args<span class="special">)</span><span class="special">;</span></pre>Connects time change handler. </li>
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span> <span class="special">...</span> Args<span class="special">&gt;</span> 
+  <a class="link" href="time_picker.html" title="Class time_picker">time_picker</a> <span class="special">&amp;</span> <a name="idm1743-bb"></a><span class="identifier">on_change</span><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span> f<span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span> args<span class="special">)</span><span class="special">;</span></pre>Connects time change handler. </li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156368770080"></a><h3>
-<a name="idm44939229014064-bb"></a><code class="computeroutput">time_picker</code> private member functions</h3>
+<a name="idm5608"></a><h3>
+<a name="idm1756-bb"></a><code class="computeroutput">time_picker</code> private member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
-<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm44939229013488-bb"></a><span class="identifier">get_time_raw</span><span class="special">(</span><span class="keyword">int</span> <span class="special">*</span> hours_ptr<span class="special">,</span> <span class="keyword">int</span> <span class="special">*</span> minutes_ptr<span class="special">,</span> <span class="keyword">int</span> <span class="special">*</span> seconds_ptr<span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
-<li class="listitem"><pre class="literallayout"><span class="keyword">int</span> <a name="idm44939229010304-bb"></a><span class="identifier">get_seconds</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
-<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm44939229009184-bb"></a><span class="identifier">set_seconds</span><span class="special">(</span><span class="identifier">boost</span><span class="special">::</span><span class="identifier">intmax_t</span> seconds<span class="special">)</span><span class="special">;</span></pre></li>
-<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm44939229007648-bb"></a><span class="identifier">on_change_raw</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre></li>
-<li class="listitem"><pre class="literallayout"><span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm44939229006096-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
-<li class="listitem"><pre class="literallayout"><span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm44939229005248-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm1757-bb"></a><span class="identifier">get_time_raw</span><span class="special">(</span><span class="keyword">int</span> <span class="special">*</span> hours_ptr<span class="special">,</span> <span class="keyword">int</span> <span class="special">*</span> minutes_ptr<span class="special">,</span> <span class="keyword">int</span> <span class="special">*</span> seconds_ptr<span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">int</span> <a name="idm1765-bb"></a><span class="identifier">get_seconds</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm1767-bb"></a><span class="identifier">set_seconds</span><span class="special">(</span><span class="identifier">boost</span><span class="special">::</span><span class="identifier">intmax_t</span> seconds<span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">void</span> <a name="idm1771-bb"></a><span class="identifier">on_change_raw</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span> handler<span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm1775-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><span class="keyword">const</span> <span class="identifier">detail_impl</span> <span class="special">*</span> <a name="idm1777-bb"></a><span class="identifier">get_impl</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 </div>
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+<td align="right"><div class="copyright-footer">Copyright © 2017 Kolya Kosenko<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>
@@ -293,7 +301,7 @@
 </tr></table>
 <hr>
 <div class="spirit-nav">
-<a accesskey="p" href="date_picker.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.datetime_hpp"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="../../BOOST_UI_idm44939229003424.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
+<a accesskey="p" href="date_picker.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../../index.html#header.boost.ui.datetime_hpp"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="../../BOOST_UI_USE_DATE__idm1779.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
 </div>
 </body>
 </html>

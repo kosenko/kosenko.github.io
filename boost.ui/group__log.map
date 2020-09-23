@@ -1,3 +1,4 @@
 <map id="Logging" name="Logging">
-<area shape="rect" id="node2" href="$group__info.html" title="Informational widgets" alt="" coords="5,5,152,32"/>
+<area shape="rect" id="node1" title="Debug output and async user notifications." alt="" coords="219,5,292,31"/>
+<area shape="rect" id="node2" href="$group__info.html" title="Data output widgets." alt="" coords="5,5,171,31"/>
 </map>

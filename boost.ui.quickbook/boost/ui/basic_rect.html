@@ -1,10 +1,10 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Class template basic_rect</title>
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
-<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="home" href="../../index.html" title="Chapter 1. Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.coord_hpp" title="Header &lt;boost/ui/coord.hpp&gt;">
 <link rel="prev" href="basic_point.html" title="Class template basic_point">
 <link rel="next" href="basic_size.html" title="Class template basic_size">
@@ -26,74 +26,76 @@
 <a name="boost.ui.basic_rect"></a><div class="titlepage"></div>
 <div class="refnamediv">
 <h2><span class="refentrytitle">Class template basic_rect</span></h2>
-<p>boost::ui::basic_rect &#8212; 2D rectangle plane figure data structure with custom coordinates type </p>
+<p>boost::ui::basic_rect — 2D rectangle plane figure data structure with custom coordinates type </p>
 </div>
 <h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.coord_hpp" title="Header &lt;boost/ui/coord.hpp&gt;">boost/ui/coord.hpp</a>&gt;
 
 </span><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> T<span class="special">&gt;</span> 
-<span class="keyword">class</span> <a class="link" href="basic_rect.html" title="Class template basic_rect">basic_rect</a> <span class="special">:</span> <span class="keyword">public</span> boost::geometry::model::box public::boost::polygon::rectangle_data&lt; T &gt;
+<span class="keyword">class</span> <a class="link" href="basic_rect.html" title="Class template basic_rect">basic_rect</a> <span class="special">:</span> <span class="keyword">public</span> boost::geometry::model::box public ::boost::polygon::rectangle_data&lt; T &gt;
 <span class="special">{</span>
 <span class="keyword">public</span><span class="special">:</span>
   <span class="comment">// types</span>
   <span class="keyword">typedef</span> <span class="identifier">T</span> <a name="boost.ui.basic_rect.value_type"></a><span class="identifier">value_type</span><span class="special">;</span>  <span class="comment">// Type of coordinates. </span>
 
   <span class="comment">// <a class="link" href="basic_rect.html#boost.ui.basic_rectconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <a class="link" href="basic_rect.html#idm44939229202432-bb"><span class="identifier">basic_rect</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="basic_rect.html#idm44939229199088-bb"><span class="identifier">basic_rect</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <a class="link" href="basic_size.html" title="Class template basic_size">basic_size</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="basic_rect.html#idm44939229196224-bb"><span class="identifier">basic_rect</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> D<span class="special">&gt;</span> <span class="keyword">explicit</span> <a class="link" href="basic_rect.html#idm44939229193360-bb"><span class="identifier">basic_rect</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_rect.html" title="Class template basic_rect">basic_rect</a><span class="special">&lt;</span> <span class="identifier">D</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="basic_rect.html#idm44939229183024-bb"><span class="identifier">basic_rect</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="basic_rect.html#idm1239-bb"><span class="identifier">basic_rect</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="basic_rect.html#idm1249-bb"><span class="identifier">basic_rect</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <a class="link" href="basic_size.html" title="Class template basic_size">basic_size</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="basic_rect.html#idm1257-bb"><span class="identifier">basic_rect</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> D<span class="special">&gt;</span> <span class="keyword">explicit</span> <a class="link" href="basic_rect.html#idm1265-bb"><span class="identifier">basic_rect</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_rect.html" title="Class template basic_rect">basic_rect</a><span class="special">&lt;</span> <span class="identifier">D</span> <span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="basic_rect.html#idm1288-bb"><span class="identifier">basic_rect</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="basic_rect.html#idm44939229189376-bb">public member functions</a></span>
-  <span class="identifier">T</span> <a class="link" href="basic_rect.html#idm44939229188816-bb"><span class="identifier">x</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="identifier">T</span> <a class="link" href="basic_rect.html#idm44939229187408-bb"><span class="identifier">y</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="identifier">T</span> <a class="link" href="basic_rect.html#idm44939229186000-bb"><span class="identifier">width</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <span class="identifier">T</span> <a class="link" href="basic_rect.html#idm44939229184592-bb"><span class="identifier">height</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="basic_rect.html#idm1275-bb">public member functions</a></span>
+  <span class="identifier">T</span> <a class="link" href="basic_rect.html#idm1276-bb"><span class="identifier">x</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">T</span> <a class="link" href="basic_rect.html#idm1279-bb"><span class="identifier">y</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">T</span> <a class="link" href="basic_rect.html#idm1282-bb"><span class="identifier">width</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="identifier">T</span> <a class="link" href="basic_rect.html#idm1285-bb"><span class="identifier">height</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46156369657040"></a><h2>Description</h2>
+<a name="idm3986"></a><h2>Description</h2>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Rectangle" target="_top">Rectangle (Wikipedia)</a> </p>
 <p>
 </p>
+<p>
+</p>
 <div class="refsect2">
-<a name="idm46156369654848"></a><h3>
+<a name="idm3993"></a><h3>
 <a name="boost.ui.basic_rectconstruct-copy-destruct"></a><code class="computeroutput">basic_rect</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><a name="idm44939229202432-bb"></a><span class="identifier">basic_rect</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> x<span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> y<span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> width<span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> height<span class="special">)</span><span class="special">;</span></pre>Constructs rectangle with coordinates. </li>
+<pre class="literallayout"><a name="idm1239-bb"></a><span class="identifier">basic_rect</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> x<span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> y<span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> width<span class="special">,</span> <span class="keyword">const</span> <span class="identifier">T</span> <span class="special">&amp;</span> height<span class="special">)</span><span class="special">;</span></pre>Constructs rectangle with coordinates. </li>
 <li class="listitem">
-<pre class="literallayout"><a name="idm44939229199088-bb"></a><span class="identifier">basic_rect</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span> point<span class="special">,</span> <span class="keyword">const</span> <a class="link" href="basic_size.html" title="Class template basic_size">basic_size</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span> size<span class="special">)</span><span class="special">;</span></pre>Constructs rectangle with coordinates. </li>
+<pre class="literallayout"><a name="idm1249-bb"></a><span class="identifier">basic_rect</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span> point<span class="special">,</span> <span class="keyword">const</span> <a class="link" href="basic_size.html" title="Class template basic_size">basic_size</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span> size<span class="special">)</span><span class="special">;</span></pre>Constructs rectangle with coordinates. </li>
 <li class="listitem">
-<pre class="literallayout"><a name="idm44939229196224-bb"></a><span class="identifier">basic_rect</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span> point1<span class="special">,</span> <span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span> point2<span class="special">)</span><span class="special">;</span></pre>Constructs rectangle with coordinates. </li>
+<pre class="literallayout"><a name="idm1257-bb"></a><span class="identifier">basic_rect</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span> point1<span class="special">,</span> <span class="keyword">const</span> <a class="link" href="basic_point.html" title="Class template basic_point">basic_point</a><span class="special">&lt;</span> <span class="identifier">T</span> <span class="special">&gt;</span> <span class="special">&amp;</span> point2<span class="special">)</span><span class="special">;</span></pre>Constructs rectangle with coordinates. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> D<span class="special">&gt;</span> <span class="keyword">explicit</span> <a name="idm44939229193360-bb"></a><span class="identifier">basic_rect</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_rect.html" title="Class template basic_rect">basic_rect</a><span class="special">&lt;</span> <span class="identifier">D</span> <span class="special">&gt;</span> <span class="special">&amp;</span> other<span class="special">)</span><span class="special">;</span></pre>Constructs rectangle with coordinates. </li>
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> D<span class="special">&gt;</span> <span class="keyword">explicit</span> <a name="idm1265-bb"></a><span class="identifier">basic_rect</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="basic_rect.html" title="Class template basic_rect">basic_rect</a><span class="special">&lt;</span> <span class="identifier">D</span> <span class="special">&gt;</span> <span class="special">&amp;</span> other<span class="special">)</span><span class="special">;</span></pre>Constructs rectangle with coordinates. </li>
 <li class="listitem">
-<pre class="literallayout"><a name="idm44939229183024-bb"></a><span class="identifier">basic_rect</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Constructs rectangle with empty coordinates. </li>
+<pre class="literallayout"><a name="idm1288-bb"></a><span class="identifier">basic_rect</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Constructs rectangle with empty coordinates. </li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156369598464"></a><h3>
-<a name="idm44939229189376-bb"></a><code class="computeroutput">basic_rect</code> public member functions</h3>
+<a name="idm4090"></a><h3>
+<a name="idm1275-bb"></a><code class="computeroutput">basic_rect</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">T</span> <a name="idm44939229188816-bb"></a><span class="identifier">x</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns x coordinate. </li>
+<pre class="literallayout"><span class="identifier">T</span> <a name="idm1276-bb"></a><span class="identifier">x</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns x coordinate. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">T</span> <a name="idm44939229187408-bb"></a><span class="identifier">y</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns y coordinate. </li>
+<pre class="literallayout"><span class="identifier">T</span> <a name="idm1279-bb"></a><span class="identifier">y</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns y coordinate. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">T</span> <a name="idm44939229186000-bb"></a><span class="identifier">width</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns width. </li>
+<pre class="literallayout"><span class="identifier">T</span> <a name="idm1282-bb"></a><span class="identifier">width</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns width. </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">T</span> <a name="idm44939229184592-bb"></a><span class="identifier">height</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns height. </li>
+<pre class="literallayout"><span class="identifier">T</span> <a name="idm1285-bb"></a><span class="identifier">height</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns height. </li>
 </ol></div>
 </div>
 </div>
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+<td align="right"><div class="copyright-footer">Copyright © 2017 Kolya Kosenko<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>

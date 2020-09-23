@@ -1,3 +1,4 @@
 <map id="Date and time pickers" name="Date and time pickers">
-<area shape="rect" id="node2" href="$group__io.html" title="Data input&#45;output widgets" alt="" coords="5,5,176,32"/>
+<area shape="rect" id="node1" title="Date and time modifiers." alt="" coords="245,5,411,31"/>
+<area shape="rect" id="node2" href="$group__io.html" title="Data input and output widgets." alt="" coords="5,5,197,31"/>
 </map>

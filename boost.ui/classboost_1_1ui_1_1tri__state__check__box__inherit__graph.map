@@ -1,4 +1,5 @@
 <map id="boost::ui::tri_state_check_box" name="boost::ui::tri_state_check_box">
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1check__box__base.html" title="Check box base class. " alt="" coords="5,80,184,107"/>
-<area shape="rect" id="node3" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets. " alt="" coords="35,5,154,32"/>
+<area shape="rect" id="node1" title="Labelled widget that that permits the user to make a ternary choice." alt="" coords="32,155,172,196"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1check__box__base.html" title="Check box base class." alt="" coords="5,80,199,107"/>
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1widget.html" title="Base class for all widgets." alt="" coords="37,5,167,32"/>
 </map>

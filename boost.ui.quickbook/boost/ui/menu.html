@@ -1,10 +1,10 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Class menu</title>
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
-<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="home" href="../../index.html" title="Chapter 1. Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.menu_hpp" title="Header &lt;boost/ui/menu.hpp&gt;">
 <link rel="prev" href="log_string.html" title="Class log_string">
 <link rel="next" href="menu/item.html" title="Class item">
@@ -26,7 +26,7 @@
 <a name="boost.ui.menu"></a><div class="titlepage"></div>
 <div class="refnamediv">
 <h2><span class="refentrytitle">Class menu</span></h2>
-<p>boost::ui::menu &#8212; Menu (list of commands) class. </p>
+<p>boost::ui::menu — Menu (list of commands) class. </p>
 </div>
 <h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.menu_hpp" title="Header &lt;boost/ui/menu.hpp&gt;">boost/ui/menu.hpp</a>&gt;
@@ -47,55 +47,63 @@
     <span class="keyword">typedef</span> <span class="keyword">void</span> <span class="special">*</span> <a class="link" href="menu/item.html#boost.ui.menu.item.native_handle_type"><span class="identifier">native_handle_type</span></a><span class="special">;</span>  <span class="comment">// Implementation-defined menu item type. </span>
 
     <span class="comment">// <a class="link" href="menu/item.html#boost.ui.menu.itemconstruct-copy-destruct">construct/copy/destruct</a></span>
-    <a class="link" href="menu/item.html#idm44939228633600-bb"><span class="identifier">item</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+    <a class="link" href="menu/item.html#idm2658-bb"><span class="identifier">item</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
 
-    <span class="comment">// <a class="link" href="menu/item.html#idm44939228638832-bb">public member functions</a></span>
-    <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> <a class="link" href="menu/item.html" title="Class item">item</a> <span class="special">&amp;</span> <a class="link" href="menu/item.html#idm44939228638272-bb"><span class="identifier">on_press</span></a><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span><span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span><span class="special">)</span><span class="special">;</span>
+    <span class="comment">// <a class="link" href="menu/item.html#idm2645-bb">public member functions</a></span>
+    <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span> <span class="special">...</span> Args<span class="special">&gt;</span> <a class="link" href="menu/item.html" title="Class item">item</a> <span class="special">&amp;</span> <a class="link" href="menu/item.html#idm2646-bb"><span class="identifier">on_press</span></a><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span><span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span><span class="special">)</span><span class="special">;</span>
 
-    <span class="comment">// <a class="link" href="menu/item.html#idm44939228629856-bb">private member functions</a></span>
-    <span class="keyword">void</span> <a class="link" href="menu/item.html#idm44939228629280-bb"><span class="identifier">on_press_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+    <span class="comment">// <a class="link" href="menu/item.html#idm2669-bb">private member functions</a></span>
+    <span class="keyword">void</span> <a class="link" href="menu/item.html#idm2670-bb"><span class="identifier">on_press_raw</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">function</span><span class="special">&lt;</span> <span class="keyword">void</span><span class="special">(</span><span class="special">)</span><span class="special">&gt;</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
   <span class="special">}</span><span class="special">;</span>
 
   <span class="comment">// <a class="link" href="menu.html#boost.ui.menuconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <a class="link" href="menu.html#idm44939228619344-bb"><span class="identifier">menu</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="menu.html#idm44939228618768-bb"><span class="identifier">menu</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="menu.html#idm44939228619056-bb"><span class="special">~</span><span class="identifier">menu</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="menu.html#idm2695-bb"><span class="identifier">menu</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="menu.html#idm2697-bb"><span class="identifier">menu</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="menu.html#idm2696-bb"><span class="special">~</span><span class="identifier">menu</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="menu.html#idm44939228626416-bb">public member functions</a></span>
-  <span class="keyword">void</span> <a class="link" href="menu.html#idm44939228625856-bb"><span class="identifier">popup</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="menu.html#idm2677-bb">public member functions</a></span>
+  <span class="keyword">void</span> <a class="link" href="menu.html#idm2678-bb"><span class="identifier">popup</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46156366106464"></a><h2>Description</h2>
+<a name="idm10448"></a><h2>Description</h2>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Menu_(computing)" target="_top">Menu (Wikipedia)</a> </p>
 <p>
 </p>
+<p>
+</p>
 <div class="refsect2">
-<a name="idm46156366104256"></a><h3>
+<a name="idm10455"></a><h3>
 <a name="boost.ui.menuconstruct-copy-destruct"></a><code class="computeroutput">menu</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
-<li class="listitem"><pre class="literallayout"><a name="idm44939228619344-bb"></a><span class="identifier">menu</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><a name="idm2695-bb"></a><span class="identifier">menu</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
 <li class="listitem">
-<pre class="literallayout"><a name="idm44939228618768-bb"></a><span class="identifier">menu</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> text<span class="special">)</span><span class="special">;</span></pre>Constructs menu with associated text label with mnemonics. <p><span class="bold"><strong>See Also:</strong></span></p>
+<pre class="literallayout"><a name="idm2697-bb"></a><span class="identifier">menu</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> text<span class="special">)</span><span class="special">;</span></pre>Constructs menu with associated text label with mnemonics. <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="https://en.wikipedia.org/wiki/Mnemonics_(keyboard)" target="_top">Mnemonics (Wikipedia)</a> </p>
 <p>
 </p>
+<p>
+</p>
 </li>
-<li class="listitem"><pre class="literallayout"><a name="idm44939228619056-bb"></a><span class="special">~</span><span class="identifier">menu</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><a name="idm2696-bb"></a><span class="special">~</span><span class="identifier">menu</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156366086416"></a><h3>
-<a name="idm44939228626416-bb"></a><code class="computeroutput">menu</code> public member functions</h3>
+<a name="idm10493"></a><h3>
+<a name="idm2677-bb"></a><code class="computeroutput">menu</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem">
-<pre class="literallayout"><span class="keyword">void</span> <a name="idm44939228625856-bb"></a><span class="identifier">popup</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> w<span class="special">)</span><span class="special">;</span></pre>Popups context menu at current mouse postion related to widget <span class="emphasis"><em>w</em></span>. <p><span class="bold"><strong>See Also:</strong></span></p>
+<pre class="literallayout"><span class="keyword">void</span> <a name="idm2678-bb"></a><span class="identifier">popup</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> w<span class="special">)</span><span class="special">;</span></pre>Popups context menu at current mouse postion related to widget <span class="emphasis"><em>w</em></span>. <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Context_menu" target="_top">Context menu (Wikipedia)</a> </p>
+<p>
+</p>
 <p>
 </p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Modal_window" target="_top">Modal window (Wikipedia)</a> </p>
+<p>
+</p>
 <p>
 </p>
 </li></ol></div>
@@ -104,7 +112,7 @@
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+<td align="right"><div class="copyright-footer">Copyright © 2017 Kolya Kosenko<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>

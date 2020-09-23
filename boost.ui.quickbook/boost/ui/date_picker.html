@@ -1,10 +1,10 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Class date_picker</title>
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
-<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="home" href="../../index.html" title="Chapter 1. Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.datetime_hpp" title="Header &lt;boost/ui/datetime.hpp&gt;">
 <link rel="prev" href="../../BOOST_UI_USE_POLYGON.html" title="Macro BOOST_UI_USE_POLYGON">
 <link rel="next" href="time_picker.html" title="Class time_picker">
@@ -26,7 +26,7 @@
 <a name="boost.ui.date_picker"></a><div class="titlepage"></div>
 <div class="refnamediv">
 <h2><span class="refentrytitle">Class date_picker</span></h2>
-<p>boost::ui::date_picker &#8212; Date picker widget. </p>
+<p>boost::ui::date_picker — Date picker widget. </p>
 </div>
 <h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.datetime_hpp" title="Header &lt;boost/ui/datetime.hpp&gt;">boost/ui/datetime.hpp</a>&gt;
@@ -35,49 +35,51 @@
 <span class="keyword">class</span> <a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">:</span> <span class="keyword">public</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">ui</span><span class="special">::</span><span class="identifier">widget</span> <span class="special">{</span>
 <span class="keyword">public</span><span class="special">:</span>
   <span class="comment">// <a class="link" href="date_picker.html#boost.ui.date_pickerconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <span class="keyword">explicit</span> <a class="link" href="date_picker.html#idm44939229112624-bb"><span class="identifier">date_picker</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="date_picker.html#idm44939229071648-bb"><span class="identifier">date_picker</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">explicit</span> <a class="link" href="date_picker.html#idm1461-bb"><span class="identifier">date_picker</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="date_picker.html#idm1586-bb"><span class="identifier">date_picker</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="date_picker.html#idm44939229110800-bb">public member functions</a></span>
-  <span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span> <a class="link" href="date_picker.html#idm44939229110240-bb"><span class="identifier">get_time_t</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a class="link" href="date_picker.html#idm44939229107648-bb"><span class="identifier">set_time_t</span></a><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span><span class="special">)</span><span class="special">;</span>
-  <span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <a class="link" href="date_picker.html#idm44939229104384-bb"><span class="identifier">get_tm</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a class="link" href="date_picker.html#idm44939229101792-bb"><span class="identifier">set_tm</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <span class="identifier">boost</span><span class="special">::</span><span class="identifier">gregorian</span><span class="special">::</span><span class="identifier">date</span> <a class="link" href="date_picker.html#idm44939229098528-bb"><span class="identifier">gregorian_date</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
-  <a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a class="link" href="date_picker.html#idm44939229094832-bb"><span class="identifier">gregorian_date</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">gregorian</span><span class="special">::</span><span class="identifier">date</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">system_clock</span><span class="special">::</span><span class="identifier">time_point</span> <a class="link" href="date_picker.html#idm44939229090416-bb"><span class="identifier">system_clock_time_point</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="date_picker.html#idm1466-bb">public member functions</a></span>
+  <span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span> <a class="link" href="date_picker.html#idm1467-bb"><span class="identifier">get_time_t</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a class="link" href="date_picker.html#idm1475-bb"><span class="identifier">set_time_t</span></a><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span><span class="special">)</span><span class="special">;</span>
+  <span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <a class="link" href="date_picker.html#idm1486-bb"><span class="identifier">get_tm</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a class="link" href="date_picker.html#idm1494-bb"><span class="identifier">set_tm</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="identifier">boost</span><span class="special">::</span><span class="identifier">gregorian</span><span class="special">::</span><span class="identifier">date</span> <a class="link" href="date_picker.html#idm1505-bb"><span class="identifier">gregorian_date</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a class="link" href="date_picker.html#idm1516-bb"><span class="identifier">gregorian_date</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">gregorian</span><span class="special">::</span><span class="identifier">date</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">system_clock</span><span class="special">::</span><span class="identifier">time_point</span> <a class="link" href="date_picker.html#idm1530-bb"><span class="identifier">system_clock_time_point</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
   <a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> 
-  <a class="link" href="date_picker.html#idm44939229087824-bb"><span class="identifier">system_clock_time_point</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">system_clock</span><span class="special">::</span><span class="identifier">time_point</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="date_picker.html#idm1538-bb"><span class="identifier">system_clock_time_point</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">system_clock</span><span class="special">::</span><span class="identifier">time_point</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
   <span class="identifier">boost</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">system_clock</span><span class="special">::</span><span class="identifier">time_point</span> 
-  <a class="link" href="date_picker.html#idm44939229084512-bb"><span class="identifier">boost_system_clock_time_point</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
+  <a class="link" href="date_picker.html#idm1549-bb"><span class="identifier">boost_system_clock_time_point</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
   <a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> 
-  <a class="link" href="date_picker.html#idm44939229080768-bb"><span class="identifier">system_clock_time_point</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">system_clock</span><span class="special">::</span><span class="identifier">time_point</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> 
-    <a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a class="link" href="date_picker.html#idm44939229076320-bb"><span class="identifier">on_change</span></a><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span><span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="date_picker.html#idm1560-bb"><span class="identifier">system_clock_time_point</span></a><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">system_clock</span><span class="special">::</span><span class="identifier">time_point</span> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span> <span class="special">...</span> Args<span class="special">&gt;</span> 
+    <a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a class="link" href="date_picker.html#idm1574-bb"><span class="identifier">on_change</span></a><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span><span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span><span class="special">)</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46156369269744"></a><h2>Description</h2>
+<a name="idm4656"></a><h2>Description</h2>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Calendar_date" target="_top">Calendar date (Wikipedia)</a> </p>
 <p>
 </p>
+<p>
+</p>
 <div class="refsect2">
-<a name="idm46156369267520"></a><h3>
+<a name="idm4663"></a><h3>
 <a name="boost.ui.date_pickerconstruct-copy-destruct"></a><code class="computeroutput">date_picker</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm44939229112624-bb"></a><span class="identifier">date_picker</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">)</span><span class="special">;</span></pre>Creates widget. </li>
-<li class="listitem"><pre class="literallayout"><a name="idm44939229071648-bb"></a><span class="identifier">date_picker</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<pre class="literallayout"><span class="keyword">explicit</span> <a name="idm1461-bb"></a><span class="identifier">date_picker</span><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> parent<span class="special">)</span><span class="special">;</span></pre>Creates widget. </li>
+<li class="listitem"><pre class="literallayout"><a name="idm1586-bb"></a><span class="identifier">date_picker</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156369255648"></a><h3>
-<a name="idm44939229110800-bb"></a><code class="computeroutput">date_picker</code> public member functions</h3>
+<a name="idm4687"></a><h3>
+<a name="idm1466-bb"></a><code class="computeroutput">date_picker</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span> <a name="idm44939229110240-bb"></a><span class="identifier">get_time_t</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns date in std::time_t format. <p>
+<pre class="literallayout"><span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span> <a name="idm1467-bb"></a><span class="identifier">get_time_t</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns date in std::time_t format. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -91,7 +93,7 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a name="idm44939229107648-bb"></a><span class="identifier">set_time_t</span><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span> t<span class="special">)</span><span class="special">;</span></pre>Sets date in std::time_t format. <p>
+<pre class="literallayout"><a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a name="idm1475-bb"></a><span class="identifier">set_time_t</span><span class="special">(</span><span class="identifier">std</span><span class="special">::</span><span class="identifier">time_t</span> t<span class="special">)</span><span class="special">;</span></pre>Sets date in std::time_t format. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -105,7 +107,7 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <a name="idm44939229104384-bb"></a><span class="identifier">get_tm</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns local date in std::tm format. <p>
+<pre class="literallayout"><span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <a name="idm1486-bb"></a><span class="identifier">get_tm</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns local date in std::tm format. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -119,7 +121,7 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a name="idm44939229101792-bb"></a><span class="identifier">set_tm</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <span class="special">&amp;</span> t<span class="special">)</span><span class="special">;</span></pre>Sets local date in std::tm format. <p>
+<pre class="literallayout"><a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a name="idm1494-bb"></a><span class="identifier">set_tm</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">tm</span> <span class="special">&amp;</span> t<span class="special">)</span><span class="special">;</span></pre>Sets local date in std::tm format. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -133,10 +135,12 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">boost</span><span class="special">::</span><span class="identifier">gregorian</span><span class="special">::</span><span class="identifier">date</span> <a name="idm44939229098528-bb"></a><span class="identifier">gregorian_date</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns boost::gregorian::date. <p>
+<pre class="literallayout"><span class="identifier">boost</span><span class="special">::</span><span class="identifier">gregorian</span><span class="special">::</span><span class="identifier">date</span> <a name="idm1505-bb"></a><span class="identifier">gregorian_date</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns boost::gregorian::date. <p>
 </p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p>BOOST_UI_USE_DATE_TIME </p>
+<p>
+</p>
 <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
@@ -151,10 +155,12 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a name="idm44939229094832-bb"></a><span class="identifier">gregorian_date</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">gregorian</span><span class="special">::</span><span class="identifier">date</span> <span class="special">&amp;</span> d<span class="special">)</span><span class="special">;</span></pre>Sets boost::gregorian::date. <p>
+<pre class="literallayout"><a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a name="idm1516-bb"></a><span class="identifier">gregorian_date</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">gregorian</span><span class="special">::</span><span class="identifier">date</span> <span class="special">&amp;</span> d<span class="special">)</span><span class="special">;</span></pre>Sets boost::gregorian::date. <p>
 </p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p>BOOST_UI_USE_DATE_TIME </p>
+<p>
+</p>
 <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
@@ -169,7 +175,7 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">system_clock</span><span class="special">::</span><span class="identifier">time_point</span> <a name="idm44939229090416-bb"></a><span class="identifier">system_clock_time_point</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns std::chrono::system_clock::time_point. <p>
+<pre class="literallayout"><span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">system_clock</span><span class="special">::</span><span class="identifier">time_point</span> <a name="idm1530-bb"></a><span class="identifier">system_clock_time_point</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns std::chrono::system_clock::time_point. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -184,7 +190,7 @@
 </li>
 <li class="listitem">
 <pre class="literallayout"><a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> 
-<a name="idm44939229087824-bb"></a><span class="identifier">system_clock_time_point</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">system_clock</span><span class="special">::</span><span class="identifier">time_point</span> <span class="special">&amp;</span> d<span class="special">)</span><span class="special">;</span></pre>Sets std::chrono::system_clock::time_point. <p>
+<a name="idm1538-bb"></a><span class="identifier">system_clock_time_point</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">std</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">system_clock</span><span class="special">::</span><span class="identifier">time_point</span> <span class="special">&amp;</span> d<span class="special">)</span><span class="special">;</span></pre>Sets std::chrono::system_clock::time_point. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -198,10 +204,12 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><span class="identifier">boost</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">system_clock</span><span class="special">::</span><span class="identifier">time_point</span> <a name="idm44939229084512-bb"></a><span class="identifier">boost_system_clock_time_point</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns boost::chrono::system_clock::time_point. <p>
+<pre class="literallayout"><span class="identifier">boost</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">system_clock</span><span class="special">::</span><span class="identifier">time_point</span> <a name="idm1549-bb"></a><span class="identifier">boost_system_clock_time_point</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns boost::chrono::system_clock::time_point. <p>
 </p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p>BOOST_UI_USE_CHRONO </p>
+<p>
+</p>
 <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
@@ -217,10 +225,12 @@
 </li>
 <li class="listitem">
 <pre class="literallayout"><a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> 
-<a name="idm44939229080768-bb"></a><span class="identifier">system_clock_time_point</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">system_clock</span><span class="special">::</span><span class="identifier">time_point</span> <span class="special">&amp;</span> d<span class="special">)</span><span class="special">;</span></pre>Sets boost::chrono::system_clock::time_point. <p>
+<a name="idm1560-bb"></a><span class="identifier">system_clock_time_point</span><span class="special">(</span><span class="keyword">const</span> <span class="identifier">boost</span><span class="special">::</span><span class="identifier">chrono</span><span class="special">::</span><span class="identifier">system_clock</span><span class="special">::</span><span class="identifier">time_point</span> <span class="special">&amp;</span> d<span class="special">)</span><span class="special">;</span></pre>Sets boost::chrono::system_clock::time_point. <p>
 </p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p>BOOST_UI_USE_CHRONO </p>
+<p>
+</p>
 <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
@@ -235,15 +245,15 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span><span class="special">...</span> Args<span class="special">&gt;</span> 
-  <a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a name="idm44939229076320-bb"></a><span class="identifier">on_change</span><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span> f<span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span> args<span class="special">)</span><span class="special">;</span></pre>Connects data change handler. </li>
+<pre class="literallayout"><span class="keyword">template</span><span class="special">&lt;</span><span class="keyword">typename</span> F<span class="special">,</span> <span class="keyword">class</span> <span class="special">...</span> Args<span class="special">&gt;</span> 
+  <a class="link" href="date_picker.html" title="Class date_picker">date_picker</a> <span class="special">&amp;</span> <a name="idm1574-bb"></a><span class="identifier">on_change</span><span class="special">(</span><span class="identifier">F</span> <span class="special">&amp;&amp;</span> f<span class="special">,</span> <span class="identifier">Args</span> <span class="special">&amp;&amp;</span><span class="special">...</span> args<span class="special">)</span><span class="special">;</span></pre>Connects data change handler. </li>
 </ol></div>
 </div>
 </div>
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+<td align="right"><div class="copyright-footer">Copyright © 2017 Kolya Kosenko<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>

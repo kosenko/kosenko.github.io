@@ -1,10 +1,10 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Class color</title>
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
-<link rel="home" href="../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
+<link rel="home" href="../../index.html" title="Chapter 1. Boost.UI">
 <link rel="up" href="../../index.html#header.boost.ui.color_hpp" title="Header &lt;boost/ui/color.hpp&gt;">
 <link rel="prev" href="choice.html" title="Class choice">
 <link rel="next" href="combo_box.html" title="Class combo_box">
@@ -26,7 +26,7 @@
 <a name="boost.ui.color"></a><div class="titlepage"></div>
 <div class="refnamediv">
 <h2><span class="refentrytitle">Class color</span></h2>
-<p>boost::ui::color &#8212; Color class. </p>
+<p>boost::ui::color — Color class. </p>
 </div>
 <h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../index.html#header.boost.ui.color_hpp" title="Header &lt;boost/ui/color.hpp&gt;">boost/ui/color.hpp</a>&gt;
@@ -39,15 +39,15 @@
   <span class="keyword">typedef</span> <span class="keyword">double</span>               <a name="boost.ui.color.channel1_type"></a><span class="identifier">channel1_type</span><span class="special">;</span>    <span class="comment">// Channel type with values in [0, 1] range. </span>
 
   <span class="comment">// <a class="link" href="color.html#boost.ui.colorconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <a class="link" href="color.html#idm44939229316656-bb"><span class="identifier">color</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
+  <a class="link" href="color.html#idm951-bb"><span class="identifier">color</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="color.html#idm44939229315792-bb">public static functions</a></span>
+  <span class="comment">// <a class="link" href="color.html#idm953-bb">public static functions</a></span>
   <span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> 
-  <a class="link" href="color.html#idm44939229315232-bb"><span class="identifier">rgba255</span></a><span class="special">(</span><span class="identifier">channel255_type</span><span class="special">,</span> <span class="identifier">channel255_type</span><span class="special">,</span> <span class="identifier">channel255_type</span><span class="special">,</span> <span class="identifier">channel255_type</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> <a class="link" href="color.html#idm44939229310912-bb"><span class="identifier">rgb255</span></a><span class="special">(</span><span class="identifier">channel255_type</span><span class="special">,</span> <span class="identifier">channel255_type</span><span class="special">,</span> <span class="identifier">channel255_type</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="color.html#idm954-bb"><span class="identifier">rgba255</span></a><span class="special">(</span><span class="identifier">channel255_type</span><span class="special">,</span> <span class="identifier">channel255_type</span><span class="special">,</span> <span class="identifier">channel255_type</span><span class="special">,</span> <span class="identifier">channel255_type</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> <a class="link" href="color.html#idm966-bb"><span class="identifier">rgb255</span></a><span class="special">(</span><span class="identifier">channel255_type</span><span class="special">,</span> <span class="identifier">channel255_type</span><span class="special">,</span> <span class="identifier">channel255_type</span><span class="special">)</span><span class="special">;</span>
   <span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> 
-  <a class="link" href="color.html#idm44939229306160-bb"><span class="identifier">rgba1</span></a><span class="special">(</span><span class="identifier">channel1_type</span><span class="special">,</span> <span class="identifier">channel1_type</span><span class="special">,</span> <span class="identifier">channel1_type</span><span class="special">,</span> <span class="identifier">channel1_type</span><span class="special">)</span><span class="special">;</span>
-  <span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> <a class="link" href="color.html#idm44939229300736-bb"><span class="identifier">rgb1</span></a><span class="special">(</span><span class="identifier">channel1_type</span><span class="special">,</span> <span class="identifier">channel1_type</span><span class="special">,</span> <span class="identifier">channel1_type</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="color.html#idm981-bb"><span class="identifier">rgba1</span></a><span class="special">(</span><span class="identifier">channel1_type</span><span class="special">,</span> <span class="identifier">channel1_type</span><span class="special">,</span> <span class="identifier">channel1_type</span><span class="special">,</span> <span class="identifier">channel1_type</span><span class="special">)</span><span class="special">;</span>
+  <span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> <a class="link" href="color.html#idm998-bb"><span class="identifier">rgb1</span></a><span class="special">(</span><span class="identifier">channel1_type</span><span class="special">,</span> <span class="identifier">channel1_type</span><span class="special">,</span> <span class="identifier">channel1_type</span><span class="special">)</span><span class="special">;</span>
 
   <span class="comment">// public data members</span>
   <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">alice_blue</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
@@ -199,50 +199,62 @@
   <span class="keyword">static</span> <span class="keyword">const</span> <a class="link" href="color.html" title="Class color">color</a> <span class="identifier">yellow_green</span><span class="special">;</span>  <span class="comment">// Predefined color. </span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46156370485360"></a><h2>Description</h2>
+<a name="idm2569"></a><h2>Description</h2>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://www.w3.org/TR/css3-color/" target="_top">CSS Color Module (W3C)</a> </p>
+<p>
+</p>
 <p>
 </p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/Color" target="_top">Color (Wikipedia)</a> </p>
 <p>
 </p>
+<p>
+</p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://en.wikipedia.org/wiki/RGB_color_model" target="_top">RGB color model (Wikipedia)</a> </p>
+<p>
+</p>
 <p>
 </p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://www.w3.org/TR/css3-color/#html4" target="_top">Basic CSS colors (W3C)</a> </p>
 <p>
 </p>
+<p>
+</p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="http://www.w3.org/TR/css3-color/#svg-color" target="_top">Extended CSS colors (W3C)</a> </p>
+<p>
+</p>
 <p>
 </p>
 <p><span class="bold"><strong>See Also:</strong></span></p>
 <p><a href="https://en.wikipedia.org/wiki/Web_colors" target="_top">Web colors (Wikipedia)</a> </p>
 <p>
 </p>
+<p>
+</p>
 <div class="refsect2">
-<a name="idm46156370474848"></a><h3>
+<a name="idm2596"></a><h3>
 <a name="boost.ui.colorconstruct-copy-destruct"></a><code class="computeroutput">color</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem">
-<pre class="literallayout"><a name="idm44939229316656-bb"></a><span class="identifier">color</span><span class="special">(</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span></pre>Create transparent black color. </li></ol></div>
+<pre class="literallayout"><a name="idm951-bb"></a><span class="identifier">color</span><span class="special">(</span><span class="special">)</span> <span class="keyword">noexcept</span><span class="special">;</span></pre>Create transparent black color. </li></ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156370468144"></a><h3>
-<a name="idm44939229315792-bb"></a><code class="computeroutput">color</code> public static functions</h3>
+<a name="idm2610"></a><h3>
+<a name="idm953-bb"></a><code class="computeroutput">color</code> public static functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
 <pre class="literallayout"><span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> 
-<a name="idm44939229315232-bb"></a><span class="identifier">rgba255</span><span class="special">(</span><span class="identifier">channel255_type</span> red<span class="special">,</span> <span class="identifier">channel255_type</span> green<span class="special">,</span> <span class="identifier">channel255_type</span> blue<span class="special">,</span> 
+<a name="idm954-bb"></a><span class="identifier">rgba255</span><span class="special">(</span><span class="identifier">channel255_type</span> red<span class="special">,</span> <span class="identifier">channel255_type</span> green<span class="special">,</span> <span class="identifier">channel255_type</span> blue<span class="special">,</span> 
         <span class="identifier">channel255_type</span> alpha<span class="special">)</span><span class="special">;</span></pre>Creates color from channels in [0, 255]. </li>
 <li class="listitem">
 <pre class="literallayout"><span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> 
-<a name="idm44939229310912-bb"></a><span class="identifier">rgb255</span><span class="special">(</span><span class="identifier">channel255_type</span> red<span class="special">,</span> <span class="identifier">channel255_type</span> green<span class="special">,</span> <span class="identifier">channel255_type</span> blue<span class="special">)</span><span class="special">;</span></pre>Creates opaque color from channels in [0, 255] ragne. <p>
+<a name="idm966-bb"></a><span class="identifier">rgb255</span><span class="special">(</span><span class="identifier">channel255_type</span> red<span class="special">,</span> <span class="identifier">channel255_type</span> green<span class="special">,</span> <span class="identifier">channel255_type</span> blue<span class="special">)</span><span class="special">;</span></pre>Creates opaque color from channels in [0, 255] ragne. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
 <colgroup>
@@ -257,7 +269,7 @@
 </li>
 <li class="listitem">
 <pre class="literallayout"><span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> 
-<a name="idm44939229306160-bb"></a><span class="identifier">rgba1</span><span class="special">(</span><span class="identifier">channel1_type</span> red<span class="special">,</span> <span class="identifier">channel1_type</span> green<span class="special">,</span> <span class="identifier">channel1_type</span> blue<span class="special">,</span> 
+<a name="idm981-bb"></a><span class="identifier">rgba1</span><span class="special">(</span><span class="identifier">channel1_type</span> red<span class="special">,</span> <span class="identifier">channel1_type</span> green<span class="special">,</span> <span class="identifier">channel1_type</span> blue<span class="special">,</span> 
       <span class="identifier">channel1_type</span> alpha<span class="special">)</span><span class="special">;</span></pre>Creates color from channels in [0, 1]. <p>
 </p>
 <div class="variablelist"><table border="0" class="variablelist compact">
@@ -272,14 +284,14 @@
 </table></div>
 </li>
 <li class="listitem">
-<pre class="literallayout"><span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> <a name="idm44939229300736-bb"></a><span class="identifier">rgb1</span><span class="special">(</span><span class="identifier">channel1_type</span> red<span class="special">,</span> <span class="identifier">channel1_type</span> green<span class="special">,</span> <span class="identifier">channel1_type</span> blue<span class="special">)</span><span class="special">;</span></pre>Creates opaque color from channels in [0, 1] ragne. </li>
+<pre class="literallayout"><span class="keyword">static</span> <a class="link" href="color.html" title="Class color">color</a> <a name="idm998-bb"></a><span class="identifier">rgb1</span><span class="special">(</span><span class="identifier">channel1_type</span> red<span class="special">,</span> <span class="identifier">channel1_type</span> green<span class="special">,</span> <span class="identifier">channel1_type</span> blue<span class="special">)</span><span class="special">;</span></pre>Creates opaque color from channels in [0, 1] ragne. </li>
 </ol></div>
 </div>
 </div>
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+<td align="right"><div class="copyright-footer">Copyright © 2017 Kolya Kosenko<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>

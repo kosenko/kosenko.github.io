@@ -1,10 +1,11 @@
 <map id="boost::ui::log" name="boost::ui::log">
-<area shape="rect" id="node3" href="$classboost_1_1ui_1_1log_1_1debug.html" title="Shows information in debug log. " alt="" coords="340,5,480,32"/>
-<area shape="rect" id="node4" href="$classboost_1_1ui_1_1log_1_1error.html" title="Shows error dialog in idle time. " alt="" coords="345,56,475,83"/>
-<area shape="rect" id="node5" href="$classboost_1_1ui_1_1log_1_1fatal.html" title="Shows error and abort immediately. " alt="" coords="345,107,475,133"/>
-<area shape="rect" id="node6" href="$classboost_1_1ui_1_1log_1_1info.html" title="Shows information dialog in idle time. " alt="" coords="347,157,473,184"/>
-<area shape="rect" id="node7" href="$classboost_1_1ui_1_1log_1_1trace.html" title="Shows information in debug log. " alt="" coords="343,208,477,235"/>
-<area shape="rect" id="node8" href="$classboost_1_1ui_1_1log_1_1verbose.html" title="Shows verbose information if application was started with –verbose option. " alt="" coords="335,259,485,285"/>
-<area shape="rect" id="node9" href="$classboost_1_1ui_1_1log_1_1warning.html" title="Shows warning dialog in idle time. " alt="" coords="335,309,485,336"/>
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1log__string.html" title="Logging stream class with output into provided uistring. " alt="" coords="5,157,141,184"/>
+<area shape="rect" id="node1" title="Logging stream class." alt="" coords="204,157,311,184"/>
+<area shape="rect" id="node3" href="$classboost_1_1ui_1_1log_1_1debug.html" title="Shows information in debug log." alt="" coords="365,5,519,32"/>
+<area shape="rect" id="node4" href="$classboost_1_1ui_1_1log_1_1error.html" title="Shows error dialog in idle time." alt="" coords="369,56,515,83"/>
+<area shape="rect" id="node5" href="$classboost_1_1ui_1_1log_1_1fatal.html" title="Shows error and abort immediately." alt="" coords="370,107,514,133"/>
+<area shape="rect" id="node6" href="$classboost_1_1ui_1_1log_1_1info.html" title="Shows information dialog in idle time." alt="" coords="373,157,511,184"/>
+<area shape="rect" id="node7" href="$classboost_1_1ui_1_1log_1_1trace.html" title="Shows information in debug log." alt="" coords="369,208,515,235"/>
+<area shape="rect" id="node8" href="$classboost_1_1ui_1_1log_1_1verbose.html" title="Shows verbose information if application was started with –verbose option." alt="" coords="359,259,525,285"/>
+<area shape="rect" id="node9" href="$classboost_1_1ui_1_1log_1_1warning.html" title="Shows warning dialog in idle time." alt="" coords="359,309,525,336"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1log__string.html" title="Logging stream class with output into provided uistring." alt="" coords="5,157,156,184"/>
 </map>

@@ -1,3 +1,4 @@
 <map id="Command widgets" name="Command widgets">
-<area shape="rect" id="node2" href="$group__widget.html" title="Widgets" alt="" coords="5,5,76,32"/>
+<area shape="rect" id="node1" title="Widgets with action handlers." alt="" coords="128,5,272,31"/>
+<area shape="rect" id="node2" href="$group__widget.html" title="Graphical widgets." alt="" coords="5,5,80,31"/>
 </map>

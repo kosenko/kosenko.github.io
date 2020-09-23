@@ -1,11 +1,11 @@
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=US-ASCII">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Class item</title>
 <link rel="stylesheet" href="https://kosenko.github.io/boost.org/doc/src/boostbook.css" type="text/css">
 <meta name="generator" content="DocBook XSL Stylesheets V1.79.1">
-<link rel="home" href="../../../index.html" title="Chapter&#160;1.&#160;Boost.UI">
-<link rel="up" href="../layout.html#idm46156367166752" title="Description">
+<link rel="home" href="../../../index.html" title="Chapter 1. Boost.UI">
+<link rel="up" href="../layout.html#idm8546" title="Description">
 <link rel="prev" href="../layout.html" title="Class layout">
 <link rel="next" href="../vbox.html" title="Class vbox">
 </head>
@@ -20,13 +20,13 @@
 </tr></table>
 <hr>
 <div class="spirit-nav">
-<a accesskey="p" href="../layout.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../layout.html#idm46156367166752"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="../vbox.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
+<a accesskey="p" href="../layout.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../layout.html#idm8546"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="../vbox.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
 </div>
 <div class="refentry">
 <a name="boost.ui.layout.item"></a><div class="titlepage"></div>
 <div class="refnamediv">
 <h2><span class="refentrytitle">Class item</span></h2>
-<p>boost::ui::layout::item &#8212; Layout item with arrangement parameters. </p>
+<p>boost::ui::layout::item — Layout item with arrangement parameters. </p>
 </div>
 <h2 xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv-title">Synopsis</h2>
 <div xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" class="refsynopsisdiv"><pre class="synopsis"><span class="comment">// In header: &lt;<a class="link" href="../../../index.html#header.boost.ui.layout_hpp" title="Header &lt;boost/ui/layout.hpp&gt;">boost/ui/layout.hpp</a>&gt;
@@ -38,46 +38,46 @@
 <span class="keyword">class</span> <a class="link" href="item.html" title="Class item">item</a> <span class="special">{</span>
 <span class="keyword">public</span><span class="special">:</span>
   <span class="comment">// <a class="link" href="item.html#boost.ui.layout.itemconstruct-copy-destruct">construct/copy/destruct</a></span>
-  <a class="link" href="item.html#idm44939228749232-bb"><span class="identifier">item</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="item.html#idm44939228748944-bb"><span class="identifier">item</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="../widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="item.html#idm44939228747216-bb"><span class="identifier">item</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="../box_layout.html" title="Class box_layout">box_layout</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="item.html#idm44939228745488-bb"><span class="special">~</span><span class="identifier">item</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="item.html#idm2392-bb"><span class="identifier">item</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="item.html#idm2393-bb"><span class="identifier">item</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="../widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="item.html#idm2398-bb"><span class="identifier">item</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="../box_layout.html" title="Class box_layout">box_layout</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="item.html#idm2403-bb"><span class="special">~</span><span class="identifier">item</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
 
-  <span class="comment">// <a class="link" href="item.html#idm44939228753808-bb">public member functions</a></span>
-  <a class="link" href="item.html" title="Class item">item</a> <span class="special">&amp;</span> <a class="link" href="item.html#idm44939228753248-bb"><span class="identifier">no_margin</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="item.html" title="Class item">item</a> <span class="special">&amp;</span> <a class="link" href="item.html#idm44939228751808-bb"><span class="identifier">stretch</span></a><span class="special">(</span><span class="keyword">int</span> <span class="special">=</span> <span class="number">1</span><span class="special">)</span><span class="special">;</span>
+  <span class="comment">// <a class="link" href="item.html#idm2380-bb">public member functions</a></span>
+  <a class="link" href="item.html" title="Class item">item</a> <span class="special">&amp;</span> <a class="link" href="item.html#idm2381-bb"><span class="identifier">no_margin</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="item.html" title="Class item">item</a> <span class="special">&amp;</span> <a class="link" href="item.html#idm2385-bb"><span class="identifier">stretch</span></a><span class="special">(</span><span class="keyword">int</span> <span class="special">=</span> <span class="number">1</span><span class="special">)</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm46156367128432"></a><h2>Description</h2>
+<a name="idm8615"></a><h2>Description</h2>
 <div class="refsect2">
-<a name="idm46156367128016"></a><h3>
+<a name="idm8617"></a><h3>
 <a name="boost.ui.layout.itemconstruct-copy-destruct"></a><code class="computeroutput">item</code> 
         public
        construct/copy/destruct</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
-<li class="listitem"><pre class="literallayout"><a name="idm44939228749232-bb"></a><span class="identifier">item</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><a name="idm2392-bb"></a><span class="identifier">item</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
 <li class="listitem">
-<pre class="literallayout"><a name="idm44939228748944-bb"></a><span class="identifier">item</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="../widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> w<span class="special">)</span><span class="special">;</span></pre>Constructs widget item. </li>
+<pre class="literallayout"><a name="idm2393-bb"></a><span class="identifier">item</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="../widget.html" title="Class widget">widget</a> <span class="special">&amp;</span> w<span class="special">)</span><span class="special">;</span></pre>Constructs widget item. </li>
 <li class="listitem">
-<pre class="literallayout"><a name="idm44939228747216-bb"></a><span class="identifier">item</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="../box_layout.html" title="Class box_layout">box_layout</a> <span class="special">&amp;</span> l<span class="special">)</span><span class="special">;</span></pre>Constructs layout item. </li>
-<li class="listitem"><pre class="literallayout"><a name="idm44939228745488-bb"></a><span class="special">~</span><span class="identifier">item</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<pre class="literallayout"><a name="idm2398-bb"></a><span class="identifier">item</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="../box_layout.html" title="Class box_layout">box_layout</a> <span class="special">&amp;</span> l<span class="special">)</span><span class="special">;</span></pre>Constructs layout item. </li>
+<li class="listitem"><pre class="literallayout"><a name="idm2403-bb"></a><span class="special">~</span><span class="identifier">item</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
 </ol></div>
 </div>
 <div class="refsect2">
-<a name="idm46156367105904"></a><h3>
-<a name="idm44939228753808-bb"></a><code class="computeroutput">item</code> public member functions</h3>
+<a name="idm8661"></a><h3>
+<a name="idm2380-bb"></a><code class="computeroutput">item</code> public member functions</h3>
 <div class="orderedlist"><ol class="orderedlist" type="1">
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="item.html" title="Class item">item</a> <span class="special">&amp;</span> <a name="idm44939228753248-bb"></a><span class="identifier">no_margin</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Resets layout item margin. </li>
+<pre class="literallayout"><a class="link" href="item.html" title="Class item">item</a> <span class="special">&amp;</span> <a name="idm2381-bb"></a><span class="identifier">no_margin</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre>Resets layout item margin. </li>
 <li class="listitem">
-<pre class="literallayout"><a class="link" href="item.html" title="Class item">item</a> <span class="special">&amp;</span> <a name="idm44939228751808-bb"></a><span class="identifier">stretch</span><span class="special">(</span><span class="keyword">int</span> value <span class="special">=</span> <span class="number">1</span><span class="special">)</span><span class="special">;</span></pre>Sets layout item stretch factor. </li>
+<pre class="literallayout"><a class="link" href="item.html" title="Class item">item</a> <span class="special">&amp;</span> <a name="idm2385-bb"></a><span class="identifier">stretch</span><span class="special">(</span><span class="keyword">int</span> value <span class="special">=</span> <span class="number">1</span><span class="special">)</span><span class="special">;</span></pre>Sets layout item stretch factor. </li>
 </ol></div>
 </div>
 </div>
 </div>
 <table xmlns:rev="http://www.cs.rpi.edu/~gregod/boost/tools/doc/revision" width="100%"><tr>
 <td align="left"></td>
-<td align="right"><div class="copyright-footer">Copyright &#169; 2017 Kolya Kosenko<p>
+<td align="right"><div class="copyright-footer">Copyright © 2017 Kolya Kosenko<p>
         Distributed under the Boost Software License, Version 1.0. (See accompanying
         file LICENSE_1_0.txt or copy at <a href="http://www.boost.org/LICENSE_1_0.txt" target="_top">http://www.boost.org/LICENSE_1_0.txt</a>)
       </p>
@@ -85,7 +85,7 @@
 </tr></table>
 <hr>
 <div class="spirit-nav">
-<a accesskey="p" href="../layout.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../layout.html#idm46156367166752"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="../vbox.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
+<a accesskey="p" href="../layout.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/prev.png" alt="Prev"></a><a accesskey="u" href="../layout.html#idm8546"><img src="https://kosenko.github.io/boost.org/doc/src/images/up.png" alt="Up"></a><a accesskey="h" href="../../../index.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/home.png" alt="Home"></a><a accesskey="n" href="../vbox.html"><img src="https://kosenko.github.io/boost.org/doc/src/images/next.png" alt="Next"></a>
 </div>
 </body>
 </html>

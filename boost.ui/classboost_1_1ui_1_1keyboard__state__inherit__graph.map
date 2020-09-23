@@ -1,3 +1,4 @@
 <map id="boost::ui::keyboard_state" name="boost::ui::keyboard_state">
-<area shape="rect" id="node2" href="$classboost_1_1ui_1_1key__event.html" title="Keyboard event class that holds information about keyboard when event was generated. " alt="" coords="5,95,145,121"/>
+<area shape="rect" id="node1" title="Keyboard state class." alt="" coords="9,5,155,47"/>
+<area shape="rect" id="node2" href="$classboost_1_1ui_1_1key__event.html" title="Keyboard event class that holds information about keyboard when event was generated." alt="" coords="5,95,159,121"/>
 </map>
