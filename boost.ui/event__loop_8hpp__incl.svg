@@ -5,16 +5,16 @@
  -->
 <!-- Title: boost/ui/event_loop.hpp Pages: 1 -->
 <svg width="266pt" height="140pt"
- viewBox="0.00 0.00 265.50 140.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ viewBox="0.00 0.00 266.00 140.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 136)">
 <title>boost/ui/event_loop.hpp</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-136 261.5,-136 261.5,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-136 262,-136 262,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="Event loop class.">
-<polygon fill="#bfbfbf" stroke="black" points="56.5,-112.5 56.5,-131.5 190.5,-131.5 190.5,-112.5 56.5,-112.5"/>
-<text text-anchor="middle" x="123.5" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/ui/event_loop.hpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="57,-112.5 57,-131.5 191,-131.5 191,-112.5 57,-112.5"/>
+<text text-anchor="middle" x="124" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/ui/event_loop.hpp</text>
 </a>
 </g>
 </g>
@@ -22,46 +22,46 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="config_8hpp.html" target="_top" xlink:title="Configuration options.">
-<polygon fill="white" stroke="black" points="0,-56.5 0,-75.5 109,-75.5 109,-56.5 0,-56.5"/>
-<text text-anchor="middle" x="54.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/ui/config.hpp</text>
+<polygon fill="white" stroke="black" points="0,-56.5 0,-75.5 110,-75.5 110,-56.5 0,-56.5"/>
+<text text-anchor="middle" x="55" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/ui/config.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M112.41,-112.32C102.01,-104.18 86.24,-91.84 73.78,-82.09"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="75.82,-79.24 65.79,-75.83 71.51,-84.75 75.82,-79.24"/>
+<path fill="none" stroke="midnightblue" d="M112.91,-112.32C102.51,-104.18 86.74,-91.84 74.28,-82.09"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="76.32,-79.24 66.29,-75.83 72.01,-84.75 76.32,-79.24"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="127.5,-56.5 127.5,-75.5 257.5,-75.5 257.5,-56.5 127.5,-56.5"/>
-<text text-anchor="middle" x="192.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/noncopyable.hpp</text>
+<polygon fill="white" stroke="#bfbfbf" points="128,-56.5 128,-75.5 258,-75.5 258,-56.5 128,-56.5"/>
+<text text-anchor="middle" x="193" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/noncopyable.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M134.59,-112.32C144.99,-104.18 160.76,-91.84 173.22,-82.09"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="175.49,-84.75 181.21,-75.83 171.18,-79.24 175.49,-84.75"/>
+<path fill="none" stroke="midnightblue" d="M135.09,-112.32C145.49,-104.18 161.26,-91.84 173.72,-82.09"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="175.99,-84.75 181.71,-75.83 171.68,-79.24 175.99,-84.75"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="6,-0.5 6,-19.5 103,-19.5 103,-0.5 6,-0.5"/>
-<text text-anchor="middle" x="54.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/config.hpp</text>
+<polygon fill="white" stroke="#bfbfbf" points="6,-0.5 6,-19.5 104,-19.5 104,-0.5 6,-0.5"/>
+<text text-anchor="middle" x="55" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/config.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M54.5,-56.08C54.5,-49.01 54.5,-38.86 54.5,-29.99"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="58,-29.75 54.5,-19.75 51,-29.75 58,-29.75"/>
+<path fill="none" stroke="midnightblue" d="M55,-56.08C55,-49.01 55,-38.86 55,-29.99"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="58.5,-29.75 55,-19.75 51.5,-29.75 58.5,-29.75"/>
 </g>
 </g>
 </svg>

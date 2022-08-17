@@ -5,16 +5,16 @@
  -->
 <!-- Title: boost/ui/locale.hpp Pages: 1 -->
 <svg width="182pt" height="140pt"
- viewBox="0.00 0.00 181.50 140.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ viewBox="0.00 0.00 182.00 140.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 136)">
 <title>boost/ui/locale.hpp</title>
-<polygon fill="white" stroke="transparent" points="-4,4 -4,-136 177.5,-136 177.5,4 -4,4"/>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-136 178,-136 178,4 -4,4"/>
 <!-- Node1 -->
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="Localization.">
-<polygon fill="#bfbfbf" stroke="black" points="48,-112.5 48,-131.5 157,-131.5 157,-112.5 48,-112.5"/>
-<text text-anchor="middle" x="102.5" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/ui/locale.hpp</text>
+<polygon fill="#bfbfbf" stroke="black" points="48.5,-112.5 48.5,-131.5 157.5,-131.5 157.5,-112.5 48.5,-112.5"/>
+<text text-anchor="middle" x="103" y="-119.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/ui/locale.hpp</text>
 </a>
 </g>
 </g>
@@ -22,46 +22,46 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="config_8hpp.html" target="_top" xlink:title="Configuration options.">
-<polygon fill="white" stroke="black" points="0,-56.5 0,-75.5 109,-75.5 109,-56.5 0,-56.5"/>
-<text text-anchor="middle" x="54.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/ui/config.hpp</text>
+<polygon fill="white" stroke="black" points="0,-56.5 0,-75.5 110,-75.5 110,-56.5 0,-56.5"/>
+<text text-anchor="middle" x="55" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/ui/config.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node2 -->
 <g id="edge1" class="edge">
 <title>Node1&#45;&gt;Node2</title>
-<path fill="none" stroke="midnightblue" d="M94.57,-112.08C87.65,-104.3 77.43,-92.8 69.05,-83.37"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="71.54,-80.9 62.28,-75.75 66.31,-85.55 71.54,-80.9"/>
+<path fill="none" stroke="midnightblue" d="M95.07,-112.08C88.15,-104.3 77.93,-92.8 69.55,-83.37"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="72.04,-80.9 62.78,-75.75 66.81,-85.55 72.04,-80.9"/>
 </g>
 <!-- Node4 -->
 <g id="node4" class="node">
 <title>Node4</title>
 <g id="a_node4"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="127.5,-56.5 127.5,-75.5 173.5,-75.5 173.5,-56.5 127.5,-56.5"/>
-<text text-anchor="middle" x="150.5" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">locale</text>
+<polygon fill="white" stroke="#bfbfbf" points="128,-56.5 128,-75.5 174,-75.5 174,-56.5 128,-56.5"/>
+<text text-anchor="middle" x="151" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">locale</text>
 </a>
 </g>
 </g>
 <!-- Node1&#45;&gt;Node4 -->
 <g id="edge3" class="edge">
 <title>Node1&#45;&gt;Node4</title>
-<path fill="none" stroke="midnightblue" d="M110.43,-112.08C117.35,-104.3 127.57,-92.8 135.95,-83.37"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="138.69,-85.55 142.72,-75.75 133.46,-80.9 138.69,-85.55"/>
+<path fill="none" stroke="midnightblue" d="M110.93,-112.08C117.85,-104.3 128.07,-92.8 136.45,-83.37"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="139.19,-85.55 143.22,-75.75 133.96,-80.9 139.19,-85.55"/>
 </g>
 <!-- Node3 -->
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="6,-0.5 6,-19.5 103,-19.5 103,-0.5 6,-0.5"/>
-<text text-anchor="middle" x="54.5" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/config.hpp</text>
+<polygon fill="white" stroke="#bfbfbf" points="6,-0.5 6,-19.5 104,-19.5 104,-0.5 6,-0.5"/>
+<text text-anchor="middle" x="55" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/config.hpp</text>
 </a>
 </g>
 </g>
 <!-- Node2&#45;&gt;Node3 -->
 <g id="edge2" class="edge">
 <title>Node2&#45;&gt;Node3</title>
-<path fill="none" stroke="midnightblue" d="M54.5,-56.08C54.5,-49.01 54.5,-38.86 54.5,-29.99"/>
-<polygon fill="midnightblue" stroke="midnightblue" points="58,-29.75 54.5,-19.75 51,-29.75 58,-29.75"/>
+<path fill="none" stroke="midnightblue" d="M55,-56.08C55,-49.01 55,-38.86 55,-29.99"/>
+<polygon fill="midnightblue" stroke="midnightblue" points="58.5,-29.75 55,-19.75 51.5,-29.75 58.5,-29.75"/>
 </g>
 </g>
 </svg>

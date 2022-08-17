@@ -96,7 +96,7 @@ Demo application under Windows 10</div></div>
 <div class="line"><span class="preprocessor">#define BOOST_ENABLE_ASSERT_HANDLER</span></div>
 <div class="line"> </div>
 <div class="line"><span class="preprocessor">#include &lt;<a class="code" href="ui_8hpp.html">boost/ui.hpp</a>&gt;</span></div>
-<div class="line"><span class="preprocessor">#include &lt;boost/bind.hpp&gt;</span></div>
+<div class="line"><span class="preprocessor">#include &lt;boost/bind/bind.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;boost/assign/list_of.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;boost/lexical_cast/try_lexical_convert.hpp&gt;</span></div>
 <div class="line"><span class="preprocessor">#include &lt;boost/version.hpp&gt;</span></div>
@@ -177,7 +177,7 @@ Demo application under Windows 10</div></div>
 <div class="line">boost::function&lt;void(Event&amp;)&gt;</div>
 <div class="line">make_event_handler(<span class="keyword">const</span> <span class="keywordtype">char</span>* class_name, <span class="keyword">const</span> <span class="keywordtype">char</span>* event_name)</div>
 <div class="line">{</div>
-<div class="line">    <span class="keywordflow">return</span> boost::bind(&amp;on_event_handler&lt;Event&gt;, _1, class_name, event_name);</div>
+<div class="line">    <span class="keywordflow">return</span> boost::bind(&amp;on_event_handler&lt;Event&gt;, boost::placeholders::_1, class_name, event_name);</div>
 <div class="line">}</div>
 <div class="line"> </div>
 <div class="line">} <span class="comment">// namespace utility</span></div>
@@ -288,6 +288,7 @@ Demo application under Windows 10</div></div>
 <div class="line">               )</div>
 <div class="line">            &lt;&lt; ui::hline(widgets_panel).layout().justify()</div>
 <div class="line">            &lt;&lt; ui::string_box(widgets_panel, <span class="stringliteral">&quot;string_box&quot;</span>)</div>
+<div class="line">                .placeholder(<span class="stringliteral">&quot;placeholder text&quot;</span>)</div>
 <div class="line">                .on_edit(utility::make_handler(<span class="stringliteral">&quot;string&quot;</span>, <span class="stringliteral">&quot;edit&quot;</span>))</div>
 <div class="line">                .layout().justify()</div>
 <div class="line">            &lt;&lt; ui::password_box(widgets_panel, <span class="stringliteral">&quot;password_box&quot;</span>)</div>

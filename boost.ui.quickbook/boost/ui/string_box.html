@@ -36,10 +36,14 @@
 <span class="keyword">public</span><span class="special">:</span>
   <span class="comment">// <a class="link" href="string_box.html#boost.ui.string_boxconstruct-copy-destruct">construct/copy/destruct</a></span>
   <span class="keyword">explicit</span> <a class="link" href="string_box.html#idm4448-bb"><span class="identifier">string_box</span></a><span class="special">(</span><a class="link" href="widget.html" title="Class widget">widget</a> <span class="special">&amp;</span><span class="special">,</span> <span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> <span class="special">=</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a><span class="special">(</span><span class="special">)</span><span class="special">)</span><span class="special">;</span>
-  <a class="link" href="string_box.html#idm4465-bb"><span class="identifier">string_box</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="string_box.html#idm4476-bb"><span class="identifier">string_box</span></a><span class="special">(</span><span class="special">)</span><span class="special">;</span>
+
+  <span class="comment">// <a class="link" href="string_box.html#idm4464-bb">public member functions</a></span>
+  <a class="link" href="string_box.html" title="Class string_box">string_box</a> <span class="special">&amp;</span> <a class="link" href="string_box.html#idm4465-bb"><span class="identifier">placeholder</span></a><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span><span class="special">)</span><span class="special">;</span>
+  <a class="link" href="uistring.html" title="Class uistring">uistring</a> <a class="link" href="string_box.html#idm4472-bb"><span class="identifier">placeholder</span></a><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span>
 <span class="special">}</span><span class="special">;</span></pre></div>
 <div class="refsect1">
-<a name="idm16648"></a><h2>Description</h2>
+<a name="idm16667"></a><h2>Description</h2>
 <p>Usage example: </p>
 <pre class="programlisting"><span class="identifier">ui</span><span class="special">::</span><span class="identifier">string_box</span> <span class="identifier">string_box</span> <span class="special">=</span> <span class="identifier">ui</span><span class="special">::</span><span class="identifier">string_box</span><span class="special">(</span><span class="identifier">parent</span><span class="special">,</span> <span class="string">"Initial text"</span><span class="special">)</span><span class="special">;</span>
 <span class="identifier">string_box</span><span class="special">.</span><span class="identifier">on_edit</span><span class="special">(</span><span class="special">[</span><span class="special">&amp;</span><span class="special">]</span>
@@ -54,7 +58,7 @@
 <p>
 </p>
 <div class="refsect2">
-<a name="idm16697"></a><h3>
+<a name="idm16716"></a><h3>
 <a name="boost.ui.string_boxconstruct-copy-destruct"></a><code class="computeroutput">string_box</code> 
         public
        construct/copy/destruct</h3>
@@ -88,7 +92,17 @@
 </tr></tbody>
 </table></div>
 </li>
-<li class="listitem"><pre class="literallayout"><a name="idm4465-bb"></a><span class="identifier">string_box</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+<li class="listitem"><pre class="literallayout"><a name="idm4476-bb"></a><span class="identifier">string_box</span><span class="special">(</span><span class="special">)</span><span class="special">;</span></pre></li>
+</ol></div>
+</div>
+<div class="refsect2">
+<a name="idm16764"></a><h3>
+<a name="idm4464-bb"></a><code class="computeroutput">string_box</code> public member functions</h3>
+<div class="orderedlist"><ol class="orderedlist" type="1">
+<li class="listitem">
+<pre class="literallayout"><a class="link" href="string_box.html" title="Class string_box">string_box</a> <span class="special">&amp;</span> <a name="idm4465-bb"></a><span class="identifier">placeholder</span><span class="special">(</span><span class="keyword">const</span> <a class="link" href="uistring.html" title="Class uistring">uistring</a> <span class="special">&amp;</span> text<span class="special">)</span><span class="special">;</span></pre>Sets placeholder text into the editor. </li>
+<li class="listitem">
+<pre class="literallayout"><a class="link" href="uistring.html" title="Class uistring">uistring</a> <a name="idm4472-bb"></a><span class="identifier">placeholder</span><span class="special">(</span><span class="special">)</span> <span class="keyword">const</span><span class="special">;</span></pre>Returns placeholder text from the editor. </li>
 </ol></div>
 </div>
 </div>

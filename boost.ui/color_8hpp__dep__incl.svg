@@ -13,7 +13,7 @@
 <g id="node1" class="node">
 <title>Node1</title>
 <g id="a_node1"><a xlink:title="Color class.">
-<polygon fill="#bfbfbf" stroke="black" points="149.5,-56.5 149.5,-75.5 252.5,-75.5 252.5,-56.5 149.5,-56.5"/>
+<polygon fill="#bfbfbf" stroke="black" points="149,-56.5 149,-75.5 253,-75.5 253,-56.5 149,-56.5"/>
 <text text-anchor="middle" x="201" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/ui/color.hpp</text>
 </a>
 </g>

@@ -22,7 +22,7 @@
 <g id="node2" class="node">
 <title>Node2</title>
 <g id="a_node2"><a xlink:href="config_8hpp.html" target="_top" xlink:title="Configuration options.">
-<polygon fill="white" stroke="black" points="0.5,-56.5 0.5,-75.5 109.5,-75.5 109.5,-56.5 0.5,-56.5"/>
+<polygon fill="white" stroke="black" points="0,-56.5 0,-75.5 110,-75.5 110,-56.5 0,-56.5"/>
 <text text-anchor="middle" x="55" y="-63.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/ui/config.hpp</text>
 </a>
 </g>
@@ -37,7 +37,7 @@
 <g id="node3" class="node">
 <title>Node3</title>
 <g id="a_node3"><a xlink:title=" ">
-<polygon fill="white" stroke="#bfbfbf" points="6.5,-0.5 6.5,-19.5 103.5,-19.5 103.5,-0.5 6.5,-0.5"/>
+<polygon fill="white" stroke="#bfbfbf" points="6,-0.5 6,-19.5 104,-19.5 104,-0.5 6,-0.5"/>
 <text text-anchor="middle" x="55" y="-7.5" font-family="Helvetica,sans-Serif" font-size="10.00">boost/config.hpp</text>
 </a>
 </g>

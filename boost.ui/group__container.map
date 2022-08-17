@@ -2,7 +2,7 @@
 <area shape="rect" id="node1" title="Widgets that holds other widgets." alt="" coords="128,80,220,105"/>
 <area shape="rect" id="node3" href="$group__alert.html" title="Predefined dialog boxes." alt="" coords="305,5,365,31"/>
 <area shape="rect" id="node4" href="$group__tlw.html" title="Custom dialog windows." alt="" coords="268,55,403,80"/>
-<area shape="rect" id="node5" href="$group__notify.html" title="User notifications." alt="" coords="283,104,387,129"/>
+<area shape="rect" id="node5" href="$group__notify.html" title="User notifications." alt="" coords="283,104,388,129"/>
 <area shape="rect" id="node6" href="$group__prompt.html" title="Data value requests." alt="" coords="297,153,373,179"/>
 <area shape="rect" id="node2" href="$group__widget.html" title="Graphical widgets." alt="" coords="5,80,80,105"/>
 </map>

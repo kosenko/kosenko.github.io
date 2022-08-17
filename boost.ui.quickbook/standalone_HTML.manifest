@@ -92,5 +92,3 @@ boost/ui/call_async.html
 boost/ui/web_widget.html
 boost/ui/native_widget.html
 boost/ui/widget.html
-boost/ui/close_event.html
-boost/ui/window.html

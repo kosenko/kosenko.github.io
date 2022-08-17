@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['informational_20widgets_1195',['Informational widgets',['../group__info.html',1,'']]]
+  ['informational_20widgets_1197',['Informational widgets',['../group__info.html',1,'']]]
 ];

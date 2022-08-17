@@ -1,24 +1,24 @@
 <map id="boost/ui/widget.hpp" name="boost/ui/widget.hpp">
-<area shape="rect" id="node1" title="Widget class." alt="" coords="1586,5,1737,32"/>
+<area shape="rect" id="node1" title="Widget class." alt="" coords="1590,5,1741,32"/>
 <area shape="rect" id="node2" href="$web__widget_8hpp.html" title="Web widget." alt="" coords="5,80,189,107"/>
 <area shape="rect" id="node3" href="$text__box_8hpp.html" title="Text editor widgets." alt="" coords="213,80,376,107"/>
 <area shape="rect" id="node4" href="$strings__box_8hpp.html" title="Widget with array of strings." alt="" coords="400,80,581,107"/>
-<area shape="rect" id="node7" href="$ui_8hpp.html" title="Master Boost.UI file." alt="" coords="666,155,769,181"/>
-<area shape="rect" id="node8" href="$status__bar_8hpp.html" title="Status bar class." alt="" coords="656,80,829,107"/>
-<area shape="rect" id="node9" href="$slider_8hpp.html" title="Slider widget." alt="" coords="853,80,995,107"/>
-<area shape="rect" id="node10" href="$progress__bar_8hpp.html" title="Progress bar widget." alt="" coords="1019,80,1208,107"/>
-<area shape="rect" id="node11" href="$panel_8hpp.html" title="Panel widget." alt="" coords="1233,80,1375,107"/>
-<area shape="rect" id="node12" href="$notebook_8hpp.html" title="Notebook widget." alt="" coords="1399,80,1566,107"/>
-<area shape="rect" id="node13" href="$menu_8hpp.html" title="Menu classes." alt="" coords="1590,80,1733,107"/>
-<area shape="rect" id="node14" href="$line_8hpp.html" title="line widget" alt="" coords="1757,80,1888,107"/>
-<area shape="rect" id="node15" href="$label_8hpp.html" title="Label widget." alt="" coords="1912,80,2051,107"/>
-<area shape="rect" id="node16" href="$image__widget_8hpp.html" title="Image widget." alt="" coords="2075,80,2274,107"/>
-<area shape="rect" id="node17" href="$hyperlink_8hpp.html" title="Hyperlink widget." alt="" coords="2298,80,2465,107"/>
-<area shape="rect" id="node18" href="$group__box_8hpp.html" title="Group box widget." alt="" coords="2489,80,2663,107"/>
-<area shape="rect" id="node19" href="$datetime_8hpp.html" title="Date and time pickers." alt="" coords="2688,80,2853,107"/>
-<area shape="rect" id="node20" href="$check__box_8hpp.html" title="Check box widget." alt="" coords="2878,80,3053,107"/>
-<area shape="rect" id="node21" href="$canvas_8hpp.html" title="Canvas widget." alt="" coords="3077,80,3229,107"/>
-<area shape="rect" id="node22" href="$button_8hpp.html" title="Button widget." alt="" coords="3254,80,3402,107"/>
+<area shape="rect" id="node7" href="$ui_8hpp.html" title="Master Boost.UI file." alt="" coords="667,155,770,181"/>
+<area shape="rect" id="node8" href="$status__bar_8hpp.html" title="Status bar class." alt="" coords="657,80,831,107"/>
+<area shape="rect" id="node9" href="$slider_8hpp.html" title="Slider widget." alt="" coords="855,80,998,107"/>
+<area shape="rect" id="node10" href="$progress__bar_8hpp.html" title="Progress bar widget." alt="" coords="1022,80,1213,107"/>
+<area shape="rect" id="node11" href="$panel_8hpp.html" title="Panel widget." alt="" coords="1237,80,1379,107"/>
+<area shape="rect" id="node12" href="$notebook_8hpp.html" title="Notebook widget." alt="" coords="1403,80,1570,107"/>
+<area shape="rect" id="node13" href="$menu_8hpp.html" title="Menu classes." alt="" coords="1594,80,1737,107"/>
+<area shape="rect" id="node14" href="$line_8hpp.html" title="line widget" alt="" coords="1761,80,1892,107"/>
+<area shape="rect" id="node15" href="$label_8hpp.html" title="Label widget." alt="" coords="1916,80,2055,107"/>
+<area shape="rect" id="node16" href="$image__widget_8hpp.html" title="Image widget." alt="" coords="2079,80,2278,107"/>
+<area shape="rect" id="node17" href="$hyperlink_8hpp.html" title="Hyperlink widget." alt="" coords="2302,80,2469,107"/>
+<area shape="rect" id="node18" href="$group__box_8hpp.html" title="Group box widget." alt="" coords="2493,80,2667,107"/>
+<area shape="rect" id="node19" href="$datetime_8hpp.html" title="Date and time pickers." alt="" coords="2692,80,2857,107"/>
+<area shape="rect" id="node20" href="$check__box_8hpp.html" title="Check box widget." alt="" coords="2882,80,3057,107"/>
+<area shape="rect" id="node21" href="$canvas_8hpp.html" title="Canvas widget." alt="" coords="3081,80,3233,107"/>
+<area shape="rect" id="node22" href="$button_8hpp.html" title="Button widget." alt="" coords="3258,80,3406,107"/>
 <area shape="rect" id="node5" href="$combo__box_8hpp.html" title="Combo box widget." alt="" coords="237,155,419,181"/>
 <area shape="rect" id="node6" href="$choice_8hpp.html" title="Choice widget." alt="" coords="443,155,591,181"/>
 </map>
